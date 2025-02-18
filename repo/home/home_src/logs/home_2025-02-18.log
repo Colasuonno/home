@@ -484,3 +484,129 @@
 2025-02-18 15:30:46,234 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
 2025-02-18 15:30:46,234 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-18 15:35:46,226 - home_src.database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-02-18 15:35:46,226 - home_src.database.handler.database_handler - DEBUG - Database is still alive :)
+2025-02-18 18:41:58,808 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-02-18 18:41:58,808 - home_src.database.database - INFO - Trying to connect to database home
+2025-02-18 18:41:58,808 - home_src.database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-02-18 18:41:58,808 - home_src.database.database - ERROR - Failed to connect to database home
+2025-02-18 18:41:58,808 - home_src.database.database - ERROR - No problem we work even without database...
+2025-02-18 18:41:58,808 - home_src.database.handler.database_handler - ERROR - Failed to connect to database home: 'Database' object has no attribute 'pool'
+2025-02-18 18:41:58,809 - home_src.database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-02-18 18:41:58,809 - home_src.database.handler.database_handler - ERROR - Database is currently unavailable..
+2025-02-18 18:41:58,809 - home_src.internet_provider.network_manager - INFO - Loading network connections...
+2025-02-18 18:41:58,809 - home_src.internet_provider.network_manager - INFO - Network connections loaded! (1)
+2025-02-18 18:41:58,809 - home_src.internet_provider.network_manager - INFO - Network connections loaded! (2)
+2025-02-18 18:41:58,809 - home_src.internet_provider.network_manager - INFO - Network connections loaded! (3)
+2025-02-18 18:41:58,810 - home_src.internet_provider.network_manager - INFO - Network connections loaded! (4)
+2025-02-18 18:41:58,810 - home_src.internet_provider.network_manager - INFO - Network connections loaded! (5)
+2025-02-18 18:41:58,810 - home_src.internet_provider.network_manager - INFO - Network connections loaded! (6)
+2025-02-18 18:41:58,810 - home_src.internet_provider.network_manager - INFO - Network connections loaded! (7)
+2025-02-18 18:41:58,810 - home_src.internet_provider.network_manager - INFO - Network connections loaded! (8)
+2025-02-18 18:41:58,810 - home_src.internet_provider.network_manager - INFO - Network connections loaded! (9)
+2025-02-18 18:41:58,810 - home_src.internet_provider.network_manager - INFO - Network connections loaded! (10)
+2025-02-18 18:41:58,813 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-18 18:41:58,813 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-18 18:42:12,914 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-02-18 18:42:12,914 - home_src.database.database - INFO - Trying to connect to database home
+2025-02-18 18:42:12,915 - home_src.database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-02-18 18:42:12,915 - home_src.database.database - ERROR - Failed to connect to database home
+2025-02-18 18:42:12,915 - home_src.database.database - ERROR - No problem we work even without database...
+2025-02-18 18:42:12,915 - home_src.database.handler.database_handler - ERROR - Failed to connect to database home: 'Database' object has no attribute 'pool'
+2025-02-18 18:42:12,915 - home_src.database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-02-18 18:42:12,915 - home_src.database.handler.database_handler - ERROR - Database is currently unavailable..
+2025-02-18 18:42:12,915 - home_src.internet_provider.network_manager - INFO - Loading network connections...
+2025-02-18 18:42:12,916 - home_src.internet_provider.network_manager - INFO - Network connections loaded! (10)
+2025-02-18 18:42:12,919 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-18 18:42:12,919 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-18 18:43:02,395 - werkzeug - INFO - 127.0.0.1 - - [18/Feb/2025 18:43:02] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-18 18:43:02,626 - werkzeug - INFO - 127.0.0.1 - - [18/Feb/2025 18:43:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-18 18:44:32,963 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-02-18 18:44:32,963 - home_src.database.database - INFO - Trying to connect to database home
+2025-02-18 18:44:32,963 - home_src.database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-02-18 18:44:32,963 - home_src.database.database - ERROR - Failed to connect to database home
+2025-02-18 18:44:32,963 - home_src.database.database - ERROR - No problem we work even without database...
+2025-02-18 18:44:32,963 - home_src.database.handler.database_handler - ERROR - Failed to connect to database home: 'Database' object has no attribute 'pool'
+2025-02-18 18:44:32,964 - home_src.database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-02-18 18:44:32,964 - home_src.database.handler.database_handler - ERROR - Database is currently unavailable..
+2025-02-18 18:44:32,964 - home_src.internet_provider.network_manager - INFO - Loading network connections...
+2025-02-18 18:44:32,965 - home_src.internet_provider.network_manager - INFO - Network connections loaded! (10)
+2025-02-18 18:44:32,968 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-18 18:44:32,968 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-18 18:44:36,564 - werkzeug - INFO - 127.0.0.1 - - [18/Feb/2025 18:44:36] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-18 18:44:37,050 - werkzeug - INFO - 127.0.0.1 - - [18/Feb/2025 18:44:37] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-18 18:44:37,291 - werkzeug - INFO - 127.0.0.1 - - [18/Feb/2025 18:44:37] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-18 18:44:38,028 - werkzeug - INFO - 127.0.0.1 - - [18/Feb/2025 18:44:38] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-18 18:45:41,407 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-02-18 18:45:41,408 - home_src.database.database - INFO - Trying to connect to database home
+2025-02-18 18:45:41,408 - home_src.database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-02-18 18:45:41,408 - home_src.database.database - ERROR - Failed to connect to database home
+2025-02-18 18:45:41,408 - home_src.database.database - ERROR - No problem we work even without database...
+2025-02-18 18:45:41,408 - home_src.database.handler.database_handler - ERROR - Failed to connect to database home: 'Database' object has no attribute 'pool'
+2025-02-18 18:45:41,408 - home_src.database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-02-18 18:45:41,408 - home_src.database.handler.database_handler - ERROR - Database is currently unavailable..
+2025-02-18 18:45:41,408 - home_src.internet_provider.network_manager - INFO - Loading network connections...
+2025-02-18 18:45:41,409 - home_src.internet_provider.network_manager - INFO - Network connections loaded! (10)
+2025-02-18 18:45:41,431 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-18 18:45:41,431 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-18 18:45:41,432 - werkzeug - INFO -  * Restarting with stat
+2025-02-18 18:45:41,576 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-02-18 18:45:41,576 - home_src.database.database - INFO - Trying to connect to database home
+2025-02-18 18:45:41,576 - home_src.database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-02-18 18:45:41,576 - home_src.database.database - ERROR - Failed to connect to database home
+2025-02-18 18:45:41,576 - home_src.database.database - ERROR - No problem we work even without database...
+2025-02-18 18:45:41,576 - home_src.database.handler.database_handler - ERROR - Failed to connect to database home: 'Database' object has no attribute 'pool'
+2025-02-18 18:45:41,576 - home_src.database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-02-18 18:45:41,576 - home_src.database.handler.database_handler - ERROR - Database is currently unavailable..
+2025-02-18 18:45:41,576 - home_src.internet_provider.network_manager - INFO - Loading network connections...
+2025-02-18 18:45:41,577 - home_src.internet_provider.network_manager - INFO - Network connections loaded! (10)
+2025-02-18 18:45:41,585 - werkzeug - WARNING -  * Debugger is active!
+2025-02-18 18:45:41,585 - werkzeug - INFO -  * Debugger PIN: 710-751-772
+2025-02-18 18:45:45,498 - werkzeug - INFO - 127.0.0.1 - - [18/Feb/2025 18:45:45] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-18 18:45:46,951 - werkzeug - INFO - 127.0.0.1 - - [18/Feb/2025 18:45:46] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-18 18:46:54,108 - werkzeug - INFO -  * Detected change in '/home/colasuonno/Desktop/Dev/home/repo/home/home_src/listening/alive.py', reloading
+2025-02-18 18:49:46,596 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-02-18 18:49:46,596 - home_src.database.database - INFO - Trying to connect to database home
+2025-02-18 18:49:46,596 - home_src.database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-02-18 18:49:46,597 - home_src.database.database - ERROR - Failed to connect to database home
+2025-02-18 18:49:46,597 - home_src.database.database - ERROR - No problem we work even without database...
+2025-02-18 18:49:46,597 - home_src.database.handler.database_handler - ERROR - Failed to connect to database home: 'Database' object has no attribute 'pool'
+2025-02-18 18:49:46,597 - home_src.database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-02-18 18:49:46,597 - home_src.database.handler.database_handler - ERROR - Database is currently unavailable..
+2025-02-18 18:49:46,597 - home_src.internet_provider.network_manager - INFO - Loading network connections...
+2025-02-18 18:49:46,598 - home_src.internet_provider.network_manager - INFO - Network connections loaded! (10)
+2025-02-18 18:49:46,607 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-18 18:49:46,607 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-18 18:49:46,608 - werkzeug - INFO -  * Restarting with stat
+2025-02-18 18:49:46,748 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-02-18 18:49:46,748 - home_src.database.database - INFO - Trying to connect to database home
+2025-02-18 18:49:46,748 - home_src.database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-02-18 18:49:46,749 - home_src.database.database - ERROR - Failed to connect to database home
+2025-02-18 18:49:46,749 - home_src.database.database - ERROR - No problem we work even without database...
+2025-02-18 18:49:46,749 - home_src.database.handler.database_handler - ERROR - Failed to connect to database home: 'Database' object has no attribute 'pool'
+2025-02-18 18:49:46,749 - home_src.database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-02-18 18:49:46,749 - home_src.database.handler.database_handler - ERROR - Database is currently unavailable..
+2025-02-18 18:49:46,749 - home_src.internet_provider.network_manager - INFO - Loading network connections...
+2025-02-18 18:49:46,750 - home_src.internet_provider.network_manager - INFO - Network connections loaded! (10)
+2025-02-18 18:49:46,756 - werkzeug - WARNING -  * Debugger is active!
+2025-02-18 18:49:46,757 - werkzeug - INFO -  * Debugger PIN: 710-751-772
+2025-02-18 18:49:52,127 - werkzeug - INFO - 127.0.0.1 - - [18/Feb/2025 18:49:52] "GET / HTTP/1.1" 200 -
+2025-02-18 18:50:01,879 - werkzeug - INFO -  * Detected change in '/home/colasuonno/Desktop/Dev/home/repo/home/home_src/home.py', reloading
+2025-02-18 18:50:48,732 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-02-18 18:50:48,732 - home_src.database.database - INFO - Trying to connect to database home
+2025-02-18 18:50:48,732 - home_src.database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-02-18 18:50:48,733 - home_src.database.database - ERROR - Failed to connect to database home
+2025-02-18 18:50:48,733 - home_src.database.database - ERROR - No problem we work even without database...
+2025-02-18 18:50:48,733 - home_src.database.handler.database_handler - ERROR - Failed to connect to database home: 'Database' object has no attribute 'pool'
+2025-02-18 18:50:48,733 - home_src.database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-02-18 18:50:48,733 - home_src.database.handler.database_handler - ERROR - Database is currently unavailable..
+2025-02-18 18:50:48,733 - home_src.internet_provider.network_manager - INFO - Loading network connections...
+2025-02-18 18:50:48,734 - home_src.internet_provider.network_manager - INFO - Network connections loaded! (10)
+2025-02-18 18:50:48,737 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-18 18:50:48,737 - werkzeug - INFO - [33mPress CTRL+C to quit[0m

@@ -7,26 +7,45 @@ _logger = logging.getLogger(__name__)
 class HomeNetworkManager:
 
     def __init__(self):
+        self.network_connections = []
+        self.load_connections()
+
+    def load_connections(self):
+
+        self.network_connections.clear()
+        _logger.info("Loading network connections...")
 
         # Visualize current network manager and store it
         interfaces = psutil.net_if_addrs()
         connections = psutil.net_if_stats()
 
         for interface, addresses in interfaces.items():
-            _logger.info(f"Interface: {interface}")
 
-            if interface in connections:
-                _logger.info(f"  Status: {'Up' if connections[interface].isup else 'Down'}")
-                _logger.info(f"  Speed: {connections[interface].speed} Mbps" if connections[
-                    interface].speed else "  Speed: Unknown")
+            # Skip down interface
+            if not connections[interface].isup:
+                continue
+
+            interface_info = {
+                "interface": interface,
+                "addresses": []
+            }
 
             for addr in addresses:
-                if addr.family == socket.AF_INET:
-                    _logger.info(f"  IPv4 Address: {addr.address}")
-                    _logger.info(f"  Netmask: {addr.netmask}")
-                elif addr.family == socket.AF_INET6:
-                    _logger.info(f"  IPv6 Address: {addr.address}")
-                elif addr.family == psutil.AF_LINK:
-                    _logger.info(f"  MAC Address: {addr.address}")
 
-            _logger.info("-" * 40)
+                address_info = {
+                    "address": addr.address,
+                }
+
+                if addr.family == socket.AF_INET:
+                    address_info["family"] = "IPv4"
+                elif addr.family == socket.AF_INET6:
+                    address_info["family"] = "IPv6"
+                elif addr.family == psutil.AF_LINK:
+                    address_info["family"] = "MAC"
+
+
+                interface_info["addresses"].append(address_info)
+
+
+            self.network_connections.append(interface_info)
+        _logger.info(f"Network connections loaded! ({len(self.network_connections)})")

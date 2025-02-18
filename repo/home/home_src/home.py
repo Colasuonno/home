@@ -1,5 +1,6 @@
 import configparser
 import logging
+from home_src.listening.alive import ping
 
 from flask import Flask
 
@@ -9,7 +10,12 @@ from home_src.internet_provider.network_manager import HomeNetworkManager
 from home_src.logging_manager.logger import LoggerManager
 
 _logger = logging.getLogger(__name__)
+
+# FLASK
 app = Flask(__name__)
+
+app.add_url_rule('/ping', view_func=ping)
+# END FLASK
 
 
 HOME_NAME = "home"
