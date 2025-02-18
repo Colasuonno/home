@@ -1,0 +1,486 @@
+2025-02-18 15:29:37,606 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-02-18 15:29:37,606 - home_src.database.database - INFO - Trying to connect to database home
+2025-02-18 15:29:37,606 - home_src.database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-02-18 15:29:37,612 - home_src.database.handler.database_handler - INFO - Table internet_provider res: None
+2025-02-18 15:29:37,612 - home_src.database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-02-18 15:29:37,613 - home_src.database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-02-18 15:29:37,613 - home_src.database.handler.database_handler - DEBUG - Database is still alive :)
+2025-02-18 15:29:37,613 - home_src.internet_provider.network_manager - INFO - Interface: lo
+2025-02-18 15:29:37,614 - home_src.internet_provider.network_manager - INFO -   Status: Up
+2025-02-18 15:29:37,614 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:29:37,614 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 127.0.0.1
+2025-02-18 15:29:37,614 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.0.0.0
+2025-02-18 15:29:37,614 - home_src.internet_provider.network_manager - INFO -   IPv6 Address: ::1
+2025-02-18 15:29:37,614 - home_src.internet_provider.network_manager - INFO -   MAC Address: 00:00:00:00:00:00
+2025-02-18 15:29:37,614 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:29:37,614 - home_src.internet_provider.network_manager - INFO - Interface: enp0s20f0u3
+2025-02-18 15:29:37,614 - home_src.internet_provider.network_manager - INFO -   Status: Up
+2025-02-18 15:29:37,614 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:29:37,614 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 192.168.123.138
+2025-02-18 15:29:37,614 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.255.0
+2025-02-18 15:29:37,614 - home_src.internet_provider.network_manager - INFO -   IPv6 Address: fe80::8a1d:2758:b85e:8976%enp0s20f0u3
+2025-02-18 15:29:37,614 - home_src.internet_provider.network_manager - INFO -   MAC Address: e6:eb:f0:3b:54:3a
+2025-02-18 15:29:37,614 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:29:37,614 - home_src.internet_provider.network_manager - INFO - Interface: br-f2963f475bb7
+2025-02-18 15:29:37,614 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:29:37,614 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:29:37,614 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.23.0.1
+2025-02-18 15:29:37,614 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:29:37,614 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:42:49:a0:b0
+2025-02-18 15:29:37,614 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:29:37,614 - home_src.internet_provider.network_manager - INFO - Interface: br-68c58281459f
+2025-02-18 15:29:37,614 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:29:37,614 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:29:37,614 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.24.0.1
+2025-02-18 15:29:37,614 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:29:37,615 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:09:84:56:34
+2025-02-18 15:29:37,615 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:29:37,615 - home_src.internet_provider.network_manager - INFO - Interface: br-db9c00a6041d
+2025-02-18 15:29:37,615 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:29:37,615 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:29:37,615 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.25.0.1
+2025-02-18 15:29:37,615 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:29:37,615 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:a3:e4:a4:40
+2025-02-18 15:29:37,615 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:29:37,615 - home_src.internet_provider.network_manager - INFO - Interface: docker0
+2025-02-18 15:29:37,615 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:29:37,615 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:29:37,615 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.17.0.1
+2025-02-18 15:29:37,615 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:29:37,615 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:35:28:b0:5c
+2025-02-18 15:29:37,615 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:29:37,615 - home_src.internet_provider.network_manager - INFO - Interface: br-c539ed8c1578
+2025-02-18 15:29:37,615 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:29:37,615 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:29:37,615 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.18.0.1
+2025-02-18 15:29:37,615 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:29:37,615 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:b1:1c:fd:e4
+2025-02-18 15:29:37,615 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:29:37,615 - home_src.internet_provider.network_manager - INFO - Interface: br-40ce1c69f899
+2025-02-18 15:29:37,615 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:29:37,615 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:29:37,615 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.28.0.1
+2025-02-18 15:29:37,615 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:29:37,616 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:1a:61:b8:6c
+2025-02-18 15:29:37,616 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:29:37,616 - home_src.internet_provider.network_manager - INFO - Interface: br-43038f0205a5
+2025-02-18 15:29:37,616 - home_src.internet_provider.network_manager - INFO -   Status: Up
+2025-02-18 15:29:37,616 - home_src.internet_provider.network_manager - INFO -   Speed: 10000 Mbps
+2025-02-18 15:29:37,616 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.30.0.1
+2025-02-18 15:29:37,616 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:29:37,616 - home_src.internet_provider.network_manager - INFO -   IPv6 Address: fe80::42:f4ff:fe7c:5e6a%br-43038f0205a5
+2025-02-18 15:29:37,616 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:f4:7c:5e:6a
+2025-02-18 15:29:37,616 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:29:37,616 - home_src.internet_provider.network_manager - INFO - Interface: br-673fb55dfaec
+2025-02-18 15:29:37,616 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:29:37,616 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:29:37,616 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.21.0.1
+2025-02-18 15:29:37,616 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:29:37,616 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:59:90:ce:04
+2025-02-18 15:29:37,616 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:29:37,616 - home_src.internet_provider.network_manager - INFO - Interface: br-82da02c6d8be
+2025-02-18 15:29:37,616 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:29:37,616 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:29:37,616 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.27.0.1
+2025-02-18 15:29:37,616 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:29:37,616 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:db:ee:fa:58
+2025-02-18 15:29:37,616 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:29:37,616 - home_src.internet_provider.network_manager - INFO - Interface: br-169c36cc753a
+2025-02-18 15:29:37,616 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:29:37,616 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:29:37,616 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.22.0.1
+2025-02-18 15:29:37,616 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:29:37,617 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:69:db:cd:28
+2025-02-18 15:29:37,617 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:29:37,617 - home_src.internet_provider.network_manager - INFO - Interface: br-ce40191c5e31
+2025-02-18 15:29:37,617 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:29:37,617 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:29:37,617 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.20.0.1
+2025-02-18 15:29:37,617 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:29:37,617 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:44:2b:39:4c
+2025-02-18 15:29:37,617 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:29:37,617 - home_src.internet_provider.network_manager - INFO - Interface: br-e3060daa54f1
+2025-02-18 15:29:37,617 - home_src.internet_provider.network_manager - INFO -   Status: Up
+2025-02-18 15:29:37,617 - home_src.internet_provider.network_manager - INFO -   Speed: 10000 Mbps
+2025-02-18 15:29:37,617 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.26.0.1
+2025-02-18 15:29:37,617 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:29:37,617 - home_src.internet_provider.network_manager - INFO -   IPv6 Address: fe80::42:7dff:fe96:fe33%br-e3060daa54f1
+2025-02-18 15:29:37,617 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:7d:96:fe:33
+2025-02-18 15:29:37,617 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:29:37,617 - home_src.internet_provider.network_manager - INFO - Interface: br-f6c0e43d05ac
+2025-02-18 15:29:37,617 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:29:37,617 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:29:37,617 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.19.0.1
+2025-02-18 15:29:37,617 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:29:37,617 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:ba:11:99:08
+2025-02-18 15:29:37,617 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:29:37,617 - home_src.internet_provider.network_manager - INFO - Interface: br-48be23ea6e79
+2025-02-18 15:29:37,617 - home_src.internet_provider.network_manager - INFO -   Status: Up
+2025-02-18 15:29:37,617 - home_src.internet_provider.network_manager - INFO -   Speed: 10000 Mbps
+2025-02-18 15:29:37,618 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.29.0.1
+2025-02-18 15:29:37,618 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:29:37,618 - home_src.internet_provider.network_manager - INFO -   IPv6 Address: fe80::42:11ff:fe33:31fe%br-48be23ea6e79
+2025-02-18 15:29:37,618 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:11:33:31:fe
+2025-02-18 15:29:37,618 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:29:37,618 - home_src.internet_provider.network_manager - INFO - Interface: vethdfcf5b2
+2025-02-18 15:29:37,618 - home_src.internet_provider.network_manager - INFO -   Status: Up
+2025-02-18 15:29:37,618 - home_src.internet_provider.network_manager - INFO -   Speed: 10000 Mbps
+2025-02-18 15:29:37,618 - home_src.internet_provider.network_manager - INFO -   IPv6 Address: fe80::941a:2dff:fe7b:3773%vethdfcf5b2
+2025-02-18 15:29:37,618 - home_src.internet_provider.network_manager - INFO -   MAC Address: 96:1a:2d:7b:37:73
+2025-02-18 15:29:37,618 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:29:37,618 - home_src.internet_provider.network_manager - INFO - Interface: veth073a0fc
+2025-02-18 15:29:37,618 - home_src.internet_provider.network_manager - INFO -   Status: Up
+2025-02-18 15:29:37,618 - home_src.internet_provider.network_manager - INFO -   Speed: 10000 Mbps
+2025-02-18 15:29:37,618 - home_src.internet_provider.network_manager - INFO -   IPv6 Address: fe80::b06e:d5ff:fe47:a4e9%veth073a0fc
+2025-02-18 15:29:37,618 - home_src.internet_provider.network_manager - INFO -   MAC Address: b2:6e:d5:47:a4:e9
+2025-02-18 15:29:37,618 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:29:37,618 - home_src.internet_provider.network_manager - INFO - Interface: veth85cbded
+2025-02-18 15:29:37,618 - home_src.internet_provider.network_manager - INFO -   Status: Up
+2025-02-18 15:29:37,618 - home_src.internet_provider.network_manager - INFO -   Speed: 10000 Mbps
+2025-02-18 15:29:37,618 - home_src.internet_provider.network_manager - INFO -   IPv6 Address: fe80::bc24:ccff:fea4:5862%veth85cbded
+2025-02-18 15:29:37,618 - home_src.internet_provider.network_manager - INFO -   MAC Address: be:24:cc:a4:58:62
+2025-02-18 15:29:37,618 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:29:37,618 - home_src.internet_provider.network_manager - INFO - Interface: veth4b89e85
+2025-02-18 15:29:37,618 - home_src.internet_provider.network_manager - INFO -   Status: Up
+2025-02-18 15:29:37,618 - home_src.internet_provider.network_manager - INFO -   Speed: 10000 Mbps
+2025-02-18 15:29:37,618 - home_src.internet_provider.network_manager - INFO -   IPv6 Address: fe80::8c03:76ff:fe0a:8127%veth4b89e85
+2025-02-18 15:29:37,618 - home_src.internet_provider.network_manager - INFO -   MAC Address: 8e:03:76:0a:81:27
+2025-02-18 15:29:37,618 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:29:37,619 - home_src.internet_provider.network_manager - INFO - Interface: veth7062ae7
+2025-02-18 15:29:37,619 - home_src.internet_provider.network_manager - INFO -   Status: Up
+2025-02-18 15:29:37,619 - home_src.internet_provider.network_manager - INFO -   Speed: 10000 Mbps
+2025-02-18 15:29:37,619 - home_src.internet_provider.network_manager - INFO -   IPv6 Address: fe80::583a:baff:fe73:9391%veth7062ae7
+2025-02-18 15:29:37,619 - home_src.internet_provider.network_manager - INFO -   MAC Address: 5a:3a:ba:73:93:91
+2025-02-18 15:29:37,619 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:29:37,619 - home_src.internet_provider.network_manager - INFO - Interface: enp0s31f6
+2025-02-18 15:29:37,619 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:29:37,619 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:29:37,619 - home_src.internet_provider.network_manager - INFO -   MAC Address: 2c:4d:54:55:39:54
+2025-02-18 15:29:37,619 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:29:37,622 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-18 15:29:37,622 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-18 15:30:18,432 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-02-18 15:30:18,432 - home_src.database.database - INFO - Trying to connect to database home
+2025-02-18 15:30:18,432 - home_src.database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-02-18 15:30:18,437 - home_src.database.handler.database_handler - INFO - Table internet_provider res: None
+2025-02-18 15:30:18,438 - home_src.database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-02-18 15:30:18,438 - home_src.database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-02-18 15:30:18,438 - home_src.database.handler.database_handler - DEBUG - Database is still alive :)
+2025-02-18 15:30:18,439 - home_src.internet_provider.network_manager - INFO - Interface: lo
+2025-02-18 15:30:18,439 - home_src.internet_provider.network_manager - INFO -   Status: Up
+2025-02-18 15:30:18,439 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:30:18,439 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 127.0.0.1
+2025-02-18 15:30:18,439 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.0.0.0
+2025-02-18 15:30:18,439 - home_src.internet_provider.network_manager - INFO -   IPv6 Address: ::1
+2025-02-18 15:30:18,439 - home_src.internet_provider.network_manager - INFO -   MAC Address: 00:00:00:00:00:00
+2025-02-18 15:30:18,439 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:18,439 - home_src.internet_provider.network_manager - INFO - Interface: enp0s20f0u3
+2025-02-18 15:30:18,439 - home_src.internet_provider.network_manager - INFO -   Status: Up
+2025-02-18 15:30:18,439 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:30:18,439 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 192.168.123.138
+2025-02-18 15:30:18,439 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.255.0
+2025-02-18 15:30:18,439 - home_src.internet_provider.network_manager - INFO -   IPv6 Address: fe80::8a1d:2758:b85e:8976%enp0s20f0u3
+2025-02-18 15:30:18,439 - home_src.internet_provider.network_manager - INFO -   MAC Address: e6:eb:f0:3b:54:3a
+2025-02-18 15:30:18,439 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:18,439 - home_src.internet_provider.network_manager - INFO - Interface: br-f2963f475bb7
+2025-02-18 15:30:18,439 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:30:18,439 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:30:18,439 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.23.0.1
+2025-02-18 15:30:18,439 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:30:18,439 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:42:49:a0:b0
+2025-02-18 15:30:18,439 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:18,439 - home_src.internet_provider.network_manager - INFO - Interface: br-68c58281459f
+2025-02-18 15:30:18,439 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:30:18,440 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:30:18,440 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.24.0.1
+2025-02-18 15:30:18,440 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:30:18,440 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:09:84:56:34
+2025-02-18 15:30:18,440 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:18,440 - home_src.internet_provider.network_manager - INFO - Interface: br-db9c00a6041d
+2025-02-18 15:30:18,440 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:30:18,440 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:30:18,440 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.25.0.1
+2025-02-18 15:30:18,440 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:30:18,440 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:a3:e4:a4:40
+2025-02-18 15:30:18,440 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:18,440 - home_src.internet_provider.network_manager - INFO - Interface: docker0
+2025-02-18 15:30:18,440 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:30:18,440 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:30:18,440 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.17.0.1
+2025-02-18 15:30:18,440 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:30:18,440 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:35:28:b0:5c
+2025-02-18 15:30:18,440 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:18,440 - home_src.internet_provider.network_manager - INFO - Interface: br-c539ed8c1578
+2025-02-18 15:30:18,440 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:30:18,440 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:30:18,440 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.18.0.1
+2025-02-18 15:30:18,440 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:30:18,440 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:b1:1c:fd:e4
+2025-02-18 15:30:18,440 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:18,440 - home_src.internet_provider.network_manager - INFO - Interface: br-40ce1c69f899
+2025-02-18 15:30:18,440 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:30:18,440 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:30:18,440 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.28.0.1
+2025-02-18 15:30:18,440 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:30:18,440 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:1a:61:b8:6c
+2025-02-18 15:30:18,440 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:18,440 - home_src.internet_provider.network_manager - INFO - Interface: br-43038f0205a5
+2025-02-18 15:30:18,441 - home_src.internet_provider.network_manager - INFO -   Status: Up
+2025-02-18 15:30:18,441 - home_src.internet_provider.network_manager - INFO -   Speed: 10000 Mbps
+2025-02-18 15:30:18,441 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.30.0.1
+2025-02-18 15:30:18,441 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:30:18,441 - home_src.internet_provider.network_manager - INFO -   IPv6 Address: fe80::42:f4ff:fe7c:5e6a%br-43038f0205a5
+2025-02-18 15:30:18,441 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:f4:7c:5e:6a
+2025-02-18 15:30:18,441 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:18,441 - home_src.internet_provider.network_manager - INFO - Interface: br-673fb55dfaec
+2025-02-18 15:30:18,441 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:30:18,441 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:30:18,441 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.21.0.1
+2025-02-18 15:30:18,441 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:30:18,441 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:59:90:ce:04
+2025-02-18 15:30:18,441 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:18,441 - home_src.internet_provider.network_manager - INFO - Interface: br-82da02c6d8be
+2025-02-18 15:30:18,441 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:30:18,441 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:30:18,441 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.27.0.1
+2025-02-18 15:30:18,441 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:30:18,441 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:db:ee:fa:58
+2025-02-18 15:30:18,441 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:18,441 - home_src.internet_provider.network_manager - INFO - Interface: br-169c36cc753a
+2025-02-18 15:30:18,441 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:30:18,441 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:30:18,441 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.22.0.1
+2025-02-18 15:30:18,441 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:30:18,441 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:69:db:cd:28
+2025-02-18 15:30:18,441 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:18,441 - home_src.internet_provider.network_manager - INFO - Interface: br-ce40191c5e31
+2025-02-18 15:30:18,441 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:30:18,441 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:30:18,441 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.20.0.1
+2025-02-18 15:30:18,441 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:30:18,442 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:44:2b:39:4c
+2025-02-18 15:30:18,442 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:18,442 - home_src.internet_provider.network_manager - INFO - Interface: br-e3060daa54f1
+2025-02-18 15:30:18,442 - home_src.internet_provider.network_manager - INFO -   Status: Up
+2025-02-18 15:30:18,442 - home_src.internet_provider.network_manager - INFO -   Speed: 10000 Mbps
+2025-02-18 15:30:18,442 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.26.0.1
+2025-02-18 15:30:18,442 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:30:18,442 - home_src.internet_provider.network_manager - INFO -   IPv6 Address: fe80::42:7dff:fe96:fe33%br-e3060daa54f1
+2025-02-18 15:30:18,442 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:7d:96:fe:33
+2025-02-18 15:30:18,442 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:18,442 - home_src.internet_provider.network_manager - INFO - Interface: br-f6c0e43d05ac
+2025-02-18 15:30:18,442 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:30:18,442 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:30:18,442 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.19.0.1
+2025-02-18 15:30:18,442 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:30:18,442 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:ba:11:99:08
+2025-02-18 15:30:18,442 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:18,442 - home_src.internet_provider.network_manager - INFO - Interface: br-48be23ea6e79
+2025-02-18 15:30:18,442 - home_src.internet_provider.network_manager - INFO -   Status: Up
+2025-02-18 15:30:18,442 - home_src.internet_provider.network_manager - INFO -   Speed: 10000 Mbps
+2025-02-18 15:30:18,442 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.29.0.1
+2025-02-18 15:30:18,442 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:30:18,442 - home_src.internet_provider.network_manager - INFO -   IPv6 Address: fe80::42:11ff:fe33:31fe%br-48be23ea6e79
+2025-02-18 15:30:18,442 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:11:33:31:fe
+2025-02-18 15:30:18,442 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:18,442 - home_src.internet_provider.network_manager - INFO - Interface: vethdfcf5b2
+2025-02-18 15:30:18,442 - home_src.internet_provider.network_manager - INFO -   Status: Up
+2025-02-18 15:30:18,442 - home_src.internet_provider.network_manager - INFO -   Speed: 10000 Mbps
+2025-02-18 15:30:18,442 - home_src.internet_provider.network_manager - INFO -   IPv6 Address: fe80::941a:2dff:fe7b:3773%vethdfcf5b2
+2025-02-18 15:30:18,442 - home_src.internet_provider.network_manager - INFO -   MAC Address: 96:1a:2d:7b:37:73
+2025-02-18 15:30:18,442 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:18,442 - home_src.internet_provider.network_manager - INFO - Interface: veth073a0fc
+2025-02-18 15:30:18,442 - home_src.internet_provider.network_manager - INFO -   Status: Up
+2025-02-18 15:30:18,443 - home_src.internet_provider.network_manager - INFO -   Speed: 10000 Mbps
+2025-02-18 15:30:18,443 - home_src.internet_provider.network_manager - INFO -   IPv6 Address: fe80::b06e:d5ff:fe47:a4e9%veth073a0fc
+2025-02-18 15:30:18,443 - home_src.internet_provider.network_manager - INFO -   MAC Address: b2:6e:d5:47:a4:e9
+2025-02-18 15:30:18,443 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:18,443 - home_src.internet_provider.network_manager - INFO - Interface: veth85cbded
+2025-02-18 15:30:18,443 - home_src.internet_provider.network_manager - INFO -   Status: Up
+2025-02-18 15:30:18,443 - home_src.internet_provider.network_manager - INFO -   Speed: 10000 Mbps
+2025-02-18 15:30:18,443 - home_src.internet_provider.network_manager - INFO -   IPv6 Address: fe80::bc24:ccff:fea4:5862%veth85cbded
+2025-02-18 15:30:18,443 - home_src.internet_provider.network_manager - INFO -   MAC Address: be:24:cc:a4:58:62
+2025-02-18 15:30:18,443 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:18,443 - home_src.internet_provider.network_manager - INFO - Interface: veth4b89e85
+2025-02-18 15:30:18,443 - home_src.internet_provider.network_manager - INFO -   Status: Up
+2025-02-18 15:30:18,443 - home_src.internet_provider.network_manager - INFO -   Speed: 10000 Mbps
+2025-02-18 15:30:18,443 - home_src.internet_provider.network_manager - INFO -   IPv6 Address: fe80::8c03:76ff:fe0a:8127%veth4b89e85
+2025-02-18 15:30:18,443 - home_src.internet_provider.network_manager - INFO -   MAC Address: 8e:03:76:0a:81:27
+2025-02-18 15:30:18,443 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:18,443 - home_src.internet_provider.network_manager - INFO - Interface: veth7062ae7
+2025-02-18 15:30:18,443 - home_src.internet_provider.network_manager - INFO -   Status: Up
+2025-02-18 15:30:18,443 - home_src.internet_provider.network_manager - INFO -   Speed: 10000 Mbps
+2025-02-18 15:30:18,443 - home_src.internet_provider.network_manager - INFO -   IPv6 Address: fe80::583a:baff:fe73:9391%veth7062ae7
+2025-02-18 15:30:18,443 - home_src.internet_provider.network_manager - INFO -   MAC Address: 5a:3a:ba:73:93:91
+2025-02-18 15:30:18,443 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:18,443 - home_src.internet_provider.network_manager - INFO - Interface: enp0s31f6
+2025-02-18 15:30:18,443 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:30:18,443 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:30:18,443 - home_src.internet_provider.network_manager - INFO -   MAC Address: 2c:4d:54:55:39:54
+2025-02-18 15:30:18,443 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:18,446 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-18 15:30:18,446 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-18 15:30:46,219 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-02-18 15:30:46,219 - home_src.database.database - INFO - Trying to connect to database home
+2025-02-18 15:30:46,219 - home_src.database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-02-18 15:30:46,225 - home_src.database.handler.database_handler - INFO - Table internet_provider res: None
+2025-02-18 15:30:46,225 - home_src.database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-02-18 15:30:46,225 - home_src.database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-02-18 15:30:46,225 - home_src.database.handler.database_handler - DEBUG - Database is still alive :)
+2025-02-18 15:30:46,226 - home_src.internet_provider.network_manager - INFO - Interface: lo
+2025-02-18 15:30:46,226 - home_src.internet_provider.network_manager - INFO -   Status: Up
+2025-02-18 15:30:46,226 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:30:46,226 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 127.0.0.1
+2025-02-18 15:30:46,226 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.0.0.0
+2025-02-18 15:30:46,226 - home_src.internet_provider.network_manager - INFO -   IPv6 Address: ::1
+2025-02-18 15:30:46,226 - home_src.internet_provider.network_manager - INFO -   MAC Address: 00:00:00:00:00:00
+2025-02-18 15:30:46,226 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:46,226 - home_src.internet_provider.network_manager - INFO - Interface: enp0s20f0u3
+2025-02-18 15:30:46,226 - home_src.internet_provider.network_manager - INFO -   Status: Up
+2025-02-18 15:30:46,227 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:30:46,227 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 192.168.123.138
+2025-02-18 15:30:46,227 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.255.0
+2025-02-18 15:30:46,227 - home_src.internet_provider.network_manager - INFO -   IPv6 Address: fe80::8a1d:2758:b85e:8976%enp0s20f0u3
+2025-02-18 15:30:46,227 - home_src.internet_provider.network_manager - INFO -   MAC Address: e6:eb:f0:3b:54:3a
+2025-02-18 15:30:46,227 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:46,227 - home_src.internet_provider.network_manager - INFO - Interface: br-f2963f475bb7
+2025-02-18 15:30:46,227 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:30:46,227 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:30:46,227 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.23.0.1
+2025-02-18 15:30:46,227 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:30:46,227 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:42:49:a0:b0
+2025-02-18 15:30:46,227 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:46,227 - home_src.internet_provider.network_manager - INFO - Interface: br-68c58281459f
+2025-02-18 15:30:46,227 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:30:46,227 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:30:46,227 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.24.0.1
+2025-02-18 15:30:46,227 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:30:46,227 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:09:84:56:34
+2025-02-18 15:30:46,227 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:46,227 - home_src.internet_provider.network_manager - INFO - Interface: br-db9c00a6041d
+2025-02-18 15:30:46,227 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:30:46,227 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:30:46,227 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.25.0.1
+2025-02-18 15:30:46,227 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:30:46,227 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:a3:e4:a4:40
+2025-02-18 15:30:46,227 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:46,227 - home_src.internet_provider.network_manager - INFO - Interface: docker0
+2025-02-18 15:30:46,227 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:30:46,227 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:30:46,227 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.17.0.1
+2025-02-18 15:30:46,228 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:30:46,228 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:35:28:b0:5c
+2025-02-18 15:30:46,228 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:46,228 - home_src.internet_provider.network_manager - INFO - Interface: br-c539ed8c1578
+2025-02-18 15:30:46,228 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:30:46,228 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:30:46,228 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.18.0.1
+2025-02-18 15:30:46,228 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:30:46,228 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:b1:1c:fd:e4
+2025-02-18 15:30:46,228 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:46,228 - home_src.internet_provider.network_manager - INFO - Interface: br-40ce1c69f899
+2025-02-18 15:30:46,228 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:30:46,228 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:30:46,228 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.28.0.1
+2025-02-18 15:30:46,228 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:30:46,228 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:1a:61:b8:6c
+2025-02-18 15:30:46,228 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:46,228 - home_src.internet_provider.network_manager - INFO - Interface: br-43038f0205a5
+2025-02-18 15:30:46,228 - home_src.internet_provider.network_manager - INFO -   Status: Up
+2025-02-18 15:30:46,228 - home_src.internet_provider.network_manager - INFO -   Speed: 10000 Mbps
+2025-02-18 15:30:46,228 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.30.0.1
+2025-02-18 15:30:46,228 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:30:46,228 - home_src.internet_provider.network_manager - INFO -   IPv6 Address: fe80::42:f4ff:fe7c:5e6a%br-43038f0205a5
+2025-02-18 15:30:46,228 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:f4:7c:5e:6a
+2025-02-18 15:30:46,228 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:46,228 - home_src.internet_provider.network_manager - INFO - Interface: br-673fb55dfaec
+2025-02-18 15:30:46,228 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:30:46,228 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:30:46,228 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.21.0.1
+2025-02-18 15:30:46,228 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:30:46,228 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:59:90:ce:04
+2025-02-18 15:30:46,228 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:46,228 - home_src.internet_provider.network_manager - INFO - Interface: br-82da02c6d8be
+2025-02-18 15:30:46,229 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:30:46,229 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:30:46,229 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.27.0.1
+2025-02-18 15:30:46,229 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:30:46,229 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:db:ee:fa:58
+2025-02-18 15:30:46,229 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:46,229 - home_src.internet_provider.network_manager - INFO - Interface: br-169c36cc753a
+2025-02-18 15:30:46,229 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:30:46,229 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:30:46,229 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.22.0.1
+2025-02-18 15:30:46,229 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:30:46,229 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:69:db:cd:28
+2025-02-18 15:30:46,229 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:46,229 - home_src.internet_provider.network_manager - INFO - Interface: br-ce40191c5e31
+2025-02-18 15:30:46,229 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:30:46,229 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:30:46,229 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.20.0.1
+2025-02-18 15:30:46,229 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:30:46,229 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:44:2b:39:4c
+2025-02-18 15:30:46,229 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:46,229 - home_src.internet_provider.network_manager - INFO - Interface: br-e3060daa54f1
+2025-02-18 15:30:46,229 - home_src.internet_provider.network_manager - INFO -   Status: Up
+2025-02-18 15:30:46,229 - home_src.internet_provider.network_manager - INFO -   Speed: 10000 Mbps
+2025-02-18 15:30:46,229 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.26.0.1
+2025-02-18 15:30:46,229 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:30:46,229 - home_src.internet_provider.network_manager - INFO -   IPv6 Address: fe80::42:7dff:fe96:fe33%br-e3060daa54f1
+2025-02-18 15:30:46,229 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:7d:96:fe:33
+2025-02-18 15:30:46,229 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:46,229 - home_src.internet_provider.network_manager - INFO - Interface: br-f6c0e43d05ac
+2025-02-18 15:30:46,229 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:30:46,229 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:30:46,229 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.19.0.1
+2025-02-18 15:30:46,229 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:30:46,229 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:ba:11:99:08
+2025-02-18 15:30:46,230 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:46,230 - home_src.internet_provider.network_manager - INFO - Interface: br-48be23ea6e79
+2025-02-18 15:30:46,230 - home_src.internet_provider.network_manager - INFO -   Status: Up
+2025-02-18 15:30:46,230 - home_src.internet_provider.network_manager - INFO -   Speed: 10000 Mbps
+2025-02-18 15:30:46,230 - home_src.internet_provider.network_manager - INFO -   IPv4 Address: 172.29.0.1
+2025-02-18 15:30:46,230 - home_src.internet_provider.network_manager - INFO -   Netmask: 255.255.0.0
+2025-02-18 15:30:46,230 - home_src.internet_provider.network_manager - INFO -   IPv6 Address: fe80::42:11ff:fe33:31fe%br-48be23ea6e79
+2025-02-18 15:30:46,230 - home_src.internet_provider.network_manager - INFO -   MAC Address: 02:42:11:33:31:fe
+2025-02-18 15:30:46,230 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:46,230 - home_src.internet_provider.network_manager - INFO - Interface: vethdfcf5b2
+2025-02-18 15:30:46,230 - home_src.internet_provider.network_manager - INFO -   Status: Up
+2025-02-18 15:30:46,230 - home_src.internet_provider.network_manager - INFO -   Speed: 10000 Mbps
+2025-02-18 15:30:46,230 - home_src.internet_provider.network_manager - INFO -   IPv6 Address: fe80::941a:2dff:fe7b:3773%vethdfcf5b2
+2025-02-18 15:30:46,230 - home_src.internet_provider.network_manager - INFO -   MAC Address: 96:1a:2d:7b:37:73
+2025-02-18 15:30:46,230 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:46,230 - home_src.internet_provider.network_manager - INFO - Interface: veth073a0fc
+2025-02-18 15:30:46,230 - home_src.internet_provider.network_manager - INFO -   Status: Up
+2025-02-18 15:30:46,230 - home_src.internet_provider.network_manager - INFO -   Speed: 10000 Mbps
+2025-02-18 15:30:46,230 - home_src.internet_provider.network_manager - INFO -   IPv6 Address: fe80::b06e:d5ff:fe47:a4e9%veth073a0fc
+2025-02-18 15:30:46,230 - home_src.internet_provider.network_manager - INFO -   MAC Address: b2:6e:d5:47:a4:e9
+2025-02-18 15:30:46,230 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:46,230 - home_src.internet_provider.network_manager - INFO - Interface: veth85cbded
+2025-02-18 15:30:46,230 - home_src.internet_provider.network_manager - INFO -   Status: Up
+2025-02-18 15:30:46,230 - home_src.internet_provider.network_manager - INFO -   Speed: 10000 Mbps
+2025-02-18 15:30:46,230 - home_src.internet_provider.network_manager - INFO -   IPv6 Address: fe80::bc24:ccff:fea4:5862%veth85cbded
+2025-02-18 15:30:46,230 - home_src.internet_provider.network_manager - INFO -   MAC Address: be:24:cc:a4:58:62
+2025-02-18 15:30:46,230 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:46,230 - home_src.internet_provider.network_manager - INFO - Interface: veth4b89e85
+2025-02-18 15:30:46,230 - home_src.internet_provider.network_manager - INFO -   Status: Up
+2025-02-18 15:30:46,230 - home_src.internet_provider.network_manager - INFO -   Speed: 10000 Mbps
+2025-02-18 15:30:46,230 - home_src.internet_provider.network_manager - INFO -   IPv6 Address: fe80::8c03:76ff:fe0a:8127%veth4b89e85
+2025-02-18 15:30:46,230 - home_src.internet_provider.network_manager - INFO -   MAC Address: 8e:03:76:0a:81:27
+2025-02-18 15:30:46,231 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:46,231 - home_src.internet_provider.network_manager - INFO - Interface: veth7062ae7
+2025-02-18 15:30:46,231 - home_src.internet_provider.network_manager - INFO -   Status: Up
+2025-02-18 15:30:46,231 - home_src.internet_provider.network_manager - INFO -   Speed: 10000 Mbps
+2025-02-18 15:30:46,231 - home_src.internet_provider.network_manager - INFO -   IPv6 Address: fe80::583a:baff:fe73:9391%veth7062ae7
+2025-02-18 15:30:46,231 - home_src.internet_provider.network_manager - INFO -   MAC Address: 5a:3a:ba:73:93:91
+2025-02-18 15:30:46,231 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:46,231 - home_src.internet_provider.network_manager - INFO - Interface: enp0s31f6
+2025-02-18 15:30:46,231 - home_src.internet_provider.network_manager - INFO -   Status: Down
+2025-02-18 15:30:46,231 - home_src.internet_provider.network_manager - INFO -   Speed: Unknown
+2025-02-18 15:30:46,231 - home_src.internet_provider.network_manager - INFO -   MAC Address: 2c:4d:54:55:39:54
+2025-02-18 15:30:46,231 - home_src.internet_provider.network_manager - INFO - ----------------------------------------
+2025-02-18 15:30:46,234 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-18 15:30:46,234 - werkzeug - INFO - [33mPress CTRL+C to quit[0m

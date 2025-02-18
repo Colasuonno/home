@@ -1,10 +1,16 @@
 import configparser
 import logging
-logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.DEBUG)
 
+from flask import Flask
+
+logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.DEBUG)
 from home_src.database.database import Database
+from home_src.internet_provider.network_manager import HomeNetworkManager
+from home_src.logging_manager.logger import LoggerManager
 
 _logger = logging.getLogger(__name__)
+app = Flask(__name__)
+
 
 HOME_NAME = "home"
 
@@ -14,8 +20,8 @@ if __name__ == '__main__':
     config = configparser.ConfigParser()
     config.read("../home_conf.conf")
 
-    # Update logger
-    logging.basicConfig(level=logging.getLevelName(config.get("settings", "log_level").upper()))
+    LoggerManager(logging.getLevelName(config.get("settings", "log_level").upper()))
+
     HOME_NAME = config.get("settings", "home_name")
 
     _logger.info(f"Starting home core: {HOME_NAME}")
@@ -27,3 +33,12 @@ if __name__ == '__main__':
         config.get("database", "password"),
         config.get("database", "port"),
     )
+
+    # Network manager
+    network_manager = HomeNetworkManager()
+
+    # Run flask
+    app.run()
+
+
+
