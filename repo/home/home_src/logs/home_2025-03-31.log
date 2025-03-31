@@ -1,0 +1,141 @@
+2025-03-31 15:03:22,494 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-03-31 15:03:22,495 - home_src.database.database - INFO - Trying to connect to database home
+2025-03-31 15:03:22,495 - home_src.database.database - DEBUG - DB info: localhost:5432/home with user home and password length 8
+2025-03-31 15:03:22,495 - home_src.database.database - ERROR - Failed to connect to database home
+2025-03-31 15:03:22,495 - home_src.database.database - ERROR - No problem we work even without database...
+2025-03-31 15:03:22,495 - home_src.database.handler.database_handler - ERROR - Failed to connect to database home: 'Database' object has no attribute 'pool'
+2025-03-31 15:03:22,496 - home_src.database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-03-31 15:03:22,496 - home_src.database.handler.database_handler - ERROR - Database is currently unavailable..
+2025-03-31 15:03:22,496 - home_src.internet_provider.network_manager - INFO - Loading network connections...
+2025-03-31 15:03:22,497 - home_src.internet_provider.network_manager - INFO - Network connections loaded! (5)
+2025-03-31 15:03:22,504 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-31 15:03:22,504 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 15:05:04,595 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-03-31 15:05:04,595 - home_src.database.database - INFO - Trying to connect to database home
+2025-03-31 15:05:04,595 - home_src.database.database - DEBUG - DB info: localhost:5432/home with user home and password length 8
+2025-03-31 15:05:04,595 - home_src.database.database - ERROR - Failed to connect to database home
+2025-03-31 15:05:04,595 - home_src.database.database - ERROR - No problem we work even without database...
+2025-03-31 15:05:04,595 - home_src.database.database - ERROR - connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: No such file or directory
+	Is the server running locally and accepting connections on that socket?
+
+2025-03-31 15:05:04,595 - home_src.database.handler.database_handler - ERROR - Failed to connect to database home: 'Database' object has no attribute 'pool'
+2025-03-31 15:05:04,596 - home_src.database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-03-31 15:05:04,596 - home_src.database.handler.database_handler - ERROR - Database is currently unavailable..
+2025-03-31 15:05:04,596 - home_src.internet_provider.network_manager - INFO - Loading network connections...
+2025-03-31 15:05:04,596 - home_src.internet_provider.network_manager - INFO - Network connections loaded! (5)
+2025-03-31 15:05:04,599 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-31 15:05:04,599 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 15:05:39,743 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-03-31 15:05:39,743 - home_src.database.database - INFO - Trying to connect to database home
+2025-03-31 15:05:39,743 - home_src.database.database - DEBUG - DB info: localhost:5432/home with user home and password length 8
+2025-03-31 15:05:39,777 - home_src.database.handler.database_handler - INFO - Table internet_provider res: None
+2025-03-31 15:05:39,777 - home_src.database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-03-31 15:05:39,777 - home_src.database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-03-31 15:05:39,777 - home_src.database.handler.database_handler - DEBUG - Database is still alive :)
+2025-03-31 15:05:39,777 - home_src.internet_provider.network_manager - INFO - Loading network connections...
+2025-03-31 15:05:39,778 - home_src.internet_provider.network_manager - INFO - Network connections loaded! (5)
+2025-03-31 15:05:39,781 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-31 15:05:39,781 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 15:07:47,808 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-03-31 15:07:47,808 - home_src.database.database - INFO - Trying to connect to database home
+2025-03-31 15:07:47,808 - home_src.database.database - DEBUG - DB info: localhost:5432/home with user home and password length 8
+2025-03-31 15:07:47,820 - home_src.database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS internet_provider (
+              id SERIAL PRIMARY KEY,
+              name VARCHAR,
+              brand VARCHAR,
+              UNIQUE (name, brand)  
+            );
+2025-03-31 15:07:47,828 - home_src.database.handler.database_handler - INFO - Table internet_provider res: None
+2025-03-31 15:07:47,828 - home_src.database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-03-31 15:07:47,828 - home_src.database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-03-31 15:07:47,828 - home_src.database.handler.database_handler - DEBUG - Database is still alive :)
+2025-03-31 15:07:47,828 - home_src.internet_provider.network_manager - INFO - Loading network connections...
+2025-03-31 15:07:47,829 - home_src.internet_provider.network_manager - INFO - Network connections loaded! (5)
+2025-03-31 15:07:47,835 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-31 15:07:47,835 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 15:12:47,828 - home_src.database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-03-31 15:12:47,833 - home_src.database.handler.database_handler - DEBUG - Database is still alive :)
+2025-03-31 15:13:17,553 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-03-31 15:13:17,553 - home_src.database.database - INFO - Trying to connect to database home
+2025-03-31 15:13:17,553 - home_src.database.database - DEBUG - DB info: localhost:5432/home with user home and password length 8
+2025-03-31 15:13:17,568 - home_src.database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS internet_provider (
+              id SERIAL PRIMARY KEY,
+              name VARCHAR,
+              brand VARCHAR,
+              UNIQUE (name, brand)  
+            );
+2025-03-31 15:13:17,575 - home_src.database.handler.database_handler - INFO - Table internet_provider res: None
+2025-03-31 15:13:17,575 - home_src.database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-03-31 15:13:17,577 - home_src.database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-03-31 15:13:17,577 - home_src.database.handler.database_handler - DEBUG - Database is still alive :)
+2025-03-31 15:13:17,577 - home_src.internet_provider.network_manager - INFO - Loading network connections...
+2025-03-31 15:13:17,578 - home_src.internet_provider.network_manager - INFO - Network connections loaded! (5)
+2025-03-31 15:13:17,587 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-31 15:13:17,587 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 15:14:31,831 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-03-31 15:14:31,831 - home_src.database.database - INFO - Trying to connect to database home
+2025-03-31 15:14:31,831 - home_src.database.database - DEBUG - DB info: localhost:5432/home with user home and password length 8
+2025-03-31 15:14:31,842 - home_src.database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS internet_provider (
+              id SERIAL PRIMARY KEY,
+              name VARCHAR,
+              brand VARCHAR,
+              UNIQUE (name, brand)  
+            );
+2025-03-31 15:14:31,843 - home_src.database.handler.database_handler - INFO - Table internet_provider res: None
+2025-03-31 15:14:31,843 - home_src.database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-03-31 15:14:31,843 - home_src.database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-03-31 15:14:31,843 - home_src.database.handler.database_handler - DEBUG - Database is still alive :)
+2025-03-31 15:14:31,843 - home_src.internet_provider.network_manager - INFO - Loading network connections...
+2025-03-31 15:14:31,844 - home_src.internet_provider.network_manager - INFO - [{'interface': 'lo', 'addresses': [{'address': '127.0.0.1', 'family': 'IPv4'}, {'address': '::1', 'family': 'IPv6'}, {'address': '00:00:00:00:00:00', 'family': 'MAC'}]}, {'interface': 'wlan0', 'addresses': [{'address': '192.168.179.11', 'family': 'IPv4'}, {'address': 'fe80::5e2c:901b:2f1b:d062%wlan0', 'family': 'IPv6'}, {'address': 'fc:44:82:ab:d1:cd', 'family': 'MAC'}]}, {'interface': 'br-bd844663545b', 'addresses': [{'address': '172.23.0.1', 'family': 'IPv4'}, {'address': 'fe80::b45f:b2ff:fed2:fa33%br-bd844663545b', 'family': 'IPv6'}, {'address': 'b6:5f:b2:d2:fa:33', 'family': 'MAC'}]}, {'interface': 'veth6f6f75a', 'addresses': [{'address': 'fe80::24af:5aff:fe19:8190%veth6f6f75a', 'family': 'IPv6'}, {'address': '26:af:5a:19:81:90', 'family': 'MAC'}]}, {'interface': 'vethb38fd8a', 'addresses': [{'address': 'fe80::5436:a1ff:fe45:6e16%vethb38fd8a', 'family': 'IPv6'}, {'address': '56:36:a1:45:6e:16', 'family': 'MAC'}]}]
+2025-03-31 15:14:31,844 - home_src.internet_provider.network_manager - INFO - Network connections loaded! (5)
+2025-03-31 15:14:31,847 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-31 15:14:31,847 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 15:14:34,055 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-03-31 15:14:34,055 - home_src.database.database - INFO - Trying to connect to database home
+2025-03-31 15:14:34,055 - home_src.database.database - DEBUG - DB info: localhost:5432/home with user home and password length 8
+2025-03-31 15:14:34,067 - home_src.database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS internet_provider (
+              id SERIAL PRIMARY KEY,
+              name VARCHAR,
+              brand VARCHAR,
+              UNIQUE (name, brand)  
+            );
+2025-03-31 15:14:34,067 - home_src.database.handler.database_handler - INFO - Table internet_provider res: None
+2025-03-31 15:14:34,067 - home_src.database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-03-31 15:14:34,068 - home_src.database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-03-31 15:14:34,068 - home_src.database.handler.database_handler - DEBUG - Database is still alive :)
+2025-03-31 15:14:34,068 - home_src.internet_provider.network_manager - INFO - Loading network connections...
+2025-03-31 15:14:34,069 - home_src.internet_provider.network_manager - INFO - [{'interface': 'lo', 'addresses': [{'address': '127.0.0.1', 'family': 'IPv4'}, {'address': '::1', 'family': 'IPv6'}, {'address': '00:00:00:00:00:00', 'family': 'MAC'}]}, {'interface': 'wlan0', 'addresses': [{'address': '192.168.179.11', 'family': 'IPv4'}, {'address': 'fe80::5e2c:901b:2f1b:d062%wlan0', 'family': 'IPv6'}, {'address': 'fc:44:82:ab:d1:cd', 'family': 'MAC'}]}, {'interface': 'br-bd844663545b', 'addresses': [{'address': '172.23.0.1', 'family': 'IPv4'}, {'address': 'fe80::b45f:b2ff:fed2:fa33%br-bd844663545b', 'family': 'IPv6'}, {'address': 'b6:5f:b2:d2:fa:33', 'family': 'MAC'}]}, {'interface': 'veth6f6f75a', 'addresses': [{'address': 'fe80::24af:5aff:fe19:8190%veth6f6f75a', 'family': 'IPv6'}, {'address': '26:af:5a:19:81:90', 'family': 'MAC'}]}, {'interface': 'vethb38fd8a', 'addresses': [{'address': 'fe80::5436:a1ff:fe45:6e16%vethb38fd8a', 'family': 'IPv6'}, {'address': '56:36:a1:45:6e:16', 'family': 'MAC'}]}]
+2025-03-31 15:14:34,069 - home_src.internet_provider.network_manager - INFO - Network connections loaded! (5)
+2025-03-31 15:14:34,072 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-31 15:14:34,072 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 15:14:37,752 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-03-31 15:14:37,752 - home_src.database.database - INFO - Trying to connect to database home
+2025-03-31 15:14:37,752 - home_src.database.database - DEBUG - DB info: localhost:5432/home with user home and password length 8
+2025-03-31 15:14:37,763 - home_src.database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS internet_provider (
+              id SERIAL PRIMARY KEY,
+              name VARCHAR,
+              brand VARCHAR,
+              UNIQUE (name, brand)  
+            );
+2025-03-31 15:14:37,764 - home_src.database.handler.database_handler - INFO - Table internet_provider res: None
+2025-03-31 15:14:37,764 - home_src.database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-03-31 15:14:37,764 - home_src.database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-03-31 15:14:37,764 - home_src.database.handler.database_handler - DEBUG - Database is still alive :)
+2025-03-31 15:14:37,764 - home_src.internet_provider.network_manager - INFO - Loading network connections...
+2025-03-31 15:14:37,765 - home_src.internet_provider.network_manager - INFO - [{'interface': 'lo', 'addresses': [{'address': '127.0.0.1', 'family': 'IPv4'}, {'address': '::1', 'family': 'IPv6'}, {'address': '00:00:00:00:00:00', 'family': 'MAC'}]}, {'interface': 'wlan0', 'addresses': [{'address': '192.168.179.11', 'family': 'IPv4'}, {'address': 'fe80::5e2c:901b:2f1b:d062%wlan0', 'family': 'IPv6'}, {'address': 'fc:44:82:ab:d1:cd', 'family': 'MAC'}]}, {'interface': 'br-bd844663545b', 'addresses': [{'address': '172.23.0.1', 'family': 'IPv4'}, {'address': 'fe80::b45f:b2ff:fed2:fa33%br-bd844663545b', 'family': 'IPv6'}, {'address': 'b6:5f:b2:d2:fa:33', 'family': 'MAC'}]}, {'interface': 'veth6f6f75a', 'addresses': [{'address': 'fe80::24af:5aff:fe19:8190%veth6f6f75a', 'family': 'IPv6'}, {'address': '26:af:5a:19:81:90', 'family': 'MAC'}]}, {'interface': 'vethb38fd8a', 'addresses': [{'address': 'fe80::5436:a1ff:fe45:6e16%vethb38fd8a', 'family': 'IPv6'}, {'address': '56:36:a1:45:6e:16', 'family': 'MAC'}]}]
+2025-03-31 15:14:37,765 - home_src.internet_provider.network_manager - INFO - Network connections loaded! (5)
+2025-03-31 15:14:37,768 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-31 15:14:37,768 - werkzeug - INFO - [33mPress CTRL+C to quit[0m

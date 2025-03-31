@@ -11,19 +11,14 @@ class DatabaseHandler:
         self.database = database
         # Create tables
 
-        try:
-            test_curs = database.cursor()
-
+        with database.obtain_cursor() as cursor:
             for table in database._get_tables():
                 res = database.execute(
-                    test_curs, table.create_table()
+                    cursor, table.create_table()
                 )
                 _logger.info(f"Table {table.table_name} res: " + str(res))
 
             _logger.info("Database connection established!! (Pool)")
-            test_curs.close()
-        except Exception as e:
-            _logger.error(f"Failed to connect to database {database.database}: {e}")
 
         self.thread = threading.Timer(60.0 * 5, self.run)
         self.thread.start()

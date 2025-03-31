@@ -48,4 +48,6 @@ class HomeNetworkManager:
 
 
             self.network_connections.append(interface_info)
+
+        _logger.info(self.network_connections)
         _logger.info(f"Network connections loaded! ({len(self.network_connections)})")
