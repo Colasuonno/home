@@ -1,0 +1,766 @@
+2025-04-04 19:53:22,096 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 19:53:22,096 - database.database - INFO - Trying to connect to database home
+2025-04-04 19:53:22,096 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 19:53:22,097 - database.database - ERROR - Failed to connect to database home
+2025-04-04 19:53:22,097 - database.database - ERROR - No problem we work even without database...
+2025-04-04 19:53:22,097 - database.database - ERROR - connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-04-04 19:56:02,291 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 19:56:02,291 - database.database - INFO - Trying to connect to database home
+2025-04-04 19:56:02,291 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 19:56:02,292 - database.database - ERROR - Failed to connect to database home
+2025-04-04 19:56:02,292 - database.database - ERROR - No problem we work even without database...
+2025-04-04 19:56:02,292 - database.database - ERROR - connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-04-04 19:56:31,300 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 19:56:31,300 - database.database - INFO - Trying to connect to database home
+2025-04-04 19:56:31,300 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 19:56:31,301 - database.database - ERROR - Failed to connect to database home
+2025-04-04 19:56:31,301 - database.database - ERROR - No problem we work even without database...
+2025-04-04 19:56:31,301 - database.database - ERROR - connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-04-04 19:56:31,301 - database.database - ERROR - Failed to gain/close psycopg2 cursor: 'Database' object has no attribute 'pool'
+2025-04-04 19:57:47,109 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 19:57:47,109 - database.database - INFO - Trying to connect to database home
+2025-04-04 19:57:47,109 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 19:57:47,110 - database.database - ERROR - Failed to connect to database home
+2025-04-04 19:57:47,110 - database.database - ERROR - No problem we work even without database...
+2025-04-04 19:57:47,110 - database.database - ERROR - connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-04-04 19:58:27,685 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 19:58:27,685 - database.database - INFO - Trying to connect to database home
+2025-04-04 19:58:27,685 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 19:58:27,686 - database.database - ERROR - Failed to connect to database home
+2025-04-04 19:58:27,686 - database.database - ERROR - No problem we work even without database...
+2025-04-04 19:58:27,686 - database.database - ERROR - connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-04-04 19:58:42,158 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 19:58:42,159 - database.database - INFO - Trying to connect to database home
+2025-04-04 19:58:42,159 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 19:58:42,159 - database.database - ERROR - Failed to connect to database home
+2025-04-04 19:58:42,160 - database.database - ERROR - No problem we work even without database...
+2025-04-04 19:58:42,160 - database.database - ERROR - connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-04-04 19:58:47,590 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 19:58:47,590 - database.database - INFO - Trying to connect to database home
+2025-04-04 19:58:47,590 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 19:58:47,591 - database.database - ERROR - Failed to connect to database home
+2025-04-04 19:58:47,591 - database.database - ERROR - No problem we work even without database...
+2025-04-04 19:58:47,591 - database.database - ERROR - connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-04-04 19:58:47,591 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-04 19:59:02,945 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 19:59:02,946 - database.database - INFO - Trying to connect to database home
+2025-04-04 19:59:02,946 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 19:59:02,946 - database.database - ERROR - Failed to connect to database home
+2025-04-04 19:59:02,947 - database.database - ERROR - No problem we work even without database...
+2025-04-04 19:59:02,947 - database.database - ERROR - connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-04-04 19:59:16,218 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 19:59:16,218 - database.database - INFO - Trying to connect to database home
+2025-04-04 19:59:16,218 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 19:59:16,238 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-04 19:59:16,241 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-04 19:59:16,242 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-04 19:59:16,242 - database.database - DEBUG - Executing query: 
+                SELECT * FROM ssh_login;
+                
+2025-04-04 19:59:16,245 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-04 19:59:16,245 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-04 19:59:16,245 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-04 19:59:16,245 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-04 19:59:16,248 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-04 19:59:16,248 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 19:59:21,854 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 19:59:21] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-04 19:59:22,004 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 19:59:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-04 19:59:25,134 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 19:59:25] "[33mGET /ssh_login HTTP/1.1[0m" 404 -
+2025-04-04 19:59:32,175 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 19:59:32] "GET /ssh_login/challenge/dsd HTTP/1.1" 200 -
+2025-04-04 20:01:07,302 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:01:07] "GET /ssh_login/challenge/dsd HTTP/1.1" 200 -
+2025-04-04 20:01:07,934 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:01:07] "GET /ssh_login/challenge/dsd HTTP/1.1" 200 -
+2025-04-04 20:01:13,298 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 20:01:13,298 - database.database - INFO - Trying to connect to database home
+2025-04-04 20:01:13,298 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 20:01:13,302 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-04 20:01:13,302 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-04 20:01:13,303 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-04 20:01:13,303 - database.database - DEBUG - Executing query: 
+                SELECT * FROM ssh_login;
+                
+2025-04-04 20:01:13,303 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-04 20:01:13,303 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-04 20:01:13,303 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-04 20:01:13,303 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-04 20:01:13,306 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-04 20:01:13,306 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 20:01:14,728 - home - ERROR - Exception on /ssh_login/challenge/dsd [GET]
+Traceback (most recent call last):
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 920, in full_dispatch_request
+    return self.finalize_request(rv)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 939, in finalize_request
+    response = self.make_response(rv)
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 1231, in make_response
+    rv = self.json.response(rv)
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/json/provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/json/provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "/usr/lib/python3.13/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.13/json/encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/json/provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type LoginSSHTable is not JSON serializable
+2025-04-04 20:01:14,744 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:01:14] "[35m[1mGET /ssh_login/challenge/dsd HTTP/1.1[0m" 500 -
+2025-04-04 20:02:59,832 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 20:02:59,832 - database.database - INFO - Trying to connect to database home
+2025-04-04 20:02:59,832 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 20:02:59,836 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-04 20:02:59,837 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-04 20:02:59,837 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-04 20:02:59,837 - database.database - DEBUG - Executing query: 
+                SELECT * FROM ssh_login;
+                
+2025-04-04 20:02:59,837 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-04 20:02:59,837 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-04 20:02:59,838 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-04 20:02:59,838 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-04 20:02:59,840 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-04 20:02:59,840 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 20:03:02,084 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:03:02] "GET /ssh_login/challenge/dsd HTTP/1.1" 200 -
+2025-04-04 20:03:39,982 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 20:03:39,982 - database.database - INFO - Trying to connect to database home
+2025-04-04 20:03:39,982 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 20:03:39,986 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-04 20:03:39,986 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-04 20:03:39,986 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-04 20:03:39,987 - database.database - DEBUG - Executing query: 
+                SELECT * FROM ssh_login;
+                
+2025-04-04 20:03:39,987 - database.handler.database_handler - DEBUG - [('gcolasuonno', 'Giovanni Colasuonno', 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCtr6jhzazFtFo3L76ayFeLDaieiajGavJHCIetE5Xmf5+GgdyiGZlzug96s4kjRy77shtbPsJz1pSkTsSQL0Cqvt1U60IiFidos53Zj5R7ywBCtyg7QIIIJfwwH0qyMeR18C+3MYcA5RwVUyWWuhvTsOOrFkDgl2Ccs2Lw+G8ednoquQ7Aex01NONOaErlhUzSRBg3xIt+qdwcRshFNbqQMBSpUjGNBuktbP+Ydmhy+6tY/uHiT185RnZ1tdwDXDNImXznF/b9G3FhtPpdecyuBkwdEG7zF4b5UHMbEPmR4vde3Vy6ehY3ZOIXaeH9OdTfsZsQM40axL7ErWdPSKIfKuPRFo96eVIvL6KzGAoVVYR2fQg5jQ0tAwcIdw9CtSMi1nLweDbQ8t1CYGZuhFZ7DiMz3SHugjPjHQ96TillLYG4ltFq7y5R9cPMqVnysQMJs/ptI5z2pe7lDh2YVouh/Ni/dCQkwsoU7lZVJ/RuIukbC5vO4Q5sT/hByUOmOSE= colasuonno@colasuonno')]
+2025-04-04 20:03:39,987 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-04 20:03:39,987 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-04 20:03:39,987 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-04 20:03:39,987 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-04 20:03:39,990 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-04 20:03:39,990 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 20:04:31,557 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 20:04:31,557 - database.database - INFO - Trying to connect to database home
+2025-04-04 20:04:31,557 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 20:04:31,562 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-04 20:04:31,562 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-04 20:04:31,562 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-04 20:04:31,562 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-04 20:04:31,563 - database.handler.database_handler - DEBUG - [('gcolasuonno', 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCtr6jhzazFtFo3L76ayFeLDaieiajGavJHCIetE5Xmf5+GgdyiGZlzug96s4kjRy77shtbPsJz1pSkTsSQL0Cqvt1U60IiFidos53Zj5R7ywBCtyg7QIIIJfwwH0qyMeR18C+3MYcA5RwVUyWWuhvTsOOrFkDgl2Ccs2Lw+G8ednoquQ7Aex01NONOaErlhUzSRBg3xIt+qdwcRshFNbqQMBSpUjGNBuktbP+Ydmhy+6tY/uHiT185RnZ1tdwDXDNImXznF/b9G3FhtPpdecyuBkwdEG7zF4b5UHMbEPmR4vde3Vy6ehY3ZOIXaeH9OdTfsZsQM40axL7ErWdPSKIfKuPRFo96eVIvL6KzGAoVVYR2fQg5jQ0tAwcIdw9CtSMi1nLweDbQ8t1CYGZuhFZ7DiMz3SHugjPjHQ96TillLYG4ltFq7y5R9cPMqVnysQMJs/ptI5z2pe7lDh2YVouh/Ni/dCQkwsoU7lZVJ/RuIukbC5vO4Q5sT/hByUOmOSE= colasuonno@colasuonno')]
+2025-04-04 20:04:31,563 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-04 20:04:31,563 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-04 20:04:31,563 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-04 20:04:31,563 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-04 20:04:31,566 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-04 20:04:31,566 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 20:07:05,957 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 20:07:05,957 - database.database - INFO - Trying to connect to database home
+2025-04-04 20:07:05,957 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 20:07:05,961 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-04 20:07:05,962 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-04 20:07:05,962 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-04 20:07:05,962 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-04 20:07:05,962 - database.handler.database_handler - DEBUG - [{'login': 'gcolasuonno', 'ssh_public': 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCtr6jhzazFtFo3L76ayFeLDaieiajGavJHCIetE5Xmf5+GgdyiGZlzug96s4kjRy77shtbPsJz1pSkTsSQL0Cqvt1U60IiFidos53Zj5R7ywBCtyg7QIIIJfwwH0qyMeR18C+3MYcA5RwVUyWWuhvTsOOrFkDgl2Ccs2Lw+G8ednoquQ7Aex01NONOaErlhUzSRBg3xIt+qdwcRshFNbqQMBSpUjGNBuktbP+Ydmhy+6tY/uHiT185RnZ1tdwDXDNImXznF/b9G3FhtPpdecyuBkwdEG7zF4b5UHMbEPmR4vde3Vy6ehY3ZOIXaeH9OdTfsZsQM40axL7ErWdPSKIfKuPRFo96eVIvL6KzGAoVVYR2fQg5jQ0tAwcIdw9CtSMi1nLweDbQ8t1CYGZuhFZ7DiMz3SHugjPjHQ96TillLYG4ltFq7y5R9cPMqVnysQMJs/ptI5z2pe7lDh2YVouh/Ni/dCQkwsoU7lZVJ/RuIukbC5vO4Q5sT/hByUOmOSE= colasuonno@colasuonno'}]
+2025-04-04 20:07:05,962 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-04 20:07:05,963 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-04 20:07:05,963 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-04 20:07:05,963 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-04 20:07:05,965 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-04 20:07:05,965 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 20:07:18,930 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 20:07:18,930 - database.database - INFO - Trying to connect to database home
+2025-04-04 20:07:18,930 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 20:07:18,934 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-04 20:07:18,935 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-04 20:07:18,935 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-04 20:07:18,935 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-04 20:07:18,935 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-04 20:07:18,935 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-04 20:07:18,936 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-04 20:07:18,936 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-04 20:07:18,939 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-04 20:07:18,939 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 20:07:22,036 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:07:22] "GET /ssh_login/challenge/dsd HTTP/1.1" 200 -
+2025-04-04 20:12:18,937 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-04 20:12:18,937 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-04 20:16:36,170 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 20:16:36,170 - database.database - INFO - Trying to connect to database home
+2025-04-04 20:16:36,170 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 20:16:36,175 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-04 20:16:36,175 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-04 20:16:36,175 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-04 20:16:36,175 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-04 20:16:36,176 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-04 20:16:36,176 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-04 20:16:36,176 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-04 20:16:36,176 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-04 20:16:36,179 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-04 20:16:36,179 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 20:16:40,609 - database.tables.table_ssh_login - WARNING - Failed SSH Login challenge, login dsd doesn't exists
+2025-04-04 20:16:40,610 - home - ERROR - Exception on /ssh_login/challenge/dsd [GET]
+Traceback (most recent call last):
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 920, in full_dispatch_request
+    return self.finalize_request(rv)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 939, in finalize_request
+    response = self.make_response(rv)
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 1212, in make_response
+    raise TypeError(
+    ...<3 lines>...
+    )
+TypeError: The view function for 'ssh_login.challenge' did not return a valid response. The function either returned None or ended without a return statement.
+2025-04-04 20:16:40,612 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:16:40] "[35m[1mGET /ssh_login/challenge/dsd HTTP/1.1[0m" 500 -
+2025-04-04 20:18:13,201 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 20:18:13,202 - database.database - INFO - Trying to connect to database home
+2025-04-04 20:18:13,202 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 20:18:13,206 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-04 20:18:13,206 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-04 20:18:13,206 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-04 20:18:13,206 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-04 20:18:13,207 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-04 20:18:13,207 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-04 20:18:13,207 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-04 20:18:13,207 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-04 20:18:13,210 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-04 20:18:13,210 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 20:18:15,994 - database.tables.table_ssh_login - WARNING - Failed SSH Login challenge, login dsd doesn't exists
+2025-04-04 20:18:15,995 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:18:15] "[35m[1mGET /ssh_login/challenge/dsd HTTP/1.1[0m" 500 -
+2025-04-04 20:18:20,116 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:18:20] "GET /ssh_login/challenge/gcolasuonno HTTP/1.1" 200 -
+2025-04-04 20:18:21,976 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:18:21] "GET /ssh_login/challenge/gcolasuonno HTTP/1.1" 200 -
+2025-04-04 20:18:22,309 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:18:22] "GET /ssh_login/challenge/gcolasuonno HTTP/1.1" 200 -
+2025-04-04 20:18:22,501 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:18:22] "GET /ssh_login/challenge/gcolasuonno HTTP/1.1" 200 -
+2025-04-04 20:18:22,660 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:18:22] "GET /ssh_login/challenge/gcolasuonno HTTP/1.1" 200 -
+2025-04-04 20:18:22,815 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:18:22] "GET /ssh_login/challenge/gcolasuonno HTTP/1.1" 200 -
+2025-04-04 20:18:22,985 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:18:22] "GET /ssh_login/challenge/gcolasuonno HTTP/1.1" 200 -
+2025-04-04 20:18:23,138 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:18:23] "GET /ssh_login/challenge/gcolasuonno HTTP/1.1" 200 -
+2025-04-04 20:18:23,302 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:18:23] "GET /ssh_login/challenge/gcolasuonno HTTP/1.1" 200 -
+2025-04-04 20:19:07,220 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 20:19:07,220 - database.database - INFO - Trying to connect to database home
+2025-04-04 20:19:07,220 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 20:19:07,224 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-04 20:19:07,225 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-04 20:19:07,225 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-04 20:19:07,225 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-04 20:19:07,225 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-04 20:19:07,225 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-04 20:19:07,225 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-04 20:19:07,225 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-04 20:19:07,228 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-04 20:19:07,228 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 20:19:08,970 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:19:08] "GET /ssh_login/challenge/gcolasuonno HTTP/1.1" 200 -
+2025-04-04 20:19:09,341 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:19:09] "GET /ssh_login/challenge/gcolasuonno HTTP/1.1" 200 -
+2025-04-04 20:19:09,598 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:19:09] "GET /ssh_login/challenge/gcolasuonno HTTP/1.1" 200 -
+2025-04-04 20:19:09,746 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:19:09] "GET /ssh_login/challenge/gcolasuonno HTTP/1.1" 200 -
+2025-04-04 20:19:09,917 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:19:09] "GET /ssh_login/challenge/gcolasuonno HTTP/1.1" 200 -
+2025-04-04 20:19:10,057 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:19:10] "GET /ssh_login/challenge/gcolasuonno HTTP/1.1" 200 -
+2025-04-04 20:19:10,203 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:19:10] "GET /ssh_login/challenge/gcolasuonno HTTP/1.1" 200 -
+2025-04-04 20:19:10,377 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:19:10] "GET /ssh_login/challenge/gcolasuonno HTTP/1.1" 200 -
+2025-04-04 20:19:10,526 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:19:10] "GET /ssh_login/challenge/gcolasuonno HTTP/1.1" 200 -
+2025-04-04 20:19:10,679 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:19:10] "GET /ssh_login/challenge/gcolasuonno HTTP/1.1" 200 -
+2025-04-04 20:23:53,409 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 20:23:53,410 - database.database - INFO - Trying to connect to database home
+2025-04-04 20:23:53,410 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 20:23:53,414 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-04 20:23:53,414 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-04 20:23:53,414 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-04 20:23:53,414 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-04 20:23:53,415 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-04 20:23:53,415 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-04 20:23:53,415 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-04 20:23:53,415 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-04 20:23:53,418 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-04 20:23:53,418 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 20:23:56,854 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:23:56] "GET /ssh_login/challenge/gcolasuonno HTTP/1.1" 200 -
+2025-04-04 20:24:10,810 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:24:10] "[31m[1mGET /ssh_login/verify_signature/adsdsa HTTP/1.1[0m" 405 -
+2025-04-04 20:24:37,556 - home - ERROR - Exception on /ssh_login/verify_signature/saddsa [POST]
+Traceback (most recent call last):
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TypeError: verify_signature() missing 1 required positional argument: 'signature'
+2025-04-04 20:24:37,557 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:24:37] "[35m[1mPOST /ssh_login/verify_signature/saddsa HTTP/1.1[0m" 500 -
+2025-04-04 20:25:18,748 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 20:25:18,748 - database.database - INFO - Trying to connect to database home
+2025-04-04 20:25:18,748 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 20:25:18,752 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-04 20:25:18,753 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-04 20:25:18,753 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-04 20:25:18,753 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-04 20:25:18,753 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-04 20:25:18,753 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-04 20:25:18,753 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-04 20:25:18,754 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-04 20:25:18,756 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-04 20:25:18,756 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 20:25:20,832 - home - ERROR - Exception on /ssh_login/verify_signature/saddsa [POST]
+Traceback (most recent call last):
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TypeError: verify_signature() missing 1 required positional argument: 'signature'
+2025-04-04 20:25:20,839 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:25:20] "[35m[1mPOST /ssh_login/verify_signature/saddsa HTTP/1.1[0m" 500 -
+2025-04-04 20:27:35,569 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 20:27:35,569 - database.database - INFO - Trying to connect to database home
+2025-04-04 20:27:35,569 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 20:27:35,573 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-04 20:27:35,574 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-04 20:27:35,574 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-04 20:27:35,574 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-04 20:27:35,574 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-04 20:27:35,574 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-04 20:27:35,575 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-04 20:27:35,575 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-04 20:27:35,577 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-04 20:27:35,577 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 20:27:37,370 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:27:37] "[31m[1mPOST /ssh_login/verify_signature/saddsa HTTP/1.1[0m" 400 -
+2025-04-04 20:27:40,862 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:27:40] "[31m[1mPOST /ssh_login/verify_signature/gcolasuonno HTTP/1.1[0m" 400 -
+2025-04-04 20:28:00,379 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:28:00] "[31m[1mPOST /ssh_login/verify_signature/gcolasuonno HTTP/1.1[0m" 400 -
+2025-04-04 20:28:07,616 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:28:07] "GET /ssh_login/challenge/gcolasuonno HTTP/1.1" 200 -
+2025-04-04 20:28:08,883 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:28:08] "POST /ssh_login/verify_signature/gcolasuonno HTTP/1.1" 200 -
+2025-04-04 20:28:10,476 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:28:10] "[31m[1mPOST /ssh_login/verify_signature/gcolasuonno HTTP/1.1[0m" 400 -
+2025-04-04 20:28:11,733 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:28:11] "[31m[1mPOST /ssh_login/verify_signature/gcolasuonno HTTP/1.1[0m" 400 -
+2025-04-04 20:28:12,940 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:28:12] "GET /ssh_login/challenge/gcolasuonno HTTP/1.1" 200 -
+2025-04-04 20:28:13,385 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:28:13] "GET /ssh_login/challenge/gcolasuonno HTTP/1.1" 200 -
+2025-04-04 20:28:14,922 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:28:14] "POST /ssh_login/verify_signature/gcolasuonno HTTP/1.1" 200 -
+2025-04-04 20:32:35,575 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-04 20:32:35,575 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-04 20:38:00,569 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 20:38:00,569 - database.database - INFO - Trying to connect to database home
+2025-04-04 20:38:00,569 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 20:38:00,574 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-04 20:38:00,574 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-04 20:38:00,574 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-04 20:38:00,574 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-04 20:38:00,575 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-04 20:38:00,575 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-04 20:38:00,575 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-04 20:38:00,575 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-04 20:38:00,578 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-04 20:38:00,578 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 20:38:15,065 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 20:38:15,065 - database.database - INFO - Trying to connect to database home
+2025-04-04 20:38:15,065 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 20:38:15,069 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-04 20:38:15,070 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-04 20:38:15,070 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-04 20:38:15,070 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-04 20:38:15,070 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-04 20:38:15,070 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-04 20:38:15,070 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-04 20:38:15,070 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-04 20:38:15,073 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-04 20:38:15,073 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 20:38:17,508 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 20:38:17,508 - database.database - INFO - Trying to connect to database home
+2025-04-04 20:38:17,508 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 20:38:17,512 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-04 20:38:17,513 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-04 20:38:17,513 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-04 20:38:17,513 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-04 20:38:17,513 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-04 20:38:17,513 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-04 20:38:17,513 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-04 20:38:17,513 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-04 20:38:17,516 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-04 20:38:17,516 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 20:38:21,145 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:38:21] "[31m[1mPOST /ssh_login/verify_signature/gcolasuonno HTTP/1.1[0m" 415 -
+2025-04-04 20:38:33,870 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:38:33] "[31m[1mPOST /ssh_login/verify_signature/gcolasuonno HTTP/1.1[0m" 415 -
+2025-04-04 20:38:48,751 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:38:48] "[31m[1mPOST /ssh_login/verify_signature/gcolasuonno HTTP/1.1[0m" 415 -
+2025-04-04 20:38:54,236 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:38:54] "[31m[1mPOST /ssh_login/verify_signature/gcolasuonno HTTP/1.1[0m" 415 -
+2025-04-04 20:39:14,429 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:39:14] "[31m[1mPOST /ssh_login/verify_signature/gcolasuonno HTTP/1.1[0m" 415 -
+2025-04-04 20:39:50,579 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:39:50] "[31m[1mPOST /ssh_login/verify_signature/gcolasuonno HTTP/1.1[0m" 400 -
+2025-04-04 20:40:02,905 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:40:02] "[31m[1mPOST /ssh_login/verify_signature/gcolasuonno HTTP/1.1[0m" 400 -
+2025-04-04 20:40:26,270 - home - ERROR - Exception on /ssh_login/verify_signature/gcolasuonno [POST]
+Traceback (most recent call last):
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/auth/ssh_endpoints.py", line 32, in verify_signature
+    login_challenge = login_ssh_table.retrieve_challenge(login, pop=True)
+TypeError: LoginSSHTable.retrieve_challenge() got an unexpected keyword argument 'pop'
+2025-04-04 20:40:26,272 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:40:26] "[35m[1mPOST /ssh_login/verify_signature/gcolasuonno HTTP/1.1[0m" 500 -
+2025-04-04 20:40:35,781 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 20:40:35,781 - database.database - INFO - Trying to connect to database home
+2025-04-04 20:40:35,781 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 20:40:35,786 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-04 20:40:35,786 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-04 20:40:35,786 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-04 20:40:35,786 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-04 20:40:35,787 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-04 20:40:35,787 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-04 20:40:35,787 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-04 20:40:35,787 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-04 20:40:35,789 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-04 20:40:35,789 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 20:40:37,533 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:40:37] "[31m[1mPOST /ssh_login/verify_signature/gcolasuonno HTTP/1.1[0m" 400 -
+2025-04-04 20:40:47,544 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:40:47] "GET /ssh_login/challenge/gcolasuonno HTTP/1.1" 200 -
+2025-04-04 20:40:51,099 - home - ERROR - Exception on /ssh_login/verify_signature/gcolasuonno [POST]
+Traceback (most recent call last):
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/auth/ssh_endpoints.py", line 37, in verify_signature
+    authenticated = login_ssh_table.authenticate(login, signature)
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/database/tables/table_ssh_login.py", line 38, in authenticate
+    public_key = filter(rec["login"] == login for rec in self.records)
+TypeError: filter expected 2 arguments, got 1
+2025-04-04 20:40:51,106 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:40:51] "[35m[1mPOST /ssh_login/verify_signature/gcolasuonno HTTP/1.1[0m" 500 -
+2025-04-04 20:41:38,675 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 20:41:38,676 - database.database - INFO - Trying to connect to database home
+2025-04-04 20:41:38,676 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 20:41:38,680 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-04 20:41:38,680 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-04 20:41:38,680 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-04 20:41:38,680 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-04 20:41:38,681 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-04 20:41:38,681 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-04 20:41:38,681 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-04 20:41:38,681 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-04 20:41:38,684 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-04 20:41:38,684 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 20:41:41,302 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:41:41] "GET /ssh_login/challenge/gcolasuonno HTTP/1.1" 200 -
+2025-04-04 20:41:47,577 - home - ERROR - Exception on /ssh_login/verify_signature/gcolasuonno [POST]
+Traceback (most recent call last):
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/auth/ssh_endpoints.py", line 37, in verify_signature
+    authenticated = login_ssh_table.authenticate(login, signature)
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/database/tables/table_ssh_login.py", line 45, in authenticate
+    public_key = serialization.load_pem_public_key(public_key[0].encode())
+                                                   ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'encode'
+2025-04-04 20:41:47,584 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:41:47] "[35m[1mPOST /ssh_login/verify_signature/gcolasuonno HTTP/1.1[0m" 500 -
+2025-04-04 20:42:16,179 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 20:42:16,179 - database.database - INFO - Trying to connect to database home
+2025-04-04 20:42:16,179 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 20:42:16,183 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-04 20:42:16,183 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-04 20:42:16,184 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-04 20:42:16,184 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-04 20:42:16,184 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-04 20:42:16,184 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-04 20:42:16,184 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-04 20:42:16,184 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-04 20:42:16,187 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-04 20:42:16,187 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 20:42:18,369 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:42:18] "[31m[1mPOST /ssh_login/verify_signature/gcolasuonno HTTP/1.1[0m" 400 -
+2025-04-04 20:42:20,639 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:42:20] "GET /ssh_login/challenge/gcolasuonno HTTP/1.1" 200 -
+2025-04-04 20:42:22,146 - home - ERROR - Exception on /ssh_login/verify_signature/gcolasuonno [POST]
+Traceback (most recent call last):
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/auth/ssh_endpoints.py", line 37, in verify_signature
+    authenticated = login_ssh_table.authenticate(login, signature)
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/database/tables/table_ssh_login.py", line 45, in authenticate
+    public_key = serialization.load_pem_public_key(public_key[0]["ssh_public"].encode())
+ValueError: Unable to load PEM file. See https://cryptography.io/en/latest/faq/#why-can-t-i-import-my-pem-file for more details. MalformedFraming
+2025-04-04 20:42:22,147 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:42:22] "[35m[1mPOST /ssh_login/verify_signature/gcolasuonno HTTP/1.1[0m" 500 -
+2025-04-04 20:43:14,158 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 20:43:14,158 - database.database - INFO - Trying to connect to database home
+2025-04-04 20:43:14,158 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 20:43:14,162 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-04 20:43:14,162 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-04 20:43:14,163 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-04 20:43:14,163 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-04 20:43:14,163 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-04 20:43:14,163 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-04 20:43:14,163 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-04 20:43:14,163 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-04 20:43:14,166 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-04 20:43:14,166 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 20:43:16,262 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:43:16] "[31m[1mPOST /ssh_login/verify_signature/gcolasuonno HTTP/1.1[0m" 400 -
+2025-04-04 20:43:18,879 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:43:18] "GET /ssh_login/challenge/gcolasuonno HTTP/1.1" 200 -
+2025-04-04 20:43:19,700 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:43:19] "GET /ssh_login/challenge/gcolasuonno HTTP/1.1" 200 -
+2025-04-04 20:43:20,472 - database.tables.table_ssh_login - INFO - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCtr6jhzazFtFo3L76ayFeLDaieiajGavJHCIetE5Xmf5+GgdyiGZlzug96s4kjRy77shtbPsJz1pSkTsSQL0Cqvt1U60IiFidos53Zj5R7ywBCtyg7QIIIJfwwH0qyMeR18C+3MYcA5RwVUyWWuhvTsOOrFkDgl2Ccs2Lw+G8ednoquQ7Aex01NONOaErlhUzSRBg3xIt+qdwcRshFNbqQMBSpUjGNBuktbP+Ydmhy+6tY/uHiT185RnZ1tdwDXDNImXznF/b9G3FhtPpdecyuBkwdEG7zF4b5UHMbEPmR4vde3Vy6ehY3ZOIXaeH9OdTfsZsQM40axL7ErWdPSKIfKuPRFo96eVIvL6KzGAoVVYR2fQg5jQ0tAwcIdw9CtSMi1nLweDbQ8t1CYGZuhFZ7DiMz3SHugjPjHQ96TillLYG4ltFq7y5R9cPMqVnysQMJs/ptI5z2pe7lDh2YVouh/Ni/dCQkwsoU7lZVJ/RuIukbC5vO4Q5sT/hByUOmOSE= colasuonno@colasuonno
+2025-04-04 20:43:20,473 - home - ERROR - Exception on /ssh_login/verify_signature/gcolasuonno [POST]
+Traceback (most recent call last):
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/auth/ssh_endpoints.py", line 37, in verify_signature
+    authenticated = login_ssh_table.authenticate(login, signature)
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/database/tables/table_ssh_login.py", line 47, in authenticate
+    public_key = serialization.load_pem_public_key(public_key_pem.encode())
+ValueError: Unable to load PEM file. See https://cryptography.io/en/latest/faq/#why-can-t-i-import-my-pem-file for more details. MalformedFraming
+2025-04-04 20:43:20,479 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:43:20] "[35m[1mPOST /ssh_login/verify_signature/gcolasuonno HTTP/1.1[0m" 500 -
+2025-04-04 20:45:07,489 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 20:45:07,489 - database.database - INFO - Trying to connect to database home
+2025-04-04 20:45:07,489 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 20:45:07,494 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-04 20:45:07,494 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-04 20:45:07,494 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-04 20:45:07,494 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-04 20:45:07,495 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-04 20:45:07,495 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-04 20:45:07,495 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-04 20:45:07,495 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-04 20:45:07,497 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-04 20:45:07,497 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 20:45:09,429 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:45:09] "GET /ssh_login/challenge/gcolasuonno HTTP/1.1" 200 -
+2025-04-04 20:45:11,106 - database.tables.table_ssh_login - INFO - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCtr6jhzazFtFo3L76ayFeLDaieiajGavJHCIetE5Xmf5+GgdyiGZlzug96s4kjRy77shtbPsJz1pSkTsSQL0Cqvt1U60IiFidos53Zj5R7ywBCtyg7QIIIJfwwH0qyMeR18C+3MYcA5RwVUyWWuhvTsOOrFkDgl2Ccs2Lw+G8ednoquQ7Aex01NONOaErlhUzSRBg3xIt+qdwcRshFNbqQMBSpUjGNBuktbP+Ydmhy+6tY/uHiT185RnZ1tdwDXDNImXznF/b9G3FhtPpdecyuBkwdEG7zF4b5UHMbEPmR4vde3Vy6ehY3ZOIXaeH9OdTfsZsQM40axL7ErWdPSKIfKuPRFo96eVIvL6KzGAoVVYR2fQg5jQ0tAwcIdw9CtSMi1nLweDbQ8t1CYGZuhFZ7DiMz3SHugjPjHQ96TillLYG4ltFq7y5R9cPMqVnysQMJs/ptI5z2pe7lDh2YVouh/Ni/dCQkwsoU7lZVJ/RuIukbC5vO4Q5sT/hByUOmOSE= colasuonno@colasuonno
+2025-04-04 20:45:11,121 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:45:11] "[35m[1mPOST /ssh_login/verify_signature/gcolasuonno HTTP/1.1[0m" 500 -
+2025-04-04 20:45:11,142 - werkzeug - ERROR - Error on request:
+Traceback (most recent call last):
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/werkzeug/serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+    ~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/werkzeug/serving.py", line 333, in execute
+    for data in application_iter:
+                ^^^^^^^^^^^^^^^^
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/werkzeug/wsgi.py", line 256, in __next__
+    return self._next()
+           ~~~~~~~~~~^^
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/werkzeug/wrappers/response.py", line 32, in _iter_encoded
+    for item in iterable:
+                ^^^^^^^^
+TypeError: 'bool' object is not iterable
+2025-04-04 20:50:07,495 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-04 20:50:07,495 - database.handler.database_handler - DEBUG - Database is still alive :)

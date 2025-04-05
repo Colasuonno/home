@@ -1,3 +1,5 @@
 psycopg2-binary
 flask==3.1.0
 psutil==7.0.0
+cachetools==5.5.2
+cryptography==44.0.2

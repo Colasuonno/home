@@ -1,5 +1,3 @@
-from . import InternetProvider
-
 import threading
 import logging
 
@@ -12,11 +10,18 @@ class DatabaseHandler:
         # Create tables
 
         with database.obtain_cursor() as cursor:
-            for table in database._get_tables():
+            for table_name, table in database.tables.items():
                 res = database.execute(
                     cursor, table.create_table()
                 )
                 _logger.info(f"Table {table.table_name} res: " + str(res))
+
+                # Check for startup-fetch
+                if table._fetch_on_startup:
+                    _logger.info(f"Table {table.table_name}: has startup fetch....")
+                    res = database.fetchall_named(cursor, table.fetch_records())
+                    _logger.info(f"Table {table.table_name}: has fetched {len(res)} records")
+                    table.records = res
 
             _logger.info("Database connection established!! (Pool)")
 

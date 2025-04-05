@@ -1,0 +1,1033 @@
+2025-04-05 12:27:15,701 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-05 12:27:15,701 - database.database - INFO - Trying to connect to database home
+2025-04-05 12:27:15,701 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-05 12:27:15,706 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-05 12:27:15,707 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-05 12:27:15,707 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-05 12:27:15,707 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-05 12:27:15,708 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-05 12:27:15,708 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-05 12:27:15,708 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-05 12:27:15,709 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-05 12:27:15,721 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 12:27:15,721 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 12:27:19,332 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-05 12:27:19,332 - database.database - INFO - Trying to connect to database home
+2025-04-05 12:27:19,332 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-05 12:27:19,337 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-05 12:27:19,337 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-05 12:27:19,337 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-05 12:27:19,337 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-05 12:27:19,338 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-05 12:27:19,338 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-05 12:27:19,338 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-05 12:27:19,338 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-05 12:27:19,342 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 12:27:19,342 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 12:28:14,139 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:28:14] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-05 12:28:14,213 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:28:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-05 12:29:06,721 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:29:06] "[32mPOST /ssh_login HTTP/1.1[0m" 308 -
+2025-04-05 12:29:06,732 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:29:06] "[31m[1mPOST /ssh_login/ HTTP/1.1[0m" 415 -
+2025-04-05 12:29:26,701 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:29:26] "[32mPOST /ssh_login HTTP/1.1[0m" 308 -
+2025-04-05 12:29:26,712 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:29:26] "[31m[1mPOST /ssh_login/ HTTP/1.1[0m" 400 -
+2025-04-05 12:30:46,517 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-05 12:30:46,517 - database.database - INFO - Trying to connect to database home
+2025-04-05 12:30:46,517 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-05 12:30:46,522 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-05 12:30:46,522 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-05 12:30:46,522 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-05 12:30:46,522 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-05 12:30:46,523 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-05 12:30:46,523 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-05 12:30:46,523 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-05 12:30:46,523 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-05 12:30:46,525 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 12:30:46,526 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 12:30:49,256 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:30:49] "[32mPOST /ssh_login HTTP/1.1[0m" 308 -
+2025-04-05 12:30:49,270 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:30:49] "[31m[1mPOST /ssh_login/ HTTP/1.1[0m" 400 -
+2025-04-05 12:30:51,322 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:30:51] "[32mPOST /ssh_login HTTP/1.1[0m" 308 -
+2025-04-05 12:30:51,327 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:30:51] "[31m[1mPOST /ssh_login/ HTTP/1.1[0m" 400 -
+2025-04-05 12:31:08,416 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-05 12:31:08,416 - database.database - INFO - Trying to connect to database home
+2025-04-05 12:31:08,417 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-05 12:31:08,421 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-05 12:31:08,421 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-05 12:31:08,421 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-05 12:31:08,422 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-05 12:31:08,422 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-05 12:31:08,422 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-05 12:31:08,422 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-05 12:31:08,422 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-05 12:31:08,425 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 12:31:08,425 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 12:31:09,750 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:31:09] "[32mPOST /ssh_login HTTP/1.1[0m" 308 -
+2025-04-05 12:31:09,753 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:31:09] "[31m[1mPOST /ssh_login/ HTTP/1.1[0m" 400 -
+2025-04-05 12:31:33,647 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-05 12:31:33,648 - database.database - INFO - Trying to connect to database home
+2025-04-05 12:31:33,648 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-05 12:31:33,653 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-05 12:31:33,653 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-05 12:31:33,653 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-05 12:31:33,653 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-05 12:31:33,654 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-05 12:31:33,654 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-05 12:31:33,654 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-05 12:31:33,654 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-05 12:31:33,657 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 12:31:33,657 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 12:31:43,738 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:31:43] "[32mPOST /ssh_login HTTP/1.1[0m" 308 -
+2025-04-05 12:31:43,742 - auth.ssh_endpoints - INFO - AO
+2025-04-05 12:31:43,743 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:31:43] "[31m[1mPOST /ssh_login/ HTTP/1.1[0m" 400 -
+2025-04-05 12:32:18,721 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:32:18] "[32mPOST /ssh_login HTTP/1.1[0m" 308 -
+2025-04-05 12:32:18,729 - auth.ssh_endpoints - INFO - AO
+2025-04-05 12:32:18,731 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:32:18] "[31m[1mPOST /ssh_login/ HTTP/1.1[0m" 400 -
+2025-04-05 12:32:28,534 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:32:28] "[33mPOST /ssh_login/ssh_login HTTP/1.1[0m" 404 -
+2025-04-05 12:32:36,762 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:32:36] "[32mPOST /ssh_login HTTP/1.1[0m" 308 -
+2025-04-05 12:32:58,600 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:32:58] "[32mPOST /ssh_login HTTP/1.1[0m" 308 -
+2025-04-05 12:33:08,021 - auth.ssh_endpoints - INFO - AO
+2025-04-05 12:33:08,021 - auth.ssh_endpoints - DEBUG - {'signature': 'asddsasa'}
+2025-04-05 12:33:08,021 - auth.ssh_endpoints - INFO - {'signature': 'asddsasa'}
+2025-04-05 12:33:08,021 - home - ERROR - Exception on /ssh_login/ [POST]
+Traceback (most recent call last):
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/auth/ssh_endpoints.py", line 79, in ssh_login
+    return verify_request_signature(request.json)
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/auth/ssh_endpoints.py", line 32, in verify_request_signature
+    _logger.warning(f"Timestamp wasn't found in request payload or is invalid {data["timestamp"]}")
+                                                                               ~~~~^^^^^^^^^^^^^
+KeyError: 'timestamp'
+2025-04-05 12:33:08,023 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:33:08] "[35m[1mPOST /ssh_login/ HTTP/1.1[0m" 500 -
+2025-04-05 12:33:35,644 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-05 12:33:35,644 - database.database - INFO - Trying to connect to database home
+2025-04-05 12:33:35,644 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-05 12:33:35,649 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-05 12:33:35,649 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-05 12:33:35,649 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-05 12:33:35,649 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-05 12:33:35,650 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-05 12:33:35,650 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-05 12:33:35,650 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-05 12:33:35,650 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-05 12:33:35,653 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 12:33:35,653 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 12:33:40,666 - auth.ssh_endpoints - INFO - AO
+2025-04-05 12:33:40,667 - auth.ssh_endpoints - DEBUG - {'signature': 'asddsasa'}
+2025-04-05 12:33:40,668 - auth.ssh_endpoints - INFO - {'signature': 'asddsasa'}
+2025-04-05 12:33:40,669 - auth.ssh_endpoints - WARNING - Timestamp wasn't found in request payload or is invalid None
+2025-04-05 12:33:40,670 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:33:40] "[33mPOST /ssh_login/ HTTP/1.1[0m" 404 -
+2025-04-05 12:33:46,223 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:33:46] "[32mPOST /ssh_login HTTP/1.1[0m" 308 -
+2025-04-05 12:33:46,225 - auth.ssh_endpoints - INFO - AO
+2025-04-05 12:33:46,225 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:33:46] "[31m[1mPOST /ssh_login/ HTTP/1.1[0m" 400 -
+2025-04-05 12:33:49,524 - auth.ssh_endpoints - INFO - AO
+2025-04-05 12:33:49,525 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:33:49] "[31m[1mPOST /ssh_login/ HTTP/1.1[0m" 400 -
+2025-04-05 12:34:13,934 - auth.ssh_endpoints - INFO - AO
+2025-04-05 12:34:13,934 - auth.ssh_endpoints - DEBUG - {'test': 'ao'}
+2025-04-05 12:34:13,935 - auth.ssh_endpoints - INFO - {'test': 'ao'}
+2025-04-05 12:34:13,935 - auth.ssh_endpoints - WARNING - Timestamp wasn't found in request payload or is invalid None
+2025-04-05 12:34:13,936 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:34:13] "[33mPOST /ssh_login/ HTTP/1.1[0m" 404 -
+2025-04-05 12:34:42,206 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-05 12:34:42,206 - database.database - INFO - Trying to connect to database home
+2025-04-05 12:34:42,206 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-05 12:34:42,210 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-05 12:34:42,211 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-05 12:34:42,211 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-05 12:34:42,211 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-05 12:34:42,211 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-05 12:34:42,212 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-05 12:34:42,212 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-05 12:34:42,212 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-05 12:34:42,215 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 12:34:42,215 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 12:37:36,187 - auth.ssh_endpoints - INFO - AO
+2025-04-05 12:37:36,188 - auth.ssh_endpoints - DEBUG - {'timestamp': 1743849420, 'login': 'gcolasuonno', 'signature': 'wlcRmJcq8usz5x6QNaN+9TZwwUPV7u7+la2ghghQ1kbV5Q+/9EA9e6coFmG/N7aYoy0xQJVZ3cRCRPQiIaGDjS2IEYkWadtFg2Q7cHC0O5FJ1ydsfAgQIAk17eZnh4DUrv3Pw+9PlrWytFTxDFo3eTYhA13ZHtAPRLaNmgxCKbG4gJfZ7oiBbibdGwRPO2TtTdG8+FmNYJmEUgsPRsJ38kmCtYMyFtzSuoLrXgBUZYAIE41XF8PHkGkgnpdA4T83OiU3xxIiruVS3DSJJMA6MUc8EhUHTwWvMYCKn+JuC3BlYRiT6fV0x0u5q93IOxzMk9TkAhEfCK+AmvfXfbU/Cg=='}
+2025-04-05 12:37:36,190 - auth.ssh_endpoints - INFO - {'timestamp': 1743849420, 'login': 'gcolasuonno', 'signature': 'wlcRmJcq8usz5x6QNaN+9TZwwUPV7u7+la2ghghQ1kbV5Q+/9EA9e6coFmG/N7aYoy0xQJVZ3cRCRPQiIaGDjS2IEYkWadtFg2Q7cHC0O5FJ1ydsfAgQIAk17eZnh4DUrv3Pw+9PlrWytFTxDFo3eTYhA13ZHtAPRLaNmgxCKbG4gJfZ7oiBbibdGwRPO2TtTdG8+FmNYJmEUgsPRsJ38kmCtYMyFtzSuoLrXgBUZYAIE41XF8PHkGkgnpdA4T83OiU3xxIiruVS3DSJJMA6MUc8EhUHTwWvMYCKn+JuC3BlYRiT6fV0x0u5q93IOxzMk9TkAhEfCK+AmvfXfbU/Cg=='}
+2025-04-05 12:37:36,191 - home - ERROR - Exception on /ssh_login/ [POST]
+Traceback (most recent call last):
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/auth/ssh_endpoints.py", line 79, in ssh_login
+    return verify_request_signature(request.json)
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/auth/ssh_endpoints.py", line 61, in verify_request_signature
+    public_key = serialization.load_pem_public_key(public_key)
+TypeError: argument 'data': from_buffer() cannot return the address of a unicode object
+2025-04-05 12:37:36,198 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:37:36] "[35m[1mPOST /ssh_login/ HTTP/1.1[0m" 500 -
+2025-04-05 12:38:12,809 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-05 12:38:12,809 - database.database - INFO - Trying to connect to database home
+2025-04-05 12:38:12,809 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-05 12:38:12,814 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-05 12:38:12,814 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-05 12:38:12,814 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-05 12:38:12,814 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-05 12:38:12,815 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-05 12:38:12,815 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-05 12:38:12,815 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-05 12:38:12,815 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-05 12:38:12,817 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 12:38:12,818 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 12:38:15,521 - auth.ssh_endpoints - INFO - AO
+2025-04-05 12:38:15,522 - auth.ssh_endpoints - DEBUG - {'timestamp': 1743849420, 'login': 'gcolasuonno', 'signature': 'wlcRmJcq8usz5x6QNaN+9TZwwUPV7u7+la2ghghQ1kbV5Q+/9EA9e6coFmG/N7aYoy0xQJVZ3cRCRPQiIaGDjS2IEYkWadtFg2Q7cHC0O5FJ1ydsfAgQIAk17eZnh4DUrv3Pw+9PlrWytFTxDFo3eTYhA13ZHtAPRLaNmgxCKbG4gJfZ7oiBbibdGwRPO2TtTdG8+FmNYJmEUgsPRsJ38kmCtYMyFtzSuoLrXgBUZYAIE41XF8PHkGkgnpdA4T83OiU3xxIiruVS3DSJJMA6MUc8EhUHTwWvMYCKn+JuC3BlYRiT6fV0x0u5q93IOxzMk9TkAhEfCK+AmvfXfbU/Cg=='}
+2025-04-05 12:38:15,524 - auth.ssh_endpoints - INFO - {'timestamp': 1743849420, 'login': 'gcolasuonno', 'signature': 'wlcRmJcq8usz5x6QNaN+9TZwwUPV7u7+la2ghghQ1kbV5Q+/9EA9e6coFmG/N7aYoy0xQJVZ3cRCRPQiIaGDjS2IEYkWadtFg2Q7cHC0O5FJ1ydsfAgQIAk17eZnh4DUrv3Pw+9PlrWytFTxDFo3eTYhA13ZHtAPRLaNmgxCKbG4gJfZ7oiBbibdGwRPO2TtTdG8+FmNYJmEUgsPRsJ38kmCtYMyFtzSuoLrXgBUZYAIE41XF8PHkGkgnpdA4T83OiU3xxIiruVS3DSJJMA6MUc8EhUHTwWvMYCKn+JuC3BlYRiT6fV0x0u5q93IOxzMk9TkAhEfCK+AmvfXfbU/Cg=='}
+2025-04-05 12:38:15,525 - auth.ssh_endpoints - WARNING - Timestamp was too old from gcolasuonno actually 0.075 seconds
+2025-04-05 12:38:15,526 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:38:15] "[31m[1mPOST /ssh_login/ HTTP/1.1[0m" 401 -
+2025-04-05 12:38:42,551 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-05 12:38:42,551 - database.database - INFO - Trying to connect to database home
+2025-04-05 12:38:42,551 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-05 12:38:42,556 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-05 12:38:42,556 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-05 12:38:42,556 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-05 12:38:42,556 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-05 12:38:42,557 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-05 12:38:42,557 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-05 12:38:42,557 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-05 12:38:42,557 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-05 12:38:42,560 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 12:38:42,560 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 12:38:43,977 - auth.ssh_endpoints - INFO - AO
+2025-04-05 12:38:43,977 - auth.ssh_endpoints - DEBUG - {'timestamp': 1743849420, 'login': 'gcolasuonno', 'signature': 'wlcRmJcq8usz5x6QNaN+9TZwwUPV7u7+la2ghghQ1kbV5Q+/9EA9e6coFmG/N7aYoy0xQJVZ3cRCRPQiIaGDjS2IEYkWadtFg2Q7cHC0O5FJ1ydsfAgQIAk17eZnh4DUrv3Pw+9PlrWytFTxDFo3eTYhA13ZHtAPRLaNmgxCKbG4gJfZ7oiBbibdGwRPO2TtTdG8+FmNYJmEUgsPRsJ38kmCtYMyFtzSuoLrXgBUZYAIE41XF8PHkGkgnpdA4T83OiU3xxIiruVS3DSJJMA6MUc8EhUHTwWvMYCKn+JuC3BlYRiT6fV0x0u5q93IOxzMk9TkAhEfCK+AmvfXfbU/Cg=='}
+2025-04-05 12:38:43,978 - auth.ssh_endpoints - INFO - {'timestamp': 1743849420, 'login': 'gcolasuonno', 'signature': 'wlcRmJcq8usz5x6QNaN+9TZwwUPV7u7+la2ghghQ1kbV5Q+/9EA9e6coFmG/N7aYoy0xQJVZ3cRCRPQiIaGDjS2IEYkWadtFg2Q7cHC0O5FJ1ydsfAgQIAk17eZnh4DUrv3Pw+9PlrWytFTxDFo3eTYhA13ZHtAPRLaNmgxCKbG4gJfZ7oiBbibdGwRPO2TtTdG8+FmNYJmEUgsPRsJ38kmCtYMyFtzSuoLrXgBUZYAIE41XF8PHkGkgnpdA4T83OiU3xxIiruVS3DSJJMA6MUc8EhUHTwWvMYCKn+JuC3BlYRiT6fV0x0u5q93IOxzMk9TkAhEfCK+AmvfXfbU/Cg=='}
+2025-04-05 12:38:43,978 - auth.ssh_endpoints - INFO - Timestamp was: 1743849523
+2025-04-05 12:38:43,978 - auth.ssh_endpoints - WARNING - Timestamp was too old from gcolasuonno actually 0.103 seconds
+2025-04-05 12:38:43,979 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:38:43] "[31m[1mPOST /ssh_login/ HTTP/1.1[0m" 401 -
+2025-04-05 12:38:57,883 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-05 12:38:57,883 - database.database - INFO - Trying to connect to database home
+2025-04-05 12:38:57,883 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-05 12:38:57,888 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-05 12:38:57,888 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-05 12:38:57,888 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-05 12:38:57,889 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-05 12:38:57,889 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-05 12:38:57,889 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-05 12:38:57,889 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-05 12:38:57,889 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-05 12:38:57,892 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 12:38:57,892 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 12:39:00,275 - auth.ssh_endpoints - INFO - AO
+2025-04-05 12:39:00,275 - auth.ssh_endpoints - DEBUG - {'timestamp': 1743849420, 'login': 'gcolasuonno', 'signature': 'wlcRmJcq8usz5x6QNaN+9TZwwUPV7u7+la2ghghQ1kbV5Q+/9EA9e6coFmG/N7aYoy0xQJVZ3cRCRPQiIaGDjS2IEYkWadtFg2Q7cHC0O5FJ1ydsfAgQIAk17eZnh4DUrv3Pw+9PlrWytFTxDFo3eTYhA13ZHtAPRLaNmgxCKbG4gJfZ7oiBbibdGwRPO2TtTdG8+FmNYJmEUgsPRsJ38kmCtYMyFtzSuoLrXgBUZYAIE41XF8PHkGkgnpdA4T83OiU3xxIiruVS3DSJJMA6MUc8EhUHTwWvMYCKn+JuC3BlYRiT6fV0x0u5q93IOxzMk9TkAhEfCK+AmvfXfbU/Cg=='}
+2025-04-05 12:39:00,277 - auth.ssh_endpoints - INFO - {'timestamp': 1743849420, 'login': 'gcolasuonno', 'signature': 'wlcRmJcq8usz5x6QNaN+9TZwwUPV7u7+la2ghghQ1kbV5Q+/9EA9e6coFmG/N7aYoy0xQJVZ3cRCRPQiIaGDjS2IEYkWadtFg2Q7cHC0O5FJ1ydsfAgQIAk17eZnh4DUrv3Pw+9PlrWytFTxDFo3eTYhA13ZHtAPRLaNmgxCKbG4gJfZ7oiBbibdGwRPO2TtTdG8+FmNYJmEUgsPRsJ38kmCtYMyFtzSuoLrXgBUZYAIE41XF8PHkGkgnpdA4T83OiU3xxIiruVS3DSJJMA6MUc8EhUHTwWvMYCKn+JuC3BlYRiT6fV0x0u5q93IOxzMk9TkAhEfCK+AmvfXfbU/Cg=='}
+2025-04-05 12:39:00,278 - auth.ssh_endpoints - INFO - Timestamp was: 1743849540
+2025-04-05 12:39:00,278 - auth.ssh_endpoints - WARNING - Timestamp was too old from gcolasuonno actually 120 seconds
+2025-04-05 12:39:00,279 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:39:00] "[31m[1mPOST /ssh_login/ HTTP/1.1[0m" 401 -
+2025-04-05 12:39:44,532 - auth.ssh_endpoints - INFO - AO
+2025-04-05 12:39:44,532 - auth.ssh_endpoints - DEBUG - {'timestamp': 1743849548, 'login': 'gcolasuonno', 'signature': 'r+1Spe8OdjF1GFdWxO07EMuGD5ASfJBkNVMRDRFCUWjuecyVWnxLkx831qvrkiWHFeCpZaN5s7EZLFav2b1JBeWBi6c15o65I2AlEbB0RuFq2nMQNA8yDQA6ZbVRhunUH3lf5UsLeg/AfWST2zb+oIGL+DDGpf7twGdl6msYa0kOSnX7906P30JZvVojBfAF9/Yz/6z7pMpkk2x+Pj9acTDTSg2IW9sLdg6XUDNfaCtiLITwYPDS+bgEVOMZEHM/xQuAJxqJW4QRTDyiOJo0IOIHwGhZJ0dxAMo/fE+jqMAF/0UcEg7ussUxVXglX/iPkpgSKLoZAo3uwNQehTwTHQ=='}
+2025-04-05 12:39:44,533 - auth.ssh_endpoints - INFO - {'timestamp': 1743849548, 'login': 'gcolasuonno', 'signature': 'r+1Spe8OdjF1GFdWxO07EMuGD5ASfJBkNVMRDRFCUWjuecyVWnxLkx831qvrkiWHFeCpZaN5s7EZLFav2b1JBeWBi6c15o65I2AlEbB0RuFq2nMQNA8yDQA6ZbVRhunUH3lf5UsLeg/AfWST2zb+oIGL+DDGpf7twGdl6msYa0kOSnX7906P30JZvVojBfAF9/Yz/6z7pMpkk2x+Pj9acTDTSg2IW9sLdg6XUDNfaCtiLITwYPDS+bgEVOMZEHM/xQuAJxqJW4QRTDyiOJo0IOIHwGhZJ0dxAMo/fE+jqMAF/0UcEg7ussUxVXglX/iPkpgSKLoZAo3uwNQehTwTHQ=='}
+2025-04-05 12:39:44,533 - auth.ssh_endpoints - INFO - Timestamp was: 1743849584
+2025-04-05 12:39:44,534 - home - ERROR - Exception on /ssh_login/ [POST]
+Traceback (most recent call last):
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/.venv/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/auth/ssh_endpoints.py", line 81, in ssh_login
+    return verify_request_signature(request.json)
+  File "/home/colasuonno/Desktop/Dev/home/repo/home/auth/ssh_endpoints.py", line 63, in verify_request_signature
+    public_key = serialization.load_pem_public_key(public_key.encode())
+ValueError: Unable to load PEM file. See https://cryptography.io/en/latest/faq/#why-can-t-i-import-my-pem-file for more details. MalformedFraming
+2025-04-05 12:39:44,541 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:39:44] "[35m[1mPOST /ssh_login/ HTTP/1.1[0m" 500 -
+2025-04-05 12:41:33,281 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-05 12:41:33,282 - database.database - INFO - Trying to connect to database home
+2025-04-05 12:41:33,282 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-05 12:41:33,286 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-05 12:41:33,286 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-05 12:41:33,286 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-05 12:41:33,287 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-05 12:41:33,287 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-05 12:41:33,287 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-05 12:41:33,287 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-05 12:41:33,287 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-05 12:41:33,290 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 12:41:33,290 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 12:42:07,115 - auth.ssh_endpoints - INFO - AO
+2025-04-05 12:42:07,118 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:42:07] "[31m[1mPOST /ssh_login/ HTTP/1.1[0m" 400 -
+2025-04-05 12:42:18,564 - auth.ssh_endpoints - INFO - AO
+2025-04-05 12:42:18,565 - auth.ssh_endpoints - DEBUG - {'timestamp': 1743849695, 'login': 'gcolasuonno', 'signature': 'SuRlQTJ+mJEPjpguQOxnIBFicYGjSdjAg7U94kOj9k3REOzmxPpABqxanZ6nuNt90W743GwIllNYZqwh+DRJjRJMb/7uJ2PvzSgpAWdAbmkkdfytHzsVjCPvOG8x36uAsutOL45G6Ti7OHVosaSHF0nGB7D3KBeHP+YI9RfaXWUsBvd1mzsMuViIpdccioWO2RHAmm0Y0sCMp32o7kOhmfBvxEpRDlYW6GS/gTS6m0jfcA4LTSd8xxpK0HxGYXQ+2dLlqB+B7Ee6h0X/8bmBuyUweh1x9H73nf5i6rykROFOw7BDdM1xbB9vIsbcFEmsVMb1RqnkxvnQ+PXzVlwsjg=='}
+2025-04-05 12:42:18,566 - auth.ssh_endpoints - INFO - {'timestamp': 1743849695, 'login': 'gcolasuonno', 'signature': 'SuRlQTJ+mJEPjpguQOxnIBFicYGjSdjAg7U94kOj9k3REOzmxPpABqxanZ6nuNt90W743GwIllNYZqwh+DRJjRJMb/7uJ2PvzSgpAWdAbmkkdfytHzsVjCPvOG8x36uAsutOL45G6Ti7OHVosaSHF0nGB7D3KBeHP+YI9RfaXWUsBvd1mzsMuViIpdccioWO2RHAmm0Y0sCMp32o7kOhmfBvxEpRDlYW6GS/gTS6m0jfcA4LTSd8xxpK0HxGYXQ+2dLlqB+B7Ee6h0X/8bmBuyUweh1x9H73nf5i6rykROFOw7BDdM1xbB9vIsbcFEmsVMb1RqnkxvnQ+PXzVlwsjg=='}
+2025-04-05 12:42:18,566 - auth.ssh_endpoints - INFO - Timestamp was: 1743849738
+2025-04-05 12:42:18,567 - auth.ssh_endpoints - WARNING - Login failed from gcolasuonno
+2025-04-05 12:42:18,569 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:42:18] "[31m[1mPOST /ssh_login/ HTTP/1.1[0m" 401 -
+2025-04-05 12:42:41,812 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-05 12:42:41,812 - database.database - INFO - Trying to connect to database home
+2025-04-05 12:42:41,812 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-05 12:42:41,817 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-05 12:42:41,817 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-05 12:42:41,817 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-05 12:42:41,817 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-05 12:42:41,818 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-05 12:42:41,818 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-05 12:42:41,818 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-05 12:42:41,818 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-05 12:42:41,820 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 12:42:41,820 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 12:42:43,124 - auth.ssh_endpoints - INFO - AO
+2025-04-05 12:42:43,125 - auth.ssh_endpoints - DEBUG - {'timestamp': 1743849695, 'login': 'gcolasuonno', 'signature': 'SuRlQTJ+mJEPjpguQOxnIBFicYGjSdjAg7U94kOj9k3REOzmxPpABqxanZ6nuNt90W743GwIllNYZqwh+DRJjRJMb/7uJ2PvzSgpAWdAbmkkdfytHzsVjCPvOG8x36uAsutOL45G6Ti7OHVosaSHF0nGB7D3KBeHP+YI9RfaXWUsBvd1mzsMuViIpdccioWO2RHAmm0Y0sCMp32o7kOhmfBvxEpRDlYW6GS/gTS6m0jfcA4LTSd8xxpK0HxGYXQ+2dLlqB+B7Ee6h0X/8bmBuyUweh1x9H73nf5i6rykROFOw7BDdM1xbB9vIsbcFEmsVMb1RqnkxvnQ+PXzVlwsjg=='}
+2025-04-05 12:42:43,126 - auth.ssh_endpoints - INFO - {'timestamp': 1743849695, 'login': 'gcolasuonno', 'signature': 'SuRlQTJ+mJEPjpguQOxnIBFicYGjSdjAg7U94kOj9k3REOzmxPpABqxanZ6nuNt90W743GwIllNYZqwh+DRJjRJMb/7uJ2PvzSgpAWdAbmkkdfytHzsVjCPvOG8x36uAsutOL45G6Ti7OHVosaSHF0nGB7D3KBeHP+YI9RfaXWUsBvd1mzsMuViIpdccioWO2RHAmm0Y0sCMp32o7kOhmfBvxEpRDlYW6GS/gTS6m0jfcA4LTSd8xxpK0HxGYXQ+2dLlqB+B7Ee6h0X/8bmBuyUweh1x9H73nf5i6rykROFOw7BDdM1xbB9vIsbcFEmsVMb1RqnkxvnQ+PXzVlwsjg=='}
+2025-04-05 12:42:43,128 - auth.ssh_endpoints - INFO - Timestamp was: 1743849763
+2025-04-05 12:42:43,129 - auth.ssh_endpoints - WARNING - Timestamp was too old from gcolasuonno actually 68 seconds
+2025-04-05 12:42:43,130 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:42:43] "[31m[1mPOST /ssh_login/ HTTP/1.1[0m" 401 -
+2025-04-05 12:42:51,227 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-05 12:42:51,227 - database.database - INFO - Trying to connect to database home
+2025-04-05 12:42:51,228 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-05 12:42:51,232 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-05 12:42:51,233 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-05 12:42:51,233 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-05 12:42:51,233 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-05 12:42:51,233 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-05 12:42:51,233 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-05 12:42:51,234 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-05 12:42:51,234 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-05 12:42:51,236 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 12:42:51,237 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 12:42:53,064 - auth.ssh_endpoints - INFO - AO
+2025-04-05 12:42:53,065 - auth.ssh_endpoints - DEBUG - {'timestamp': 1743849695, 'login': 'gcolasuonno', 'signature': 'SuRlQTJ+mJEPjpguQOxnIBFicYGjSdjAg7U94kOj9k3REOzmxPpABqxanZ6nuNt90W743GwIllNYZqwh+DRJjRJMb/7uJ2PvzSgpAWdAbmkkdfytHzsVjCPvOG8x36uAsutOL45G6Ti7OHVosaSHF0nGB7D3KBeHP+YI9RfaXWUsBvd1mzsMuViIpdccioWO2RHAmm0Y0sCMp32o7kOhmfBvxEpRDlYW6GS/gTS6m0jfcA4LTSd8xxpK0HxGYXQ+2dLlqB+B7Ee6h0X/8bmBuyUweh1x9H73nf5i6rykROFOw7BDdM1xbB9vIsbcFEmsVMb1RqnkxvnQ+PXzVlwsjg=='}
+2025-04-05 12:42:53,066 - auth.ssh_endpoints - INFO - {'timestamp': 1743849695, 'login': 'gcolasuonno', 'signature': 'SuRlQTJ+mJEPjpguQOxnIBFicYGjSdjAg7U94kOj9k3REOzmxPpABqxanZ6nuNt90W743GwIllNYZqwh+DRJjRJMb/7uJ2PvzSgpAWdAbmkkdfytHzsVjCPvOG8x36uAsutOL45G6Ti7OHVosaSHF0nGB7D3KBeHP+YI9RfaXWUsBvd1mzsMuViIpdccioWO2RHAmm0Y0sCMp32o7kOhmfBvxEpRDlYW6GS/gTS6m0jfcA4LTSd8xxpK0HxGYXQ+2dLlqB+B7Ee6h0X/8bmBuyUweh1x9H73nf5i6rykROFOw7BDdM1xbB9vIsbcFEmsVMb1RqnkxvnQ+PXzVlwsjg=='}
+2025-04-05 12:42:53,066 - auth.ssh_endpoints - INFO - Timestamp was: 1743849773
+2025-04-05 12:42:53,067 - auth.ssh_endpoints - WARNING - Login failed from gcolasuonno
+2025-04-05 12:42:53,068 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:42:53] "[31m[1mPOST /ssh_login/ HTTP/1.1[0m" 401 -
+2025-04-05 12:43:09,057 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-05 12:43:09,057 - database.database - INFO - Trying to connect to database home
+2025-04-05 12:43:09,057 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-05 12:43:09,062 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-05 12:43:09,063 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-05 12:43:09,063 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-05 12:43:09,063 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-05 12:43:09,063 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-05 12:43:09,063 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-05 12:43:09,064 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-05 12:43:09,064 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-05 12:43:09,067 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 12:43:09,067 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 12:43:11,346 - auth.ssh_endpoints - INFO - AO
+2025-04-05 12:43:11,346 - auth.ssh_endpoints - DEBUG - {'timestamp': 1743849695, 'login': 'gcolasuonno', 'signature': 'SuRlQTJ+mJEPjpguQOxnIBFicYGjSdjAg7U94kOj9k3REOzmxPpABqxanZ6nuNt90W743GwIllNYZqwh+DRJjRJMb/7uJ2PvzSgpAWdAbmkkdfytHzsVjCPvOG8x36uAsutOL45G6Ti7OHVosaSHF0nGB7D3KBeHP+YI9RfaXWUsBvd1mzsMuViIpdccioWO2RHAmm0Y0sCMp32o7kOhmfBvxEpRDlYW6GS/gTS6m0jfcA4LTSd8xxpK0HxGYXQ+2dLlqB+B7Ee6h0X/8bmBuyUweh1x9H73nf5i6rykROFOw7BDdM1xbB9vIsbcFEmsVMb1RqnkxvnQ+PXzVlwsjg=='}
+2025-04-05 12:43:11,348 - auth.ssh_endpoints - INFO - {'timestamp': 1743849695, 'login': 'gcolasuonno', 'signature': 'SuRlQTJ+mJEPjpguQOxnIBFicYGjSdjAg7U94kOj9k3REOzmxPpABqxanZ6nuNt90W743GwIllNYZqwh+DRJjRJMb/7uJ2PvzSgpAWdAbmkkdfytHzsVjCPvOG8x36uAsutOL45G6Ti7OHVosaSHF0nGB7D3KBeHP+YI9RfaXWUsBvd1mzsMuViIpdccioWO2RHAmm0Y0sCMp32o7kOhmfBvxEpRDlYW6GS/gTS6m0jfcA4LTSd8xxpK0HxGYXQ+2dLlqB+B7Ee6h0X/8bmBuyUweh1x9H73nf5i6rykROFOw7BDdM1xbB9vIsbcFEmsVMb1RqnkxvnQ+PXzVlwsjg=='}
+2025-04-05 12:43:11,348 - auth.ssh_endpoints - INFO - Timestamp was: 1743849791
+2025-04-05 12:43:11,351 - auth.ssh_endpoints - WARNING - Login failed from gcolasuonno
+2025-04-05 12:43:11,351 - auth.ssh_endpoints - INFO - 'int' object has no attribute 'encode'
+2025-04-05 12:43:11,352 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:43:11] "[31m[1mPOST /ssh_login/ HTTP/1.1[0m" 401 -
+2025-04-05 12:43:24,272 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-05 12:43:24,272 - database.database - INFO - Trying to connect to database home
+2025-04-05 12:43:24,272 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-05 12:43:24,276 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-05 12:43:24,277 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-05 12:43:24,277 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-05 12:43:24,277 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-05 12:43:24,277 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-05 12:43:24,277 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-05 12:43:24,278 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-05 12:43:24,278 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-05 12:43:24,280 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 12:43:24,280 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 12:43:25,218 - auth.ssh_endpoints - INFO - AO
+2025-04-05 12:43:25,219 - auth.ssh_endpoints - DEBUG - {'timestamp': 1743849695, 'login': 'gcolasuonno', 'signature': 'SuRlQTJ+mJEPjpguQOxnIBFicYGjSdjAg7U94kOj9k3REOzmxPpABqxanZ6nuNt90W743GwIllNYZqwh+DRJjRJMb/7uJ2PvzSgpAWdAbmkkdfytHzsVjCPvOG8x36uAsutOL45G6Ti7OHVosaSHF0nGB7D3KBeHP+YI9RfaXWUsBvd1mzsMuViIpdccioWO2RHAmm0Y0sCMp32o7kOhmfBvxEpRDlYW6GS/gTS6m0jfcA4LTSd8xxpK0HxGYXQ+2dLlqB+B7Ee6h0X/8bmBuyUweh1x9H73nf5i6rykROFOw7BDdM1xbB9vIsbcFEmsVMb1RqnkxvnQ+PXzVlwsjg=='}
+2025-04-05 12:43:25,219 - auth.ssh_endpoints - INFO - {'timestamp': 1743849695, 'login': 'gcolasuonno', 'signature': 'SuRlQTJ+mJEPjpguQOxnIBFicYGjSdjAg7U94kOj9k3REOzmxPpABqxanZ6nuNt90W743GwIllNYZqwh+DRJjRJMb/7uJ2PvzSgpAWdAbmkkdfytHzsVjCPvOG8x36uAsutOL45G6Ti7OHVosaSHF0nGB7D3KBeHP+YI9RfaXWUsBvd1mzsMuViIpdccioWO2RHAmm0Y0sCMp32o7kOhmfBvxEpRDlYW6GS/gTS6m0jfcA4LTSd8xxpK0HxGYXQ+2dLlqB+B7Ee6h0X/8bmBuyUweh1x9H73nf5i6rykROFOw7BDdM1xbB9vIsbcFEmsVMb1RqnkxvnQ+PXzVlwsjg=='}
+2025-04-05 12:43:25,219 - auth.ssh_endpoints - INFO - Timestamp was: 1743849805
+2025-04-05 12:43:25,220 - auth.ssh_endpoints - WARNING - Login failed from gcolasuonno
+2025-04-05 12:43:25,220 - auth.ssh_endpoints - INFO - 
+2025-04-05 12:43:25,220 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:43:25] "[31m[1mPOST /ssh_login/ HTTP/1.1[0m" 401 -
+2025-04-05 12:43:36,499 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-05 12:43:36,499 - database.database - INFO - Trying to connect to database home
+2025-04-05 12:43:36,499 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-05 12:43:36,504 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-05 12:43:36,504 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-05 12:43:36,504 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-05 12:43:36,504 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-05 12:43:36,505 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-05 12:43:36,505 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-05 12:43:36,505 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-05 12:43:36,505 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-05 12:43:36,508 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 12:43:36,508 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 12:43:38,156 - auth.ssh_endpoints - INFO - AO
+2025-04-05 12:43:38,157 - auth.ssh_endpoints - DEBUG - {'timestamp': 1743849695, 'login': 'gcolasuonno', 'signature': 'SuRlQTJ+mJEPjpguQOxnIBFicYGjSdjAg7U94kOj9k3REOzmxPpABqxanZ6nuNt90W743GwIllNYZqwh+DRJjRJMb/7uJ2PvzSgpAWdAbmkkdfytHzsVjCPvOG8x36uAsutOL45G6Ti7OHVosaSHF0nGB7D3KBeHP+YI9RfaXWUsBvd1mzsMuViIpdccioWO2RHAmm0Y0sCMp32o7kOhmfBvxEpRDlYW6GS/gTS6m0jfcA4LTSd8xxpK0HxGYXQ+2dLlqB+B7Ee6h0X/8bmBuyUweh1x9H73nf5i6rykROFOw7BDdM1xbB9vIsbcFEmsVMb1RqnkxvnQ+PXzVlwsjg=='}
+2025-04-05 12:43:38,158 - auth.ssh_endpoints - INFO - {'timestamp': 1743849695, 'login': 'gcolasuonno', 'signature': 'SuRlQTJ+mJEPjpguQOxnIBFicYGjSdjAg7U94kOj9k3REOzmxPpABqxanZ6nuNt90W743GwIllNYZqwh+DRJjRJMb/7uJ2PvzSgpAWdAbmkkdfytHzsVjCPvOG8x36uAsutOL45G6Ti7OHVosaSHF0nGB7D3KBeHP+YI9RfaXWUsBvd1mzsMuViIpdccioWO2RHAmm0Y0sCMp32o7kOhmfBvxEpRDlYW6GS/gTS6m0jfcA4LTSd8xxpK0HxGYXQ+2dLlqB+B7Ee6h0X/8bmBuyUweh1x9H73nf5i6rykROFOw7BDdM1xbB9vIsbcFEmsVMb1RqnkxvnQ+PXzVlwsjg=='}
+2025-04-05 12:43:38,159 - auth.ssh_endpoints - INFO - Timestamp was: 1743849818
+2025-04-05 12:43:38,163 - auth.ssh_endpoints - WARNING - Login failed from gcolasuonno
+2025-04-05 12:43:38,164 - auth.ssh_endpoints - ERROR - 
+2025-04-05 12:43:38,165 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:43:38] "[31m[1mPOST /ssh_login/ HTTP/1.1[0m" 401 -
+2025-04-05 12:44:35,030 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-05 12:44:35,031 - database.database - INFO - Trying to connect to database home
+2025-04-05 12:44:35,031 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-05 12:44:35,035 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-05 12:44:35,036 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-05 12:44:35,036 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-05 12:44:35,036 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-05 12:44:35,036 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-05 12:44:35,036 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-05 12:44:35,036 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-05 12:44:35,036 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-05 12:44:35,039 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 12:44:35,039 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 12:45:25,323 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-05 12:45:25,323 - database.database - INFO - Trying to connect to database home
+2025-04-05 12:45:25,323 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-05 12:45:25,328 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-05 12:45:25,328 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-05 12:45:25,328 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-05 12:45:25,329 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-05 12:45:25,329 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-05 12:45:25,329 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-05 12:45:25,329 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-05 12:45:25,329 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-05 12:45:25,332 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 12:45:25,332 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 12:45:33,853 - auth.ssh_endpoints - INFO - AO
+2025-04-05 12:45:33,854 - auth.ssh_endpoints - DEBUG - {'timestamp': 1743849695, 'login': 'gcolasuonno', 'signature': 'SuRlQTJ+mJEPjpguQOxnIBFicYGjSdjAg7U94kOj9k3REOzmxPpABqxanZ6nuNt90W743GwIllNYZqwh+DRJjRJMb/7uJ2PvzSgpAWdAbmkkdfytHzsVjCPvOG8x36uAsutOL45G6Ti7OHVosaSHF0nGB7D3KBeHP+YI9RfaXWUsBvd1mzsMuViIpdccioWO2RHAmm0Y0sCMp32o7kOhmfBvxEpRDlYW6GS/gTS6m0jfcA4LTSd8xxpK0HxGYXQ+2dLlqB+B7Ee6h0X/8bmBuyUweh1x9H73nf5i6rykROFOw7BDdM1xbB9vIsbcFEmsVMb1RqnkxvnQ+PXzVlwsjg=='}
+2025-04-05 12:45:33,856 - auth.ssh_endpoints - INFO - {'timestamp': 1743849695, 'login': 'gcolasuonno', 'signature': 'SuRlQTJ+mJEPjpguQOxnIBFicYGjSdjAg7U94kOj9k3REOzmxPpABqxanZ6nuNt90W743GwIllNYZqwh+DRJjRJMb/7uJ2PvzSgpAWdAbmkkdfytHzsVjCPvOG8x36uAsutOL45G6Ti7OHVosaSHF0nGB7D3KBeHP+YI9RfaXWUsBvd1mzsMuViIpdccioWO2RHAmm0Y0sCMp32o7kOhmfBvxEpRDlYW6GS/gTS6m0jfcA4LTSd8xxpK0HxGYXQ+2dLlqB+B7Ee6h0X/8bmBuyUweh1x9H73nf5i6rykROFOw7BDdM1xbB9vIsbcFEmsVMb1RqnkxvnQ+PXzVlwsjg=='}
+2025-04-05 12:45:33,856 - auth.ssh_endpoints - INFO - Timestamp was: 1743849933
+2025-04-05 12:45:33,861 - auth.ssh_endpoints - WARNING - Login failed from gcolasuonno
+2025-04-05 12:45:33,862 - auth.ssh_endpoints - ERROR - 
+2025-04-05 12:45:33,863 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:45:33] "[31m[1mPOST /ssh_login/ HTTP/1.1[0m" 401 -
+2025-04-05 12:46:54,219 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-05 12:46:54,219 - database.database - INFO - Trying to connect to database home
+2025-04-05 12:46:54,219 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-05 12:46:54,224 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-05 12:46:54,224 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-05 12:46:54,224 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-05 12:46:54,224 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-05 12:46:54,225 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-05 12:46:54,225 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-05 12:46:54,225 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-05 12:46:54,225 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-05 12:46:54,228 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 12:46:54,228 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 12:46:57,292 - auth.ssh_endpoints - INFO - AO
+2025-04-05 12:46:57,295 - auth.ssh_endpoints - DEBUG - {'timestamp': 1743849695, 'login': 'gcolasuonno', 'signature': 'SuRlQTJ+mJEPjpguQOxnIBFicYGjSdjAg7U94kOj9k3REOzmxPpABqxanZ6nuNt90W743GwIllNYZqwh+DRJjRJMb/7uJ2PvzSgpAWdAbmkkdfytHzsVjCPvOG8x36uAsutOL45G6Ti7OHVosaSHF0nGB7D3KBeHP+YI9RfaXWUsBvd1mzsMuViIpdccioWO2RHAmm0Y0sCMp32o7kOhmfBvxEpRDlYW6GS/gTS6m0jfcA4LTSd8xxpK0HxGYXQ+2dLlqB+B7Ee6h0X/8bmBuyUweh1x9H73nf5i6rykROFOw7BDdM1xbB9vIsbcFEmsVMb1RqnkxvnQ+PXzVlwsjg=='}
+2025-04-05 12:46:57,297 - auth.ssh_endpoints - INFO - {'timestamp': 1743849695, 'login': 'gcolasuonno', 'signature': 'SuRlQTJ+mJEPjpguQOxnIBFicYGjSdjAg7U94kOj9k3REOzmxPpABqxanZ6nuNt90W743GwIllNYZqwh+DRJjRJMb/7uJ2PvzSgpAWdAbmkkdfytHzsVjCPvOG8x36uAsutOL45G6Ti7OHVosaSHF0nGB7D3KBeHP+YI9RfaXWUsBvd1mzsMuViIpdccioWO2RHAmm0Y0sCMp32o7kOhmfBvxEpRDlYW6GS/gTS6m0jfcA4LTSd8xxpK0HxGYXQ+2dLlqB+B7Ee6h0X/8bmBuyUweh1x9H73nf5i6rykROFOw7BDdM1xbB9vIsbcFEmsVMb1RqnkxvnQ+PXzVlwsjg=='}
+2025-04-05 12:46:57,297 - auth.ssh_endpoints - INFO - Timestamp was: 1743850017
+2025-04-05 12:46:57,297 - auth.ssh_endpoints - DEBUG - PUB KEY -----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1qZlYYo+bjPDs3LFpTSg
+uK4tLXbV8q/msrTGn1n208JDwFmhBb+OWLVrDCHqMCX2kPRwWNTcp+ykSHmNTX63
+35UbzBRhYIRNFok04FNACa9u+8dXX1PpDQ9P8b6AzDfbBlNaXTtSw5DIabhp9jGK
+mcw4iKqxylVmHjBjFr4RXna3wfxGuk+kigVxGUaaDAHtJK83ZPa8TyXWIelanhKT
+3SxYkHIqfcTHfL0p5aUpeVqibtnwjlY1aUVOyzetzbOqsizPJ6OxGz9wsLHymvA0
+vbWb4Xn3/0QICeBgT72z07oWvVeMMekKUbGTAqls/5neuF/Q6IBexZwHeROenXMn
+9wIDAQAB
+-----END PUBLIC KEY-----
+2025-04-05 12:46:57,309 - auth.ssh_endpoints - WARNING - Login failed from gcolasuonno
+2025-04-05 12:46:57,309 - auth.ssh_endpoints - ERROR - 
+2025-04-05 12:46:57,311 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:46:57] "[31m[1mPOST /ssh_login/ HTTP/1.1[0m" 401 -
+2025-04-05 12:50:59,554 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-05 12:50:59,554 - database.database - INFO - Trying to connect to database home
+2025-04-05 12:50:59,554 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-05 12:50:59,559 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-05 12:50:59,560 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-05 12:50:59,560 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-05 12:50:59,560 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-05 12:50:59,560 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-05 12:50:59,560 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-05 12:50:59,561 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-05 12:50:59,561 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-05 12:50:59,563 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 12:50:59,563 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 12:51:02,247 - auth.ssh_endpoints - INFO - AO
+2025-04-05 12:51:02,248 - auth.ssh_endpoints - DEBUG - {'timestamp': 1743849695, 'login': 'gcolasuonno', 'signature': 'SuRlQTJ+mJEPjpguQOxnIBFicYGjSdjAg7U94kOj9k3REOzmxPpABqxanZ6nuNt90W743GwIllNYZqwh+DRJjRJMb/7uJ2PvzSgpAWdAbmkkdfytHzsVjCPvOG8x36uAsutOL45G6Ti7OHVosaSHF0nGB7D3KBeHP+YI9RfaXWUsBvd1mzsMuViIpdccioWO2RHAmm0Y0sCMp32o7kOhmfBvxEpRDlYW6GS/gTS6m0jfcA4LTSd8xxpK0HxGYXQ+2dLlqB+B7Ee6h0X/8bmBuyUweh1x9H73nf5i6rykROFOw7BDdM1xbB9vIsbcFEmsVMb1RqnkxvnQ+PXzVlwsjg=='}
+2025-04-05 12:51:02,250 - auth.ssh_endpoints - INFO - {'timestamp': 1743849695, 'login': 'gcolasuonno', 'signature': 'SuRlQTJ+mJEPjpguQOxnIBFicYGjSdjAg7U94kOj9k3REOzmxPpABqxanZ6nuNt90W743GwIllNYZqwh+DRJjRJMb/7uJ2PvzSgpAWdAbmkkdfytHzsVjCPvOG8x36uAsutOL45G6Ti7OHVosaSHF0nGB7D3KBeHP+YI9RfaXWUsBvd1mzsMuViIpdccioWO2RHAmm0Y0sCMp32o7kOhmfBvxEpRDlYW6GS/gTS6m0jfcA4LTSd8xxpK0HxGYXQ+2dLlqB+B7Ee6h0X/8bmBuyUweh1x9H73nf5i6rykROFOw7BDdM1xbB9vIsbcFEmsVMb1RqnkxvnQ+PXzVlwsjg=='}
+2025-04-05 12:51:02,250 - auth.ssh_endpoints - INFO - Timestamp was: 1743850262
+2025-04-05 12:51:02,251 - auth.ssh_endpoints - WARNING - Timestamp was too old from gcolasuonno actually 567 seconds
+2025-04-05 12:51:02,252 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:51:02] "[31m[1mPOST /ssh_login/ HTTP/1.1[0m" 401 -
+2025-04-05 12:51:09,638 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-05 12:51:09,638 - database.database - INFO - Trying to connect to database home
+2025-04-05 12:51:09,638 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-05 12:51:09,644 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-05 12:51:09,644 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-05 12:51:09,644 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-05 12:51:09,644 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-05 12:51:09,644 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-05 12:51:09,644 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-05 12:51:09,646 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-05 12:51:09,646 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-05 12:51:09,649 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 12:51:09,649 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 12:51:10,765 - auth.ssh_endpoints - INFO - AO
+2025-04-05 12:51:10,766 - auth.ssh_endpoints - DEBUG - {'timestamp': 1743849695, 'login': 'gcolasuonno', 'signature': 'SuRlQTJ+mJEPjpguQOxnIBFicYGjSdjAg7U94kOj9k3REOzmxPpABqxanZ6nuNt90W743GwIllNYZqwh+DRJjRJMb/7uJ2PvzSgpAWdAbmkkdfytHzsVjCPvOG8x36uAsutOL45G6Ti7OHVosaSHF0nGB7D3KBeHP+YI9RfaXWUsBvd1mzsMuViIpdccioWO2RHAmm0Y0sCMp32o7kOhmfBvxEpRDlYW6GS/gTS6m0jfcA4LTSd8xxpK0HxGYXQ+2dLlqB+B7Ee6h0X/8bmBuyUweh1x9H73nf5i6rykROFOw7BDdM1xbB9vIsbcFEmsVMb1RqnkxvnQ+PXzVlwsjg=='}
+2025-04-05 12:51:10,766 - auth.ssh_endpoints - INFO - {'timestamp': 1743849695, 'login': 'gcolasuonno', 'signature': 'SuRlQTJ+mJEPjpguQOxnIBFicYGjSdjAg7U94kOj9k3REOzmxPpABqxanZ6nuNt90W743GwIllNYZqwh+DRJjRJMb/7uJ2PvzSgpAWdAbmkkdfytHzsVjCPvOG8x36uAsutOL45G6Ti7OHVosaSHF0nGB7D3KBeHP+YI9RfaXWUsBvd1mzsMuViIpdccioWO2RHAmm0Y0sCMp32o7kOhmfBvxEpRDlYW6GS/gTS6m0jfcA4LTSd8xxpK0HxGYXQ+2dLlqB+B7Ee6h0X/8bmBuyUweh1x9H73nf5i6rykROFOw7BDdM1xbB9vIsbcFEmsVMb1RqnkxvnQ+PXzVlwsjg=='}
+2025-04-05 12:51:10,766 - auth.ssh_endpoints - INFO - Timestamp was: 1743850270
+2025-04-05 12:51:10,767 - auth.ssh_endpoints - DEBUG - PUB KEY -----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1qZlYYo+bjPDs3LFpTSg
+uK4tLXbV8q/msrTGn1n208JDwFmhBb+OWLVrDCHqMCX2kPRwWNTcp+ykSHmNTX63
+35UbzBRhYIRNFok04FNACa9u+8dXX1PpDQ9P8b6AzDfbBlNaXTtSw5DIabhp9jGK
+mcw4iKqxylVmHjBjFr4RXna3wfxGuk+kigVxGUaaDAHtJK83ZPa8TyXWIelanhKT
+3SxYkHIqfcTHfL0p5aUpeVqibtnwjlY1aUVOyzetzbOqsizPJ6OxGz9wsLHymvA0
+vbWb4Xn3/0QICeBgT72z07oWvVeMMekKUbGTAqls/5neuF/Q6IBexZwHeROenXMn
+9wIDAQAB
+-----END PUBLIC KEY-----
+2025-04-05 12:51:10,767 - auth.ssh_endpoints - WARNING - Login failed from gcolasuonno
+2025-04-05 12:51:10,767 - auth.ssh_endpoints - ERROR - 'utf-8' codec can't decode byte 0xe4 in position 1: invalid continuation byte
+2025-04-05 12:51:10,768 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:51:10] "[31m[1mPOST /ssh_login/ HTTP/1.1[0m" 401 -
+2025-04-05 12:51:43,623 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-05 12:51:43,623 - database.database - INFO - Trying to connect to database home
+2025-04-05 12:51:43,623 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-05 12:51:43,628 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-05 12:51:43,629 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-05 12:51:43,629 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-05 12:51:43,629 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-05 12:51:43,629 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-05 12:51:43,629 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-05 12:51:43,629 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-05 12:51:43,629 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-05 12:51:43,632 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 12:51:43,632 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 12:51:44,814 - auth.ssh_endpoints - INFO - AO
+2025-04-05 12:51:44,814 - auth.ssh_endpoints - DEBUG - {'timestamp': 1743849695, 'login': 'gcolasuonno', 'signature': 'SuRlQTJ+mJEPjpguQOxnIBFicYGjSdjAg7U94kOj9k3REOzmxPpABqxanZ6nuNt90W743GwIllNYZqwh+DRJjRJMb/7uJ2PvzSgpAWdAbmkkdfytHzsVjCPvOG8x36uAsutOL45G6Ti7OHVosaSHF0nGB7D3KBeHP+YI9RfaXWUsBvd1mzsMuViIpdccioWO2RHAmm0Y0sCMp32o7kOhmfBvxEpRDlYW6GS/gTS6m0jfcA4LTSd8xxpK0HxGYXQ+2dLlqB+B7Ee6h0X/8bmBuyUweh1x9H73nf5i6rykROFOw7BDdM1xbB9vIsbcFEmsVMb1RqnkxvnQ+PXzVlwsjg=='}
+2025-04-05 12:51:44,815 - auth.ssh_endpoints - INFO - {'timestamp': 1743849695, 'login': 'gcolasuonno', 'signature': 'SuRlQTJ+mJEPjpguQOxnIBFicYGjSdjAg7U94kOj9k3REOzmxPpABqxanZ6nuNt90W743GwIllNYZqwh+DRJjRJMb/7uJ2PvzSgpAWdAbmkkdfytHzsVjCPvOG8x36uAsutOL45G6Ti7OHVosaSHF0nGB7D3KBeHP+YI9RfaXWUsBvd1mzsMuViIpdccioWO2RHAmm0Y0sCMp32o7kOhmfBvxEpRDlYW6GS/gTS6m0jfcA4LTSd8xxpK0HxGYXQ+2dLlqB+B7Ee6h0X/8bmBuyUweh1x9H73nf5i6rykROFOw7BDdM1xbB9vIsbcFEmsVMb1RqnkxvnQ+PXzVlwsjg=='}
+2025-04-05 12:51:44,815 - auth.ssh_endpoints - INFO - Timestamp was: 1743850304
+2025-04-05 12:51:44,816 - auth.ssh_endpoints - DEBUG - PUB KEY -----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1qZlYYo+bjPDs3LFpTSg
+uK4tLXbV8q/msrTGn1n208JDwFmhBb+OWLVrDCHqMCX2kPRwWNTcp+ykSHmNTX63
+35UbzBRhYIRNFok04FNACa9u+8dXX1PpDQ9P8b6AzDfbBlNaXTtSw5DIabhp9jGK
+mcw4iKqxylVmHjBjFr4RXna3wfxGuk+kigVxGUaaDAHtJK83ZPa8TyXWIelanhKT
+3SxYkHIqfcTHfL0p5aUpeVqibtnwjlY1aUVOyzetzbOqsizPJ6OxGz9wsLHymvA0
+vbWb4Xn3/0QICeBgT72z07oWvVeMMekKUbGTAqls/5neuF/Q6IBexZwHeROenXMn
+9wIDAQAB
+-----END PUBLIC KEY-----
+2025-04-05 12:51:44,816 - auth.ssh_endpoints - DEBUG - b'J\xe4eA2~\x98\x91\x0f\x8e\x98.@\xecg \x11bq\x81\xa3I\xd8\xc0\x83\xb5=\xe2C\xa3\xf6M\xd1\x10\xec\xe6\xc4\xfa@\x06\xacZ\x9d\x9e\xa7\xb8\xdb}\xd1n\xf8\xdcl\x08\x96SXf\xac!\xf84I\x8d\x12Lo\xfe\xee\'c\xef\xcd()\x01g@ni$u\xfc\xad\x1f;\x15\x8c#\xef8o1\xdf\xab\x80\xb2\xebN/\x8eF\xe98\xbb8uh\xb1\xa4\x87\x17I\xc6\x07\xb0\xf7(\x17\x87?\xe6\x08\xf5\x17\xda]e,\x06\xf7u\x9b;\x0c\xb9X\x88\xa5\xd7\x1c\x8a\x85\x8e\xd9\x11\xc0\x9am\x18\xd2\xc0\x8c\xa7}\xa8\xeeC\xa1\x99\xf0o\xc4JQ\x0eV\x16\xe8d\xbf\x814\xba\x9bH\xdfp\x0e\x0bM\'|\xc7\x1aJ\xd0|Fat>\xd9\xd2\xe5\xa8\x1f\x81\xecG\xba\x87E\xff\xf1\xb9\x81\xbb%0z\x1dq\xf4~\xf7\x9d\xfeb\xea\xbc\xa4D\xe1N\xc3\xb0Ct\xcdql\x1fo"\xc6\xdc\x14I\xacT\xc6\xf5F\xa9\xe4\xc6\xf9\xd0\xf8\xf5\xf3V\\,\x8e'
+2025-04-05 12:51:44,818 - auth.ssh_endpoints - WARNING - Login failed from gcolasuonno
+2025-04-05 12:51:44,818 - auth.ssh_endpoints - ERROR - 
+2025-04-05 12:51:44,819 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:51:44] "[31m[1mPOST /ssh_login/ HTTP/1.1[0m" 401 -
+2025-04-05 12:54:55,221 - auth.ssh_endpoints - INFO - AO
+2025-04-05 12:54:55,222 - auth.ssh_endpoints - DEBUG - {'timestamp': 1743849695, 'login': 'gcolasuonno', 'signature': 'VtNPrJwm2/97BU7viDA73PDXQwH6GJ8/p8y6xmwZpuKnFn7p0CIRtvnoe6fLiKnawseL47oUoodvuIXxxRN3W55zi0OgSOUjFkGkKgvdP22A9Q3xwAyEnb5MAgFBw/EV5ORzFWHIhhd2YutWLxhvO3QuHuTYjPIT0rrlJNikrhW4XARM2kCPXB+MVJFWBBjaaADhR+qEBq3HXumBAO72D6sgZuYGGDVWdctOMbX7ibGNWJI+gjyuB6qrin6Q+nP+H7wp2T1YRG5yoq5gslUn4o7u4TnjBjsG6d8w/fDTR70kVwxm8pvyP1SwBjUxuOfcCnDo1uPo+X1DJdNUXeNSsQ=='}
+2025-04-05 12:54:55,223 - auth.ssh_endpoints - INFO - {'timestamp': 1743849695, 'login': 'gcolasuonno', 'signature': 'VtNPrJwm2/97BU7viDA73PDXQwH6GJ8/p8y6xmwZpuKnFn7p0CIRtvnoe6fLiKnawseL47oUoodvuIXxxRN3W55zi0OgSOUjFkGkKgvdP22A9Q3xwAyEnb5MAgFBw/EV5ORzFWHIhhd2YutWLxhvO3QuHuTYjPIT0rrlJNikrhW4XARM2kCPXB+MVJFWBBjaaADhR+qEBq3HXumBAO72D6sgZuYGGDVWdctOMbX7ibGNWJI+gjyuB6qrin6Q+nP+H7wp2T1YRG5yoq5gslUn4o7u4TnjBjsG6d8w/fDTR70kVwxm8pvyP1SwBjUxuOfcCnDo1uPo+X1DJdNUXeNSsQ=='}
+2025-04-05 12:54:55,223 - auth.ssh_endpoints - INFO - Timestamp was: 1743850495
+2025-04-05 12:54:55,223 - auth.ssh_endpoints - DEBUG - PUB KEY -----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1qZlYYo+bjPDs3LFpTSg
+uK4tLXbV8q/msrTGn1n208JDwFmhBb+OWLVrDCHqMCX2kPRwWNTcp+ykSHmNTX63
+35UbzBRhYIRNFok04FNACa9u+8dXX1PpDQ9P8b6AzDfbBlNaXTtSw5DIabhp9jGK
+mcw4iKqxylVmHjBjFr4RXna3wfxGuk+kigVxGUaaDAHtJK83ZPa8TyXWIelanhKT
+3SxYkHIqfcTHfL0p5aUpeVqibtnwjlY1aUVOyzetzbOqsizPJ6OxGz9wsLHymvA0
+vbWb4Xn3/0QICeBgT72z07oWvVeMMekKUbGTAqls/5neuF/Q6IBexZwHeROenXMn
+9wIDAQAB
+-----END PUBLIC KEY-----
+2025-04-05 12:54:55,223 - auth.ssh_endpoints - DEBUG - b'V\xd3O\xac\x9c&\xdb\xff{\x05N\xef\x880;\xdc\xf0\xd7C\x01\xfa\x18\x9f?\xa7\xcc\xba\xc6l\x19\xa6\xe2\xa7\x16~\xe9\xd0"\x11\xb6\xf9\xe8{\xa7\xcb\x88\xa9\xda\xc2\xc7\x8b\xe3\xba\x14\xa2\x87o\xb8\x85\xf1\xc5\x13w[\x9es\x8bC\xa0H\xe5#\x16A\xa4*\x0b\xdd?m\x80\xf5\r\xf1\xc0\x0c\x84\x9d\xbeL\x02\x01A\xc3\xf1\x15\xe4\xe4s\x15a\xc8\x86\x17vb\xebV/\x18o;t.\x1e\xe4\xd8\x8c\xf2\x13\xd2\xba\xe5$\xd8\xa4\xae\x15\xb8\\\x04L\xda@\x8f\\\x1f\x8cT\x91V\x04\x18\xdah\x00\xe1G\xea\x84\x06\xad\xc7^\xe9\x81\x00\xee\xf6\x0f\xab f\xe6\x06\x185Vu\xcbN1\xb5\xfb\x89\xb1\x8dX\x92>\x82<\xae\x07\xaa\xab\x8a~\x90\xfas\xfe\x1f\xbc)\xd9=XDnr\xa2\xae`\xb2U\'\xe2\x8e\xee\xe19\xe3\x06;\x06\xe9\xdf0\xfd\xf0\xd3G\xbd$W\x0cf\xf2\x9b\xf2?T\xb0\x0651\xb8\xe7\xdc\np\xe8\xd6\xe3\xe8\xf9}C%\xd3T]\xe3R\xb1'
+2025-04-05 12:54:55,224 - auth.ssh_endpoints - WARNING - Login failed from gcolasuonno
+2025-04-05 12:54:55,224 - auth.ssh_endpoints - ERROR - 
+2025-04-05 12:54:55,225 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:54:55] "[31m[1mPOST /ssh_login/ HTTP/1.1[0m" 401 -
+2025-04-05 12:56:43,630 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-05 12:56:43,630 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-05 13:02:17,024 - auth.ssh_endpoints - INFO - AO
+2025-04-05 13:02:17,025 - auth.ssh_endpoints - DEBUG - {'timestamp': 1743849695, 'login': 'gcolasuonno', 'signature': 'qUvfbC6fh9PQ0xNYEJev6toCf+NKuYP3Epixr+qCklu3InxczlDpdsP2pNYtEeO8qJg+lX92P5lg1ZYLIo1aICbLxGoxd8jM9OICuQhYw+R8/cawj2g5pMt48B+0JYHNUSSkDu2CeEgDiadrP2ntgm2YWgYSBVS//fy9lyYtRXrnfIX8Tyn+VCNHIfqMaFlEKMqWkI2PvhXV7LswW2GPIuYml6SlJslP+Cg5MCUHN8SKdblBT49SCKfxISQ7msz7/J2cmRFc7SjM7+lzu//fsLIbILYVNCaVIuRt8vzvuqmPfMANdB0YNXKlXVSYNSAgFkj5/qLl/+Ok4QRCoYr655E/1x3djVssCeq5PrBamtrv3YE11Jqqq6shSFS9sJV2B2Cv7EMwTOk+FnDgpeWSrT8AGX3MzBi7/kB09MjhosvOOM/htrhGScHMCTWFIU12Y5/zygw2o8cDlsiEy9Qqzy+zj4RgjycLRy1POimFG2eB9vYZuO07znGPaBi150vFRSmCaG5oZVRg8bwtOJqiNjcLGODq6WJ/mSn1dK2GZM/W7cXBc9Z3S5r6NUR4GfwphIcmAzfv841QQRG1UPofL+EHmUj8Zoub+Bqa0vqbJnA3C6daHgo4zXN4G9DrqEkaWTYLAzCP6bpAfbgRCLxqskVo0i9gsEQykGuVDpU9bBk='}
+2025-04-05 13:02:17,025 - auth.ssh_endpoints - INFO - {'timestamp': 1743849695, 'login': 'gcolasuonno', 'signature': 'qUvfbC6fh9PQ0xNYEJev6toCf+NKuYP3Epixr+qCklu3InxczlDpdsP2pNYtEeO8qJg+lX92P5lg1ZYLIo1aICbLxGoxd8jM9OICuQhYw+R8/cawj2g5pMt48B+0JYHNUSSkDu2CeEgDiadrP2ntgm2YWgYSBVS//fy9lyYtRXrnfIX8Tyn+VCNHIfqMaFlEKMqWkI2PvhXV7LswW2GPIuYml6SlJslP+Cg5MCUHN8SKdblBT49SCKfxISQ7msz7/J2cmRFc7SjM7+lzu//fsLIbILYVNCaVIuRt8vzvuqmPfMANdB0YNXKlXVSYNSAgFkj5/qLl/+Ok4QRCoYr655E/1x3djVssCeq5PrBamtrv3YE11Jqqq6shSFS9sJV2B2Cv7EMwTOk+FnDgpeWSrT8AGX3MzBi7/kB09MjhosvOOM/htrhGScHMCTWFIU12Y5/zygw2o8cDlsiEy9Qqzy+zj4RgjycLRy1POimFG2eB9vYZuO07znGPaBi150vFRSmCaG5oZVRg8bwtOJqiNjcLGODq6WJ/mSn1dK2GZM/W7cXBc9Z3S5r6NUR4GfwphIcmAzfv841QQRG1UPofL+EHmUj8Zoub+Bqa0vqbJnA3C6daHgo4zXN4G9DrqEkaWTYLAzCP6bpAfbgRCLxqskVo0i9gsEQykGuVDpU9bBk='}
+2025-04-05 13:02:17,025 - auth.ssh_endpoints - INFO - Timestamp was: 1743850937
+2025-04-05 13:02:17,025 - auth.ssh_endpoints - WARNING - Timestamp was too old from gcolasuonno actually 1242 seconds
+2025-04-05 13:02:17,026 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 13:02:17] "[31m[1mPOST /ssh_login/ HTTP/1.1[0m" 401 -
+2025-04-05 13:02:23,833 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-05 13:02:23,833 - database.database - INFO - Trying to connect to database home
+2025-04-05 13:02:23,833 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-05 13:02:23,840 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-05 13:02:23,840 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-05 13:02:23,840 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-05 13:02:23,840 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-05 13:02:23,841 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-05 13:02:23,841 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-05 13:02:23,841 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-05 13:02:23,841 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-05 13:02:23,845 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 13:02:23,845 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 13:02:25,104 - auth.ssh_endpoints - INFO - AO
+2025-04-05 13:02:25,106 - auth.ssh_endpoints - DEBUG - {'timestamp': 1743849695, 'login': 'gcolasuonno', 'signature': 'qUvfbC6fh9PQ0xNYEJev6toCf+NKuYP3Epixr+qCklu3InxczlDpdsP2pNYtEeO8qJg+lX92P5lg1ZYLIo1aICbLxGoxd8jM9OICuQhYw+R8/cawj2g5pMt48B+0JYHNUSSkDu2CeEgDiadrP2ntgm2YWgYSBVS//fy9lyYtRXrnfIX8Tyn+VCNHIfqMaFlEKMqWkI2PvhXV7LswW2GPIuYml6SlJslP+Cg5MCUHN8SKdblBT49SCKfxISQ7msz7/J2cmRFc7SjM7+lzu//fsLIbILYVNCaVIuRt8vzvuqmPfMANdB0YNXKlXVSYNSAgFkj5/qLl/+Ok4QRCoYr655E/1x3djVssCeq5PrBamtrv3YE11Jqqq6shSFS9sJV2B2Cv7EMwTOk+FnDgpeWSrT8AGX3MzBi7/kB09MjhosvOOM/htrhGScHMCTWFIU12Y5/zygw2o8cDlsiEy9Qqzy+zj4RgjycLRy1POimFG2eB9vYZuO07znGPaBi150vFRSmCaG5oZVRg8bwtOJqiNjcLGODq6WJ/mSn1dK2GZM/W7cXBc9Z3S5r6NUR4GfwphIcmAzfv841QQRG1UPofL+EHmUj8Zoub+Bqa0vqbJnA3C6daHgo4zXN4G9DrqEkaWTYLAzCP6bpAfbgRCLxqskVo0i9gsEQykGuVDpU9bBk='}
+2025-04-05 13:02:25,107 - auth.ssh_endpoints - INFO - {'timestamp': 1743849695, 'login': 'gcolasuonno', 'signature': 'qUvfbC6fh9PQ0xNYEJev6toCf+NKuYP3Epixr+qCklu3InxczlDpdsP2pNYtEeO8qJg+lX92P5lg1ZYLIo1aICbLxGoxd8jM9OICuQhYw+R8/cawj2g5pMt48B+0JYHNUSSkDu2CeEgDiadrP2ntgm2YWgYSBVS//fy9lyYtRXrnfIX8Tyn+VCNHIfqMaFlEKMqWkI2PvhXV7LswW2GPIuYml6SlJslP+Cg5MCUHN8SKdblBT49SCKfxISQ7msz7/J2cmRFc7SjM7+lzu//fsLIbILYVNCaVIuRt8vzvuqmPfMANdB0YNXKlXVSYNSAgFkj5/qLl/+Ok4QRCoYr655E/1x3djVssCeq5PrBamtrv3YE11Jqqq6shSFS9sJV2B2Cv7EMwTOk+FnDgpeWSrT8AGX3MzBi7/kB09MjhosvOOM/htrhGScHMCTWFIU12Y5/zygw2o8cDlsiEy9Qqzy+zj4RgjycLRy1POimFG2eB9vYZuO07znGPaBi150vFRSmCaG5oZVRg8bwtOJqiNjcLGODq6WJ/mSn1dK2GZM/W7cXBc9Z3S5r6NUR4GfwphIcmAzfv841QQRG1UPofL+EHmUj8Zoub+Bqa0vqbJnA3C6daHgo4zXN4G9DrqEkaWTYLAzCP6bpAfbgRCLxqskVo0i9gsEQykGuVDpU9bBk='}
+2025-04-05 13:02:25,108 - auth.ssh_endpoints - INFO - Timestamp was: 1743850945
+2025-04-05 13:02:25,108 - auth.ssh_endpoints - DEBUG - PUB KEY -----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1qZlYYo+bjPDs3LFpTSg
+uK4tLXbV8q/msrTGn1n208JDwFmhBb+OWLVrDCHqMCX2kPRwWNTcp+ykSHmNTX63
+35UbzBRhYIRNFok04FNACa9u+8dXX1PpDQ9P8b6AzDfbBlNaXTtSw5DIabhp9jGK
+mcw4iKqxylVmHjBjFr4RXna3wfxGuk+kigVxGUaaDAHtJK83ZPa8TyXWIelanhKT
+3SxYkHIqfcTHfL0p5aUpeVqibtnwjlY1aUVOyzetzbOqsizPJ6OxGz9wsLHymvA0
+vbWb4Xn3/0QICeBgT72z07oWvVeMMekKUbGTAqls/5neuF/Q6IBexZwHeROenXMn
+9wIDAQAB
+-----END PUBLIC KEY-----
+2025-04-05 13:02:25,109 - auth.ssh_endpoints - DEBUG - b'\xa9K\xdfl.\x9f\x87\xd3\xd0\xd3\x13X\x10\x97\xaf\xea\xda\x02\x7f\xe3J\xb9\x83\xf7\x12\x98\xb1\xaf\xea\x82\x92[\xb7"|\\\xceP\xe9v\xc3\xf6\xa4\xd6-\x11\xe3\xbc\xa8\x98>\x95\x7fv?\x99`\xd5\x96\x0b"\x8dZ &\xcb\xc4j1w\xc8\xcc\xf4\xe2\x02\xb9\x08X\xc3\xe4|\xfd\xc6\xb0\x8fh9\xa4\xcbx\xf0\x1f\xb4%\x81\xcdQ$\xa4\x0e\xed\x82xH\x03\x89\xa7k?i\xed\x82m\x98Z\x06\x12\x05T\xbf\xfd\xfc\xbd\x97&-Ez\xe7|\x85\xfcO)\xfeT#G!\xfa\x8chYD(\xca\x96\x90\x8d\x8f\xbe\x15\xd5\xec\xbb0[a\x8f"\xe6&\x97\xa4\xa5&\xc9O\xf8(90%\x077\xc4\x8au\xb9AO\x8fR\x08\xa7\xf1!$;\x9a\xcc\xfb\xfc\x9d\x9c\x99\x11\\\xed(\xcc\xef\xe9s\xbb\xff\xdf\xb0\xb2\x1b \xb6\x154&\x95"\xe4m\xf2\xfc\xef\xba\xa9\x8f|\xc0\rt\x1d\x185r\xa5]T\x985  \x16H\xf9\xfe\xa2\xe5\xff\xe3\xa4\xe1\x04B\xa1\x8a\xfa\xe7\x91?\xd7\x1d\xdd\x8d[,\t\xea\xb9>\xb0Z\x9a\xda\xef\xdd\x815\xd4\x9a\xaa\xab\xab!HT\xbd\xb0\x95v\x07`\xaf\xecC0L\xe9>\x16p\xe0\xa5\xe5\x92\xad?\x00\x19}\xcc\xcc\x18\xbb\xfe@t\xf4\xc8\xe1\xa2\xcb\xce8\xcf\xe1\xb6\xb8FI\xc1\xcc\t5\x85!Mvc\x9f\xf3\xca\x0c6\xa3\xc7\x03\x96\xc8\x84\xcb\xd4*\xcf/\xb3\x8f\x84`\x8f\'\x0bG-O:)\x85\x1bg\x81\xf6\xf6\x19\xb8\xed;\xceq\x8fh\x18\xb5\xe7K\xc5E)\x82hnheT`\xf1\xbc-8\x9a\xa267\x0b\x18\xe0\xea\xe9b\x7f\x99)\xf5t\xad\x86d\xcf\xd6\xed\xc5\xc1s\xd6wK\x9a\xfa5Dx\x19\xfc)\x84\x87&\x037\xef\xf3\x8dPA\x11\xb5P\xfa\x1f/\xe1\x07\x99H\xfcf\x8b\x9b\xf8\x1a\x9a\xd2\xfa\x9b&p7\x0b\xa7Z\x1e\n8\xcdsx\x1b\xd0\xeb\xa8I\x1aY6\x0b\x030\x8f\xe9\xba@}\xb8\x11\x08\xbcj\xb2Eh\xd2/`\xb0D2\x90k\x95\x0e\x95=l\x19'
+2025-04-05 13:02:25,113 - auth.ssh_endpoints - WARNING - Login failed from gcolasuonno
+2025-04-05 13:02:25,113 - auth.ssh_endpoints - ERROR - 
+2025-04-05 13:02:25,115 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 13:02:25] "[31m[1mPOST /ssh_login/ HTTP/1.1[0m" 401 -
+2025-04-05 13:07:19,524 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-05 13:07:19,525 - database.database - INFO - Trying to connect to database home
+2025-04-05 13:07:19,525 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-05 13:07:19,529 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-05 13:07:19,529 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-05 13:07:19,530 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-05 13:07:19,530 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-05 13:07:19,530 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-05 13:07:19,530 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-05 13:07:19,530 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-05 13:07:19,530 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-05 13:07:19,533 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 13:07:19,533 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 13:07:22,681 - auth.ssh_endpoints - INFO - AO
+2025-04-05 13:07:22,681 - auth.ssh_endpoints - DEBUG - {'timestamp': 1743849695, 'login': 'gcolasuonno', 'signature': 'qUvfbC6fh9PQ0xNYEJev6toCf+NKuYP3Epixr+qCklu3InxczlDpdsP2pNYtEeO8qJg+lX92P5lg1ZYLIo1aICbLxGoxd8jM9OICuQhYw+R8/cawj2g5pMt48B+0JYHNUSSkDu2CeEgDiadrP2ntgm2YWgYSBVS//fy9lyYtRXrnfIX8Tyn+VCNHIfqMaFlEKMqWkI2PvhXV7LswW2GPIuYml6SlJslP+Cg5MCUHN8SKdblBT49SCKfxISQ7msz7/J2cmRFc7SjM7+lzu//fsLIbILYVNCaVIuRt8vzvuqmPfMANdB0YNXKlXVSYNSAgFkj5/qLl/+Ok4QRCoYr655E/1x3djVssCeq5PrBamtrv3YE11Jqqq6shSFS9sJV2B2Cv7EMwTOk+FnDgpeWSrT8AGX3MzBi7/kB09MjhosvOOM/htrhGScHMCTWFIU12Y5/zygw2o8cDlsiEy9Qqzy+zj4RgjycLRy1POimFG2eB9vYZuO07znGPaBi150vFRSmCaG5oZVRg8bwtOJqiNjcLGODq6WJ/mSn1dK2GZM/W7cXBc9Z3S5r6NUR4GfwphIcmAzfv841QQRG1UPofL+EHmUj8Zoub+Bqa0vqbJnA3C6daHgo4zXN4G9DrqEkaWTYLAzCP6bpAfbgRCLxqskVo0i9gsEQykGuVDpU9bBk='}
+2025-04-05 13:07:22,681 - auth.ssh_endpoints - INFO - {'timestamp': 1743849695, 'login': 'gcolasuonno', 'signature': 'qUvfbC6fh9PQ0xNYEJev6toCf+NKuYP3Epixr+qCklu3InxczlDpdsP2pNYtEeO8qJg+lX92P5lg1ZYLIo1aICbLxGoxd8jM9OICuQhYw+R8/cawj2g5pMt48B+0JYHNUSSkDu2CeEgDiadrP2ntgm2YWgYSBVS//fy9lyYtRXrnfIX8Tyn+VCNHIfqMaFlEKMqWkI2PvhXV7LswW2GPIuYml6SlJslP+Cg5MCUHN8SKdblBT49SCKfxISQ7msz7/J2cmRFc7SjM7+lzu//fsLIbILYVNCaVIuRt8vzvuqmPfMANdB0YNXKlXVSYNSAgFkj5/qLl/+Ok4QRCoYr655E/1x3djVssCeq5PrBamtrv3YE11Jqqq6shSFS9sJV2B2Cv7EMwTOk+FnDgpeWSrT8AGX3MzBi7/kB09MjhosvOOM/htrhGScHMCTWFIU12Y5/zygw2o8cDlsiEy9Qqzy+zj4RgjycLRy1POimFG2eB9vYZuO07znGPaBi150vFRSmCaG5oZVRg8bwtOJqiNjcLGODq6WJ/mSn1dK2GZM/W7cXBc9Z3S5r6NUR4GfwphIcmAzfv841QQRG1UPofL+EHmUj8Zoub+Bqa0vqbJnA3C6daHgo4zXN4G9DrqEkaWTYLAzCP6bpAfbgRCLxqskVo0i9gsEQykGuVDpU9bBk='}
+2025-04-05 13:07:22,681 - auth.ssh_endpoints - INFO - Timestamp was: 1743851242
+2025-04-05 13:07:22,681 - auth.ssh_endpoints - DEBUG - PUB KEY -----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1qZlYYo+bjPDs3LFpTSg
+uK4tLXbV8q/msrTGn1n208JDwFmhBb+OWLVrDCHqMCX2kPRwWNTcp+ykSHmNTX63
+35UbzBRhYIRNFok04FNACa9u+8dXX1PpDQ9P8b6AzDfbBlNaXTtSw5DIabhp9jGK
+mcw4iKqxylVmHjBjFr4RXna3wfxGuk+kigVxGUaaDAHtJK83ZPa8TyXWIelanhKT
+3SxYkHIqfcTHfL0p5aUpeVqibtnwjlY1aUVOyzetzbOqsizPJ6OxGz9wsLHymvA0
+vbWb4Xn3/0QICeBgT72z07oWvVeMMekKUbGTAqls/5neuF/Q6IBexZwHeROenXMn
+9wIDAQAB
+-----END PUBLIC KEY-----
+2025-04-05 13:07:22,682 - auth.ssh_endpoints - DEBUG - b'\xa9K\xdfl.\x9f\x87\xd3\xd0\xd3\x13X\x10\x97\xaf\xea\xda\x02\x7f\xe3J\xb9\x83\xf7\x12\x98\xb1\xaf\xea\x82\x92[\xb7"|\\\xceP\xe9v\xc3\xf6\xa4\xd6-\x11\xe3\xbc\xa8\x98>\x95\x7fv?\x99`\xd5\x96\x0b"\x8dZ &\xcb\xc4j1w\xc8\xcc\xf4\xe2\x02\xb9\x08X\xc3\xe4|\xfd\xc6\xb0\x8fh9\xa4\xcbx\xf0\x1f\xb4%\x81\xcdQ$\xa4\x0e\xed\x82xH\x03\x89\xa7k?i\xed\x82m\x98Z\x06\x12\x05T\xbf\xfd\xfc\xbd\x97&-Ez\xe7|\x85\xfcO)\xfeT#G!\xfa\x8chYD(\xca\x96\x90\x8d\x8f\xbe\x15\xd5\xec\xbb0[a\x8f"\xe6&\x97\xa4\xa5&\xc9O\xf8(90%\x077\xc4\x8au\xb9AO\x8fR\x08\xa7\xf1!$;\x9a\xcc\xfb\xfc\x9d\x9c\x99\x11\\\xed(\xcc\xef\xe9s\xbb\xff\xdf\xb0\xb2\x1b \xb6\x154&\x95"\xe4m\xf2\xfc\xef\xba\xa9\x8f|\xc0\rt\x1d\x185r\xa5]T\x985  \x16H\xf9\xfe\xa2\xe5\xff\xe3\xa4\xe1\x04B\xa1\x8a\xfa\xe7\x91?\xd7\x1d\xdd\x8d[,\t\xea\xb9>\xb0Z\x9a\xda\xef\xdd\x815\xd4\x9a\xaa\xab\xab!HT\xbd\xb0\x95v\x07`\xaf\xecC0L\xe9>\x16p\xe0\xa5\xe5\x92\xad?\x00\x19}\xcc\xcc\x18\xbb\xfe@t\xf4\xc8\xe1\xa2\xcb\xce8\xcf\xe1\xb6\xb8FI\xc1\xcc\t5\x85!Mvc\x9f\xf3\xca\x0c6\xa3\xc7\x03\x96\xc8\x84\xcb\xd4*\xcf/\xb3\x8f\x84`\x8f\'\x0bG-O:)\x85\x1bg\x81\xf6\xf6\x19\xb8\xed;\xceq\x8fh\x18\xb5\xe7K\xc5E)\x82hnheT`\xf1\xbc-8\x9a\xa267\x0b\x18\xe0\xea\xe9b\x7f\x99)\xf5t\xad\x86d\xcf\xd6\xed\xc5\xc1s\xd6wK\x9a\xfa5Dx\x19\xfc)\x84\x87&\x037\xef\xf3\x8dPA\x11\xb5P\xfa\x1f/\xe1\x07\x99H\xfcf\x8b\x9b\xf8\x1a\x9a\xd2\xfa\x9b&p7\x0b\xa7Z\x1e\n8\xcdsx\x1b\xd0\xeb\xa8I\x1aY6\x0b\x030\x8f\xe9\xba@}\xb8\x11\x08\xbcj\xb2Eh\xd2/`\xb0D2\x90k\x95\x0e\x95=l\x19'
+2025-04-05 13:07:22,682 - auth.ssh_endpoints - WARNING - Login failed from gcolasuonno
+2025-04-05 13:07:22,682 - auth.ssh_endpoints - ERROR - RSAPublicKey.verify() missing 1 required positional argument: 'algorithm'
+2025-04-05 13:07:22,682 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 13:07:22] "[31m[1mPOST /ssh_login/ HTTP/1.1[0m" 401 -
+2025-04-05 13:12:19,531 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-05 13:12:19,531 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-05 14:37:54,591 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-05 14:37:54,591 - database.database - INFO - Trying to connect to database home
+2025-04-05 14:37:54,591 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-05 14:37:54,596 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-05 14:37:54,596 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-05 14:37:54,596 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-05 14:37:54,596 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-05 14:37:54,597 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-05 14:37:54,597 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-05 14:37:54,597 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-05 14:37:54,597 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-05 14:37:54,600 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 14:37:54,600 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 14:39:06,319 - auth.ssh_endpoints - INFO - AO
+2025-04-05 14:39:06,320 - auth.ssh_endpoints - DEBUG - {'timestamp': 1743856682, 'login': 'gcolasuonno', 'signature': 'gtdyYzfFwi9ImxyXnAdu4YYUlr03HBRi6OF7cankf+5O80YmsXp4hDS/fyW58fHkwJM7DRPUhfscH5XAzR91+1ruUge81W+rdUgEDSDcUJL6gVRPEQG2kMiHLcGto57Dc+zvkws/bM1q2RVSKgYKzWFQoRrF5Y3nDLG9wHcaPG4qxocdoILUksjsNf0Dg85iujkA7Chqu3igVnpzhxJ1CfmCUYxCoq+abbiNvZKYvCUXlPMNPdb37gNvCu0zohyAEOhZRqhgMf/vqr/58eNEm21xTUi1hgWVVX+YQ2hVtcLQHEBXy6nqS7eCA2a8LXUaLhyObAgmnNs1BioBCryFpmSl34YBEfmxWzBrkv6bxV/xSMX9NyvaCXtO68UgrediKpZG/WNkSeFPeC3jBkX7uPC4cV+VbvFxP2ss0O9HQWWcblnXD2bZmoiAfnNTUlMIbpK5cNwJ//MpPEIrhhkJXOINwAsAPbtOPfV3UfOtcxleECMvDx8Hm9fsI+Z9cbtU5pINmX0RqRuU+LHeoB/xmrK2F1lgGvb/tvCRx9GYaCMT6LqYMH5W/bHHFe0hSHRL8FblV4jXGaBMX+SIpFHeyjVBgL5+TsxgkuMiCzJhaJ/YC97ZPdyIrb60HBiOQ9+ppvbkMYKaextdDsdsaSmEqolIjLVhXdJh+l0zeb+gfE4='}
+2025-04-05 14:39:06,321 - auth.ssh_endpoints - INFO - {'timestamp': 1743856682, 'login': 'gcolasuonno', 'signature': 'gtdyYzfFwi9ImxyXnAdu4YYUlr03HBRi6OF7cankf+5O80YmsXp4hDS/fyW58fHkwJM7DRPUhfscH5XAzR91+1ruUge81W+rdUgEDSDcUJL6gVRPEQG2kMiHLcGto57Dc+zvkws/bM1q2RVSKgYKzWFQoRrF5Y3nDLG9wHcaPG4qxocdoILUksjsNf0Dg85iujkA7Chqu3igVnpzhxJ1CfmCUYxCoq+abbiNvZKYvCUXlPMNPdb37gNvCu0zohyAEOhZRqhgMf/vqr/58eNEm21xTUi1hgWVVX+YQ2hVtcLQHEBXy6nqS7eCA2a8LXUaLhyObAgmnNs1BioBCryFpmSl34YBEfmxWzBrkv6bxV/xSMX9NyvaCXtO68UgrediKpZG/WNkSeFPeC3jBkX7uPC4cV+VbvFxP2ss0O9HQWWcblnXD2bZmoiAfnNTUlMIbpK5cNwJ//MpPEIrhhkJXOINwAsAPbtOPfV3UfOtcxleECMvDx8Hm9fsI+Z9cbtU5pINmX0RqRuU+LHeoB/xmrK2F1lgGvb/tvCRx9GYaCMT6LqYMH5W/bHHFe0hSHRL8FblV4jXGaBMX+SIpFHeyjVBgL5+TsxgkuMiCzJhaJ/YC97ZPdyIrb60HBiOQ9+ppvbkMYKaextdDsdsaSmEqolIjLVhXdJh+l0zeb+gfE4='}
+2025-04-05 14:39:06,322 - auth.ssh_endpoints - INFO - Timestamp was: 1743856746
+2025-04-05 14:39:06,327 - auth.ssh_endpoints - WARNING - Login failed from gcolasuonno
+2025-04-05 14:39:06,327 - auth.ssh_endpoints - ERROR - 
+2025-04-05 14:39:06,328 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 14:39:06] "[31m[1mPOST /ssh_login/ HTTP/1.1[0m" 401 -
+2025-04-05 14:39:24,421 - auth.ssh_endpoints - INFO - AO
+2025-04-05 14:39:24,421 - auth.ssh_endpoints - DEBUG - {'timestamp': 1743856682, 'login': 'gcolasuonno', 'signature': 'gtdyYzfFwi9ImxyXnAdu4YYUlr03HBRi6OF7cankf+5O80YmsXp4hDS/fyW58fHkwJM7DRPUhfscH5XAzR91+1ruUge81W+rdUgEDSDcUJL6gVRPEQG2kMiHLcGto57Dc+zvkws/bM1q2RVSKgYKzWFQoRrF5Y3nDLG9wHcaPG4qxocdoILUksjsNf0Dg85iujkA7Chqu3igVnpzhxJ1CfmCUYxCoq+abbiNvZKYvCUXlPMNPdb37gNvCu0zohyAEOhZRqhgMf/vqr/58eNEm21xTUi1hgWVVX+YQ2hVtcLQHEBXy6nqS7eCA2a8LXUaLhyObAgmnNs1BioBCryFpmSl34YBEfmxWzBrkv6bxV/xSMX9NyvaCXtO68UgrediKpZG/WNkSeFPeC3jBkX7uPC4cV+VbvFxP2ss0O9HQWWcblnXD2bZmoiAfnNTUlMIbpK5cNwJ//MpPEIrhhkJXOINwAsAPbtOPfV3UfOtcxleECMvDx8Hm9fsI+Z9cbtU5pINmX0RqRuU+LHeoB/xmrK2F1lgGvb/tvCRx9GYaCMT6LqYMH5W/bHHFe0hSHRL8FblV4jXGaBMX+SIpFHeyjVBgL5+TsxgkuMiCzJhaJ/YC97ZPdyIrb60HBiOQ9+ppvbkMYKaextdDsdsaSmEqolIjLVhXdJh+l0zeb+gfE4='}
+2025-04-05 14:39:24,421 - auth.ssh_endpoints - INFO - {'timestamp': 1743856682, 'login': 'gcolasuonno', 'signature': 'gtdyYzfFwi9ImxyXnAdu4YYUlr03HBRi6OF7cankf+5O80YmsXp4hDS/fyW58fHkwJM7DRPUhfscH5XAzR91+1ruUge81W+rdUgEDSDcUJL6gVRPEQG2kMiHLcGto57Dc+zvkws/bM1q2RVSKgYKzWFQoRrF5Y3nDLG9wHcaPG4qxocdoILUksjsNf0Dg85iujkA7Chqu3igVnpzhxJ1CfmCUYxCoq+abbiNvZKYvCUXlPMNPdb37gNvCu0zohyAEOhZRqhgMf/vqr/58eNEm21xTUi1hgWVVX+YQ2hVtcLQHEBXy6nqS7eCA2a8LXUaLhyObAgmnNs1BioBCryFpmSl34YBEfmxWzBrkv6bxV/xSMX9NyvaCXtO68UgrediKpZG/WNkSeFPeC3jBkX7uPC4cV+VbvFxP2ss0O9HQWWcblnXD2bZmoiAfnNTUlMIbpK5cNwJ//MpPEIrhhkJXOINwAsAPbtOPfV3UfOtcxleECMvDx8Hm9fsI+Z9cbtU5pINmX0RqRuU+LHeoB/xmrK2F1lgGvb/tvCRx9GYaCMT6LqYMH5W/bHHFe0hSHRL8FblV4jXGaBMX+SIpFHeyjVBgL5+TsxgkuMiCzJhaJ/YC97ZPdyIrb60HBiOQ9+ppvbkMYKaextdDsdsaSmEqolIjLVhXdJh+l0zeb+gfE4='}
+2025-04-05 14:39:24,422 - auth.ssh_endpoints - INFO - Timestamp was: 1743856764
+2025-04-05 14:39:24,422 - auth.ssh_endpoints - WARNING - Login failed from gcolasuonno
+2025-04-05 14:39:24,422 - auth.ssh_endpoints - ERROR - 
+2025-04-05 14:39:24,423 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 14:39:24] "[31m[1mPOST /ssh_login/ HTTP/1.1[0m" 401 -
+2025-04-05 14:40:51,833 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-05 14:40:51,833 - database.database - INFO - Trying to connect to database home
+2025-04-05 14:40:51,833 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-05 14:40:51,838 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-05 14:40:51,838 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-05 14:40:51,838 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-05 14:40:51,838 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-05 14:40:51,839 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-05 14:40:51,839 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-05 14:40:51,839 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-05 14:40:51,839 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-05 14:40:51,842 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 14:40:51,842 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 14:41:19,034 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-05 14:41:19,034 - database.database - INFO - Trying to connect to database home
+2025-04-05 14:41:19,034 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-05 14:41:19,038 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-05 14:41:19,039 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-05 14:41:19,039 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-05 14:41:19,039 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-05 14:41:19,039 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-05 14:41:19,039 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-05 14:41:19,040 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-05 14:41:19,040 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-05 14:41:19,042 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 14:41:19,042 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 14:41:20,583 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-05 14:41:20,583 - database.database - INFO - Trying to connect to database home
+2025-04-05 14:41:20,583 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-05 14:41:20,588 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-05 14:41:20,589 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-05 14:41:20,589 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-05 14:41:20,589 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-05 14:41:20,589 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-05 14:41:20,589 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-05 14:41:20,590 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-05 14:41:20,590 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-05 14:41:20,592 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 14:41:20,592 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 14:41:22,598 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-05 14:41:22,598 - database.database - INFO - Trying to connect to database home
+2025-04-05 14:41:22,598 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-05 14:41:22,602 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-05 14:41:22,603 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-05 14:41:22,603 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-05 14:41:22,603 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-05 14:41:22,603 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-05 14:41:22,603 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-05 14:41:22,604 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-05 14:41:22,604 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-05 14:41:22,606 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 14:41:22,606 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 14:41:22,661 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 14:41:22] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-05 14:41:26,178 - auth.ssh_endpoints - INFO - AO
+2025-04-05 14:41:26,179 - auth.ssh_endpoints - DEBUG - {'timestamp': 1743856682, 'login': 'gcolasuonno', 'signature': 'gtdyYzfFwi9ImxyXnAdu4YYUlr03HBRi6OF7cankf+5O80YmsXp4hDS/fyW58fHkwJM7DRPUhfscH5XAzR91+1ruUge81W+rdUgEDSDcUJL6gVRPEQG2kMiHLcGto57Dc+zvkws/bM1q2RVSKgYKzWFQoRrF5Y3nDLG9wHcaPG4qxocdoILUksjsNf0Dg85iujkA7Chqu3igVnpzhxJ1CfmCUYxCoq+abbiNvZKYvCUXlPMNPdb37gNvCu0zohyAEOhZRqhgMf/vqr/58eNEm21xTUi1hgWVVX+YQ2hVtcLQHEBXy6nqS7eCA2a8LXUaLhyObAgmnNs1BioBCryFpmSl34YBEfmxWzBrkv6bxV/xSMX9NyvaCXtO68UgrediKpZG/WNkSeFPeC3jBkX7uPC4cV+VbvFxP2ss0O9HQWWcblnXD2bZmoiAfnNTUlMIbpK5cNwJ//MpPEIrhhkJXOINwAsAPbtOPfV3UfOtcxleECMvDx8Hm9fsI+Z9cbtU5pINmX0RqRuU+LHeoB/xmrK2F1lgGvb/tvCRx9GYaCMT6LqYMH5W/bHHFe0hSHRL8FblV4jXGaBMX+SIpFHeyjVBgL5+TsxgkuMiCzJhaJ/YC97ZPdyIrb60HBiOQ9+ppvbkMYKaextdDsdsaSmEqolIjLVhXdJh+l0zeb+gfE4='}
+2025-04-05 14:41:26,179 - auth.ssh_endpoints - INFO - {'timestamp': 1743856682, 'login': 'gcolasuonno', 'signature': 'gtdyYzfFwi9ImxyXnAdu4YYUlr03HBRi6OF7cankf+5O80YmsXp4hDS/fyW58fHkwJM7DRPUhfscH5XAzR91+1ruUge81W+rdUgEDSDcUJL6gVRPEQG2kMiHLcGto57Dc+zvkws/bM1q2RVSKgYKzWFQoRrF5Y3nDLG9wHcaPG4qxocdoILUksjsNf0Dg85iujkA7Chqu3igVnpzhxJ1CfmCUYxCoq+abbiNvZKYvCUXlPMNPdb37gNvCu0zohyAEOhZRqhgMf/vqr/58eNEm21xTUi1hgWVVX+YQ2hVtcLQHEBXy6nqS7eCA2a8LXUaLhyObAgmnNs1BioBCryFpmSl34YBEfmxWzBrkv6bxV/xSMX9NyvaCXtO68UgrediKpZG/WNkSeFPeC3jBkX7uPC4cV+VbvFxP2ss0O9HQWWcblnXD2bZmoiAfnNTUlMIbpK5cNwJ//MpPEIrhhkJXOINwAsAPbtOPfV3UfOtcxleECMvDx8Hm9fsI+Z9cbtU5pINmX0RqRuU+LHeoB/xmrK2F1lgGvb/tvCRx9GYaCMT6LqYMH5W/bHHFe0hSHRL8FblV4jXGaBMX+SIpFHeyjVBgL5+TsxgkuMiCzJhaJ/YC97ZPdyIrb60HBiOQ9+ppvbkMYKaextdDsdsaSmEqolIjLVhXdJh+l0zeb+gfE4='}
+2025-04-05 14:41:26,180 - auth.ssh_endpoints - INFO - Timestamp was: 1743856886
+2025-04-05 14:41:26,184 - auth.ssh_endpoints - WARNING - Login failed from gcolasuonno
+2025-04-05 14:41:26,185 - auth.ssh_endpoints - ERROR - 
+2025-04-05 14:41:26,186 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 14:41:26] "[31m[1mPOST /ssh_login/ HTTP/1.1[0m" 401 -
+2025-04-05 14:42:10,509 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-05 14:42:10,509 - database.database - INFO - Trying to connect to database home
+2025-04-05 14:42:10,509 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-05 14:42:10,513 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-05 14:42:10,514 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-05 14:42:10,514 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-05 14:42:10,514 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-05 14:42:10,514 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-05 14:42:10,514 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-05 14:42:10,515 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-05 14:42:10,515 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-05 14:42:10,517 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 14:42:10,517 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 14:42:12,240 - auth.ssh_endpoints - INFO - AO
+2025-04-05 14:42:12,241 - auth.ssh_endpoints - DEBUG - {'timestamp': 1743856682, 'login': 'gcolasuonno', 'signature': 'gtdyYzfFwi9ImxyXnAdu4YYUlr03HBRi6OF7cankf+5O80YmsXp4hDS/fyW58fHkwJM7DRPUhfscH5XAzR91+1ruUge81W+rdUgEDSDcUJL6gVRPEQG2kMiHLcGto57Dc+zvkws/bM1q2RVSKgYKzWFQoRrF5Y3nDLG9wHcaPG4qxocdoILUksjsNf0Dg85iujkA7Chqu3igVnpzhxJ1CfmCUYxCoq+abbiNvZKYvCUXlPMNPdb37gNvCu0zohyAEOhZRqhgMf/vqr/58eNEm21xTUi1hgWVVX+YQ2hVtcLQHEBXy6nqS7eCA2a8LXUaLhyObAgmnNs1BioBCryFpmSl34YBEfmxWzBrkv6bxV/xSMX9NyvaCXtO68UgrediKpZG/WNkSeFPeC3jBkX7uPC4cV+VbvFxP2ss0O9HQWWcblnXD2bZmoiAfnNTUlMIbpK5cNwJ//MpPEIrhhkJXOINwAsAPbtOPfV3UfOtcxleECMvDx8Hm9fsI+Z9cbtU5pINmX0RqRuU+LHeoB/xmrK2F1lgGvb/tvCRx9GYaCMT6LqYMH5W/bHHFe0hSHRL8FblV4jXGaBMX+SIpFHeyjVBgL5+TsxgkuMiCzJhaJ/YC97ZPdyIrb60HBiOQ9+ppvbkMYKaextdDsdsaSmEqolIjLVhXdJh+l0zeb+gfE4='}
+2025-04-05 14:42:12,243 - auth.ssh_endpoints - INFO - {'timestamp': 1743856682, 'login': 'gcolasuonno', 'signature': 'gtdyYzfFwi9ImxyXnAdu4YYUlr03HBRi6OF7cankf+5O80YmsXp4hDS/fyW58fHkwJM7DRPUhfscH5XAzR91+1ruUge81W+rdUgEDSDcUJL6gVRPEQG2kMiHLcGto57Dc+zvkws/bM1q2RVSKgYKzWFQoRrF5Y3nDLG9wHcaPG4qxocdoILUksjsNf0Dg85iujkA7Chqu3igVnpzhxJ1CfmCUYxCoq+abbiNvZKYvCUXlPMNPdb37gNvCu0zohyAEOhZRqhgMf/vqr/58eNEm21xTUi1hgWVVX+YQ2hVtcLQHEBXy6nqS7eCA2a8LXUaLhyObAgmnNs1BioBCryFpmSl34YBEfmxWzBrkv6bxV/xSMX9NyvaCXtO68UgrediKpZG/WNkSeFPeC3jBkX7uPC4cV+VbvFxP2ss0O9HQWWcblnXD2bZmoiAfnNTUlMIbpK5cNwJ//MpPEIrhhkJXOINwAsAPbtOPfV3UfOtcxleECMvDx8Hm9fsI+Z9cbtU5pINmX0RqRuU+LHeoB/xmrK2F1lgGvb/tvCRx9GYaCMT6LqYMH5W/bHHFe0hSHRL8FblV4jXGaBMX+SIpFHeyjVBgL5+TsxgkuMiCzJhaJ/YC97ZPdyIrb60HBiOQ9+ppvbkMYKaextdDsdsaSmEqolIjLVhXdJh+l0zeb+gfE4='}
+2025-04-05 14:42:12,243 - auth.ssh_endpoints - INFO - Timestamp was: 1743856932
+2025-04-05 14:42:12,244 - auth.ssh_endpoints - INFO - -----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1qZlYYo+bjPDs3LFpTSg
+uK4tLXbV8q/msrTGn1n208JDwFmhBb+OWLVrDCHqMCX2kPRwWNTcp+ykSHmNTX63
+35UbzBRhYIRNFok04FNACa9u+8dXX1PpDQ9P8b6AzDfbBlNaXTtSw5DIabhp9jGK
+mcw4iKqxylVmHjBjFr4RXna3wfxGuk+kigVxGUaaDAHtJK83ZPa8TyXWIelanhKT
+3SxYkHIqfcTHfL0p5aUpeVqibtnwjlY1aUVOyzetzbOqsizPJ6OxGz9wsLHymvA0
+vbWb4Xn3/0QICeBgT72z07oWvVeMMekKUbGTAqls/5neuF/Q6IBexZwHeROenXMn
+9wIDAQAB
+-----END PUBLIC KEY-----
+2025-04-05 14:42:12,249 - auth.ssh_endpoints - WARNING - Login failed from gcolasuonno
+2025-04-05 14:42:12,249 - auth.ssh_endpoints - ERROR - 
+2025-04-05 14:42:12,251 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 14:42:12] "[31m[1mPOST /ssh_login/ HTTP/1.1[0m" 401 -
+2025-04-05 14:43:53,935 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-05 14:43:53,935 - database.database - INFO - Trying to connect to database home
+2025-04-05 14:43:53,936 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-05 14:43:53,940 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-05 14:43:53,941 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-05 14:43:53,941 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-05 14:43:53,941 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-05 14:43:53,941 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-05 14:43:53,941 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-05 14:43:53,941 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-05 14:43:53,942 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-05 14:43:53,944 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 14:43:53,944 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 14:43:57,356 - auth.ssh_endpoints - INFO - AO
+2025-04-05 14:43:57,356 - auth.ssh_endpoints - DEBUG - {'timestamp': 1743856682, 'login': 'gcolasuonno', 'signature': 'gtdyYzfFwi9ImxyXnAdu4YYUlr03HBRi6OF7cankf+5O80YmsXp4hDS/fyW58fHkwJM7DRPUhfscH5XAzR91+1ruUge81W+rdUgEDSDcUJL6gVRPEQG2kMiHLcGto57Dc+zvkws/bM1q2RVSKgYKzWFQoRrF5Y3nDLG9wHcaPG4qxocdoILUksjsNf0Dg85iujkA7Chqu3igVnpzhxJ1CfmCUYxCoq+abbiNvZKYvCUXlPMNPdb37gNvCu0zohyAEOhZRqhgMf/vqr/58eNEm21xTUi1hgWVVX+YQ2hVtcLQHEBXy6nqS7eCA2a8LXUaLhyObAgmnNs1BioBCryFpmSl34YBEfmxWzBrkv6bxV/xSMX9NyvaCXtO68UgrediKpZG/WNkSeFPeC3jBkX7uPC4cV+VbvFxP2ss0O9HQWWcblnXD2bZmoiAfnNTUlMIbpK5cNwJ//MpPEIrhhkJXOINwAsAPbtOPfV3UfOtcxleECMvDx8Hm9fsI+Z9cbtU5pINmX0RqRuU+LHeoB/xmrK2F1lgGvb/tvCRx9GYaCMT6LqYMH5W/bHHFe0hSHRL8FblV4jXGaBMX+SIpFHeyjVBgL5+TsxgkuMiCzJhaJ/YC97ZPdyIrb60HBiOQ9+ppvbkMYKaextdDsdsaSmEqolIjLVhXdJh+l0zeb+gfE4='}
+2025-04-05 14:43:57,356 - auth.ssh_endpoints - INFO - {'timestamp': 1743856682, 'login': 'gcolasuonno', 'signature': 'gtdyYzfFwi9ImxyXnAdu4YYUlr03HBRi6OF7cankf+5O80YmsXp4hDS/fyW58fHkwJM7DRPUhfscH5XAzR91+1ruUge81W+rdUgEDSDcUJL6gVRPEQG2kMiHLcGto57Dc+zvkws/bM1q2RVSKgYKzWFQoRrF5Y3nDLG9wHcaPG4qxocdoILUksjsNf0Dg85iujkA7Chqu3igVnpzhxJ1CfmCUYxCoq+abbiNvZKYvCUXlPMNPdb37gNvCu0zohyAEOhZRqhgMf/vqr/58eNEm21xTUi1hgWVVX+YQ2hVtcLQHEBXy6nqS7eCA2a8LXUaLhyObAgmnNs1BioBCryFpmSl34YBEfmxWzBrkv6bxV/xSMX9NyvaCXtO68UgrediKpZG/WNkSeFPeC3jBkX7uPC4cV+VbvFxP2ss0O9HQWWcblnXD2bZmoiAfnNTUlMIbpK5cNwJ//MpPEIrhhkJXOINwAsAPbtOPfV3UfOtcxleECMvDx8Hm9fsI+Z9cbtU5pINmX0RqRuU+LHeoB/xmrK2F1lgGvb/tvCRx9GYaCMT6LqYMH5W/bHHFe0hSHRL8FblV4jXGaBMX+SIpFHeyjVBgL5+TsxgkuMiCzJhaJ/YC97ZPdyIrb60HBiOQ9+ppvbkMYKaextdDsdsaSmEqolIjLVhXdJh+l0zeb+gfE4='}
+2025-04-05 14:43:57,356 - auth.ssh_endpoints - INFO - Timestamp was: 1743857037
+2025-04-05 14:43:57,357 - auth.ssh_endpoints - INFO - -----BEGIN PUBLIC KEY-----
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA2WbukNzfesbfSCznPXvm
+VTWCEv29ckhkIgsBc4+PYuyt1tC9NB/6MGK5Mm5QfApe0hrg1LG9ff6GZuB+fLZm
+LY21xJBIUfX/ZSDf3lt1+wOifrH8+K2Hc0mfC/hHUs2TWMWOhsSCSXsdg/95+FGo
+KUW8zCKlps3lKfrPJzk5eQLO4c0Abwc+USV0keI+9aU6wGVln8tB/I5eauQSqEh7
+tVDDCHSZiCQfyXJQ51wJHAnimhkZkYduEWxUv8FSC/pWCk5Tz/3VnE5hk18zD1dc
+Fqs5t2KF0zad+SVC8VWTysHQ7C5rgh26iUSjKz8WezEaae3YgCjKMSjO3SFiPGr/
+VVigbPhN54DGXuAtcVwsYIJH4Bwy31/SMq5c66wqM+RhoVabeAOpnMhixYPWKG1h
+GK4rZGuUtfsHmuiIJ2/LRKJAtQP559JEMXIFYQgxYU/gRvfIr3xonx+8l7ZjMHeZ
+Sr6O5yUo3nfyj3V7vn1mIgY6SRCCC/l1+EW8W2zsne/a/LLDQtSZTPAZKGc0kQqk
+rhONFgSsZ7MrrcqMQE4cviDf0Hu1+RGeI29G7a4DPyiazRuHMQmbRgPNtVqvYJ6h
+gssrK3VWqVQMYqjAPsGujBoXullWKB9wIiSizQYrPRfhAVfS51KZy5qn1oFELn7B
+mZYJizPM6f91YgdSNzhKF98CAwEAAQ==
+-----END PUBLIC KEY-----
+2025-04-05 14:43:57,358 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 14:43:57] "POST /ssh_login/ HTTP/1.1" 200 -
+2025-04-05 14:44:06,635 - auth.ssh_endpoints - INFO - AO
+2025-04-05 14:44:06,636 - auth.ssh_endpoints - DEBUG - {'timestamp': 1743856682, 'login': 'gcolasuonno', 'signature': 'gtdyYzfFwi9ImxyXnAdu4YYUlr03HBRi6OF7cankfff+5O80YmsXp4hDS/fyW58fHkwJM7DRPUhfscH5XAzR91+1ruUge81W+rdUgEDSDcUJL6gVRPEQG2kMiHLcGto57Dc+zvkws/bM1q2RVSKgYKzWFQoRrF5Y3nDLG9wHcaPG4qxocdoILUksjsNf0Dg85iujkA7Chqu3igVnpzhxJ1CfmCUYxCoq+abbiNvZKYvCUXlPMNPdb37gNvCu0zohyAEOhZRqhgMf/vqr/58eNEm21xTUi1hgWVVX+YQ2hVtcLQHEBXy6nqS7eCA2a8LXUaLhyObAgmnNs1BioBCryFpmSl34YBEfmxWzBrkv6bxV/xSMX9NyvaCXtO68UgrediKpZG/WNkSeFPeC3jBkX7uPC4cV+VbvFxP2ss0O9HQWWcblnXD2bZmoiAfnNTUlMIbpK5cNwJ//MpPEIrhhkJXOINwAsAPbtOPfV3UfOtcxleECMvDx8Hm9fsI+Z9cbtU5pINmX0RqRuU+LHeoB/xmrK2F1lgGvb/tvCRx9GYaCMT6LqYMH5W/bHHFe0hSHRL8FblV4jXGaBMX+SIpFHeyjVBgL5+TsxgkuMiCzJhaJ/YC97ZPdyIrb60HBiOQ9+ppvbkMYKaextdDsdsaSmEqolIjLVhXdJh+l0zeb+gfE4='}
+2025-04-05 14:44:06,636 - auth.ssh_endpoints - INFO - {'timestamp': 1743856682, 'login': 'gcolasuonno', 'signature': 'gtdyYzfFwi9ImxyXnAdu4YYUlr03HBRi6OF7cankfff+5O80YmsXp4hDS/fyW58fHkwJM7DRPUhfscH5XAzR91+1ruUge81W+rdUgEDSDcUJL6gVRPEQG2kMiHLcGto57Dc+zvkws/bM1q2RVSKgYKzWFQoRrF5Y3nDLG9wHcaPG4qxocdoILUksjsNf0Dg85iujkA7Chqu3igVnpzhxJ1CfmCUYxCoq+abbiNvZKYvCUXlPMNPdb37gNvCu0zohyAEOhZRqhgMf/vqr/58eNEm21xTUi1hgWVVX+YQ2hVtcLQHEBXy6nqS7eCA2a8LXUaLhyObAgmnNs1BioBCryFpmSl34YBEfmxWzBrkv6bxV/xSMX9NyvaCXtO68UgrediKpZG/WNkSeFPeC3jBkX7uPC4cV+VbvFxP2ss0O9HQWWcblnXD2bZmoiAfnNTUlMIbpK5cNwJ//MpPEIrhhkJXOINwAsAPbtOPfV3UfOtcxleECMvDx8Hm9fsI+Z9cbtU5pINmX0RqRuU+LHeoB/xmrK2F1lgGvb/tvCRx9GYaCMT6LqYMH5W/bHHFe0hSHRL8FblV4jXGaBMX+SIpFHeyjVBgL5+TsxgkuMiCzJhaJ/YC97ZPdyIrb60HBiOQ9+ppvbkMYKaextdDsdsaSmEqolIjLVhXdJh+l0zeb+gfE4='}
+2025-04-05 14:44:06,637 - auth.ssh_endpoints - INFO - Timestamp was: 1743857046
+2025-04-05 14:44:06,637 - auth.ssh_endpoints - INFO - -----BEGIN PUBLIC KEY-----
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA2WbukNzfesbfSCznPXvm
+VTWCEv29ckhkIgsBc4+PYuyt1tC9NB/6MGK5Mm5QfApe0hrg1LG9ff6GZuB+fLZm
+LY21xJBIUfX/ZSDf3lt1+wOifrH8+K2Hc0mfC/hHUs2TWMWOhsSCSXsdg/95+FGo
+KUW8zCKlps3lKfrPJzk5eQLO4c0Abwc+USV0keI+9aU6wGVln8tB/I5eauQSqEh7
+tVDDCHSZiCQfyXJQ51wJHAnimhkZkYduEWxUv8FSC/pWCk5Tz/3VnE5hk18zD1dc
+Fqs5t2KF0zad+SVC8VWTysHQ7C5rgh26iUSjKz8WezEaae3YgCjKMSjO3SFiPGr/
+VVigbPhN54DGXuAtcVwsYIJH4Bwy31/SMq5c66wqM+RhoVabeAOpnMhixYPWKG1h
+GK4rZGuUtfsHmuiIJ2/LRKJAtQP559JEMXIFYQgxYU/gRvfIr3xonx+8l7ZjMHeZ
+Sr6O5yUo3nfyj3V7vn1mIgY6SRCCC/l1+EW8W2zsne/a/LLDQtSZTPAZKGc0kQqk
+rhONFgSsZ7MrrcqMQE4cviDf0Hu1+RGeI29G7a4DPyiazRuHMQmbRgPNtVqvYJ6h
+gssrK3VWqVQMYqjAPsGujBoXullWKB9wIiSizQYrPRfhAVfS51KZy5qn1oFELn7B
+mZYJizPM6f91YgdSNzhKF98CAwEAAQ==
+-----END PUBLIC KEY-----
+2025-04-05 14:44:06,637 - auth.ssh_endpoints - WARNING - Login failed from gcolasuonno
+2025-04-05 14:44:06,638 - auth.ssh_endpoints - ERROR - Invalid base64-encoded string: number of data characters (685) cannot be 1 more than a multiple of 4
+2025-04-05 14:44:06,639 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 14:44:06] "[31m[1mPOST /ssh_login/ HTTP/1.1[0m" 401 -
+2025-04-05 14:44:30,942 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-05 14:44:30,942 - database.database - INFO - Trying to connect to database home
+2025-04-05 14:44:30,942 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-05 14:44:30,947 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-05 14:44:30,947 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-05 14:44:30,947 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-05 14:44:30,947 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-05 14:44:30,947 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-05 14:44:30,947 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-05 14:44:30,948 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-05 14:44:30,948 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-05 14:44:30,950 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 14:44:30,950 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 14:44:33,064 - auth.ssh_endpoints - INFO - Timestamp was: 1743857073
+2025-04-05 14:44:33,068 - auth.ssh_endpoints - WARNING - Login failed from gcolasuonno
+2025-04-05 14:44:33,068 - auth.ssh_endpoints - ERROR - Invalid base64-encoded string: number of data characters (685) cannot be 1 more than a multiple of 4
+2025-04-05 14:44:33,070 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 14:44:33] "[31m[1mPOST /ssh_login/ HTTP/1.1[0m" 401 -

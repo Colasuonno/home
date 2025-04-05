@@ -1,0 +1,108 @@
+2025-04-04 16:29:21,778 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 16:29:21,778 - database.database - INFO - Trying to connect to database home
+2025-04-04 16:29:21,778 - database.database - DEBUG - DB info: localhost:5432/home with user home and password length 8
+2025-04-04 16:29:21,783 - database.database - ERROR - Failed to connect to database home
+2025-04-04 16:29:21,783 - database.database - ERROR - No problem we work even without database...
+2025-04-04 16:29:21,784 - database.database - ERROR - connection to server at "localhost" (::1), port 5432 failed: FATAL:  role "home" does not exist
+
+2025-04-04 16:30:06,664 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 16:30:06,664 - database.database - INFO - Trying to connect to database home
+2025-04-04 16:30:06,664 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 16:30:06,668 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR,
+              ssh_public VARCHAR,
+              UNIQUE (name)  
+            );
+2025-04-04 16:30:06,674 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-04 16:30:06,674 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-04 16:30:06,675 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-04 16:30:06,676 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-04 16:30:06,678 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-04 16:30:06,678 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 16:35:06,676 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-04 16:35:06,676 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-04 16:44:39,938 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 16:44:39,939 - database.database - INFO - Trying to connect to database home
+2025-04-04 16:44:39,939 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 16:44:39,943 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-04 16:44:39,944 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-04 16:44:39,944 - database.handler.database_handler - INFO - Table ssh_login has startup fetch....
+2025-04-04 16:44:55,040 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 16:44:55,040 - database.database - INFO - Trying to connect to database home
+2025-04-04 16:44:55,040 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 16:44:55,045 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-04 16:44:55,045 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-04 16:44:55,045 - database.handler.database_handler - INFO - Table ssh_login has startup fetch....
+2025-04-04 16:44:55,045 - database.database - DEBUG - Executing query: 
+                SELECT * FROM ssh_login;
+                
+2025-04-04 16:44:55,046 - database.handler.database_handler - DEBUG - [('gcolasuonno', 'Giovanni Colasuonno', 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCtr6jhzazFtFo3L76ayFeLDaieiajGavJHCIetE5Xmf5+GgdyiGZlzug96s4kjRy77shtbPsJz1pSkTsSQL0Cqvt1U60IiFidos53Zj5R7ywBCtyg7QIIIJfwwH0qyMeR18C+3MYcA5RwVUyWWuhvTsOOrFkDgl2Ccs2Lw+G8ednoquQ7Aex01NONOaErlhUzSRBg3xIt+qdwcRshFNbqQMBSpUjGNBuktbP+Ydmhy+6tY/uHiT185RnZ1tdwDXDNImXznF/b9G3FhtPpdecyuBkwdEG7zF4b5UHMbEPmR4vde3Vy6ehY3ZOIXaeH9OdTfsZsQM40axL7ErWdPSKIfKuPRFo96eVIvL6KzGAoVVYR2fQg5jQ0tAwcIdw9CtSMi1nLweDbQ8t1CYGZuhFZ7DiMz3SHugjPjHQ96TillLYG4ltFq7y5R9cPMqVnysQMJs/ptI5z2pe7lDh2YVouh/Ni/dCQkwsoU7lZVJ/RuIukbC5vO4Q5sT/hByUOmOSE= colasuonno@colasuonno')]
+2025-04-04 16:44:55,046 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-04 16:44:55,046 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-04 16:44:55,046 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-04 16:44:55,049 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-04 16:44:55,049 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 16:45:38,963 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 16:45:38,963 - database.database - INFO - Trying to connect to database home
+2025-04-04 16:45:38,963 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 16:45:38,968 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-04 16:45:38,968 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-04 16:45:38,968 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-04 16:45:38,968 - database.database - DEBUG - Executing query: 
+                SELECT * FROM ssh_login;
+                
+2025-04-04 16:45:38,969 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-04 16:45:38,969 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-04 16:45:38,969 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-04 16:45:38,969 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-04 16:45:38,972 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-04 16:45:38,972 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 16:48:11,336 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 16:48:11,336 - database.database - INFO - Trying to connect to database home
+2025-04-04 16:48:11,336 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 16:48:18,141 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 16:48:18,142 - database.database - INFO - Trying to connect to database home
+2025-04-04 16:48:18,142 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 16:48:47,277 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-04 16:48:47,277 - database.database - INFO - Trying to connect to database home
+2025-04-04 16:48:47,277 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-04 16:48:47,282 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-04 16:48:47,282 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-04 16:48:47,282 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-04 16:48:47,282 - database.database - DEBUG - Executing query: 
+                SELECT * FROM ssh_login;
+                
+2025-04-04 16:48:47,282 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-04 16:48:47,282 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-04 16:48:47,283 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-04 16:48:47,283 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-04 16:48:47,285 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-04 16:48:47,285 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 16:53:47,283 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-04 16:53:47,284 - database.handler.database_handler - DEBUG - Database is still alive :)
