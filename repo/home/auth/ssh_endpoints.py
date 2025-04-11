@@ -14,12 +14,12 @@ _logger = logging.getLogger(__name__)
 ssh_blueprint = Blueprint('ssh_login', __name__)
 
 # Mak skew 10 seconds
-MAX_SKEW = 2000
+MAX_SKEW = 10
 
 def verify_request_signature(data: dict) -> Response:
     """
     Auth a specific client given data from HTTP request
-    The idea is to get the cleartext from "metimestampssage" and compare with
+    The idea is to get the cleartext from "timestamp" and compare with
      encrypted "signature" with the public key given
     from "profile"
     :param data: the json payload of the HTTP request

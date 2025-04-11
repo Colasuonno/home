@@ -1,0 +1,23 @@
+<dialog (close)="obtainModal().showModal()" id="login-modal" class="modal modal-bottom sm:modal-middle">
+  <div class="modal-box">
+
+    @if (databaseService.databaseError()) {
+      <app-alert [outline]="false" [message]="databaseService.databaseError()"></app-alert>
+    }
+
+    <fieldset class="fieldset bg-base-200 border border-base-300 p-4 rounded-box">
+      <legend class="fieldset-legend">Login</legend>
+
+      <label class="fieldset-label">Name</label>
+      <input type="email" [(ngModel)]="name" class="input" placeholder="Name" />
+
+
+      <label class="fieldset-label">Timestamp</label>
+      <input type="email" [(ngModel)]="timestamp" class="input" placeholder="Timestamp" />
+      <label class="fieldset-label">Signature</label>
+      <input type="email" [(ngModel)]="signature" class="input" placeholder="Signature" />
+
+      <button (click)="login()" class="btn btn-neutral mt-4">Login</button>
+    </fieldset>
+  </div>
+</dialog>
