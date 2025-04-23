@@ -198,3 +198,5 @@
 2025-04-23 16:09:13,990 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 16:09:13] "GET /auth_options/gcolasuonno HTTP/1.1" 200 -
 2025-04-23 16:10:20,908 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 16:10:20] "[31m[1mGET /auth_options/ HTTP/1.1[0m" 405 -
 2025-04-23 16:10:24,822 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 16:10:24] "GET /auth_options/gcolasuonno HTTP/1.1" 200 -
+2025-04-23 16:39:21,793 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 16:39:21] "[31m[1mGET /auth_options/ HTTP/1.1[0m" 405 -
+2025-04-23 16:39:27,594 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 16:39:27] "GET /auth_options/gcolasuonno HTTP/1.1" 200 -

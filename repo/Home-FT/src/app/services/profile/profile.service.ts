@@ -35,7 +35,13 @@ export class ProfileService {
     })
   }
 
-  public async auth(options: PublicKeyCredentialRequestOptionsJSON): Promise<AuthenticationResponseJSON> {
+  public async authSSHkey(options: PublicKeyCredentialRequestOptionsJSON): Promise<AuthenticationResponseJSON> {
+    console.log("auth SSHKEY")
+    console.log(options)
+    return await startAuthentication({optionsJSON: options});
+  }
+
+  public async authPasskey(options: PublicKeyCredentialRequestOptionsJSON): Promise<AuthenticationResponseJSON> {
     console.log("auth")
     console.log(options)
     return await startAuthentication({optionsJSON: options});

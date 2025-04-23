@@ -19,7 +19,8 @@
       <label class="fieldset-label">Signature</label>
       <input type="email" [(ngModel)]="signature" class="input" placeholder="Signature" />
 
-      <button (click)="login()" class="btn btn-neutral mt-4">Login</button>
+      <button (click)="login(LoginType.SSH_KEY)" class="btn btn-neutral mt-4">Login with SSH-Key</button>
+      <button (click)="login(LoginType.PASSKEY)" class="btn btn-neutral mt-4">Login with Passkey</button>
     </fieldset>
   </div>
 </dialog>

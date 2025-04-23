@@ -3,6 +3,7 @@ import {Actions, createEffect, ofType} from '@ngrx/effects';
 import {loginFailed, loginSuccess, requestLoginOptions, startLogin, verifyLogin} from './profile.actions';
 import {catchError, from, map, of, switchMap} from 'rxjs';
 import {ProfileService} from '../../services/profile/profile.service';
+import LoginType from './model/login-type';
 
 @Injectable()
 export class ProfileEffects {
@@ -28,7 +29,7 @@ export class ProfileEffects {
   startLogin$ = createEffect(() => {
     return this.actions$.pipe(
       ofType(startLogin),
-      switchMap(action => from(this.profileService.auth(action.loginOptions))
+      switchMap(action => from(action.loginType == LoginType.PASSKEY ?  this.profileService.authPasskey(action.loginOptions) : this.profileService.authSSHkey(action.loginOptions))
         .pipe(map(credentials => verifyLogin({name: action.name, credentials: credentials})),
           catchError(error => of(loginFailed({error: error.message})))))
     );
@@ -39,7 +40,7 @@ export class ProfileEffects {
       ofType(requestLoginOptions),
       switchMap(action =>
         this.profileService.requestOptions(action.name)
-          .pipe(map(options => startLogin({name: action.name, loginOptions: options})),
+          .pipe(map(options => startLogin({name: action.name, loginOptions: options, loginType: action.loginType})),
             catchError(error => of(loginFailed({error: error.message}))))
       )
     );

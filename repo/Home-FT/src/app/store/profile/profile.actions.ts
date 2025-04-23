@@ -5,15 +5,16 @@ import {
   AuthenticationResponseJSON,
   PublicKeyCredentialRequestOptionsJSON
 } from '@simplewebauthn/browser';
+import LoginType from './model/login-type';
 
 export const requestLoginOptions = createAction(
   'EXTERNAL_REQUEST_LOGIN_OPTIONS',
-  props<{ name: string }>()
+  props<{ name: string, loginType: LoginType }>()
 );
 
 export const startLogin = createAction(
   'EXTERNAL_REQUEST_START_LOGIN',
-  props<{ name: string, loginOptions: PublicKeyCredentialRequestOptionsJSON }>()
+  props<{ name: string, loginOptions: PublicKeyCredentialRequestOptionsJSON, loginType: LoginType }>()
 );
 
 export const verifyLogin = createAction(
