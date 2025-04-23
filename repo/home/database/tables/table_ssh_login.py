@@ -15,6 +15,7 @@ class LoginSSHTable(DBTable):
 
     def __init__(self):
         super().__init__(self.TABLE_NAME)
+        self.users_options = {}
 
     def retrieve_login_public_key(self, login: str) -> str | None:
         """

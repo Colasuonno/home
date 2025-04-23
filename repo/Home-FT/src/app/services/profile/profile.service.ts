@@ -6,6 +6,11 @@ import {Observable} from 'rxjs';
 import {AppState} from '../../store/app.state';
 import {Store} from '@ngrx/store';
 import {selectSession} from '../../store/profile/profile.selectors';
+import {
+  AuthenticationResponseJSON,
+  PublicKeyCredentialRequestOptionsJSON,
+  startAuthentication
+} from '@simplewebauthn/browser';
 
 @Injectable({
   providedIn: 'root'
@@ -16,12 +21,24 @@ export class ProfileService {
   public session: Signal<Session | undefined> =  this.store.selectSignal(selectSession);
   private httpClient: HttpClient = inject(HttpClient);
 
-  public login(name: string, timestamp: string, signature: string): Observable<Session> {
-    return this.httpClient.post<Session>(homeHost + "/ssh_login", {
+  public requestOptions(name: string): Observable<PublicKeyCredentialRequestOptionsJSON> {
+    console.log("REQUEST OPTIONS")
+    return this.httpClient.get<PublicKeyCredentialRequestOptionsJSON>(homeHost + `/auth_options/${name}`)
+  }
+
+  public verifyAuth(name: string, authResponse: AuthenticationResponseJSON): Observable<JSON> {
+    console.log("VERIFY AUTG")
+    console.log(authResponse)
+    return this.httpClient.post<JSON>(homeHost + `/auth_options`, {
       login: name,
-      timestamp: timestamp,
-      signature: signature
+      credentials: authResponse
     })
+  }
+
+  public async auth(options: PublicKeyCredentialRequestOptionsJSON): Promise<AuthenticationResponseJSON> {
+    console.log("auth")
+    console.log(options)
+    return await startAuthentication({optionsJSON: options});
   }
 
 }

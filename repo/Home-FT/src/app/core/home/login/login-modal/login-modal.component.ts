@@ -2,20 +2,22 @@ import {AfterViewInit, Component, inject, Input, OnInit, signal, WritableSignal}
 import {FormsModule} from '@angular/forms';
 import {AppState} from '../../../../store/app.state';
 import {Store} from '@ngrx/store';
-import {login} from '../../../../store/profile/profile.actions';
 import {DatabaseService} from '../../../../services/database/database.service';
 import {AlertComponent} from '../../../../shared/alert/alert.component';
+import {LoginService} from '../../../../services/profile/login.service';
+import {NavbarComponent} from '../../navbar/navbar.component';
 
 @Component({
   selector: 'app-login-modal',
   imports: [
     FormsModule,
-    AlertComponent
+    AlertComponent,
+    NavbarComponent
   ],
   templateUrl: './login-modal.component.html',
   styleUrl: './login-modal.component.css'
 })
-export class LoginModalComponent implements AfterViewInit {
+export default class LoginModalComponent implements AfterViewInit {
 
   protected name: WritableSignal<string> = signal('')
   protected timestamp: WritableSignal<string> = signal('')
@@ -23,6 +25,8 @@ export class LoginModalComponent implements AfterViewInit {
 
   protected databaseService: DatabaseService = inject(DatabaseService);
   private store: Store<AppState> = inject(Store);
+
+  private loginService: LoginService = inject(LoginService);
 
   ngAfterViewInit() {
     const modal = this.obtainModal();
@@ -34,13 +38,16 @@ export class LoginModalComponent implements AfterViewInit {
     return document.getElementById("login-modal") as HTMLDialogElement;
   }
 
-  protected login(): void {
+  protected login() {
 
     console.log(this.name())
     console.log(this.timestamp())
     console.log(this.signature())
 
-    this.store.dispatch(login({name: this.name(), signature: this.signature(), timestamp: this.timestamp()}))
+    this.loginService.authenticate(this.name());
+
+
+//    this.store.dispatch(login({name: this.name(), signature: this.signature(), timestamp: this.timestamp()}))
 
   }
 

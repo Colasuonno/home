@@ -9,7 +9,7 @@ import { provideEffects } from '@ngrx/effects';
 import {effects} from './app.effects';
 
 export const homeName = "Casa Colasuonno"
-export const homeHost = "localhost"
+export const homeHost = "http://localhost:5000"
 
 export const appConfig: ApplicationConfig = {
   providers: [provideZoneChangeDetection({ eventCoalescing: true }),

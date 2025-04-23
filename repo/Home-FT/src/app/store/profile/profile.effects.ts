@@ -1,7 +1,7 @@
 import {inject, Injectable} from '@angular/core';
 import {Actions, createEffect, ofType} from '@ngrx/effects';
-import {login, loginFailed, loginSuccess} from './profile.actions';
-import {catchError, map, of, switchMap} from 'rxjs';
+import {loginFailed, loginSuccess, requestLoginOptions, startLogin, verifyLogin} from './profile.actions';
+import {catchError, from, map, of, switchMap} from 'rxjs';
 import {ProfileService} from '../../services/profile/profile.service';
 
 @Injectable()
@@ -9,12 +9,37 @@ export class ProfileEffects {
   private actions$ = inject(Actions);
   private profileService = inject(ProfileService);
 
-  login$ = createEffect(() => {
+  verifyLogin$ = createEffect(() => {
     return this.actions$.pipe(
-      ofType(login),
+      ofType(verifyLogin),
       switchMap(action =>
-        this.profileService.login(action.name, action.timestamp, action.signature)
-          .pipe(map(session => loginSuccess({session})),
+        this.profileService.verifyAuth(action.name, action.credentials)
+          .pipe(map(result => {
+            console.log("RESULT OF LOGIN")
+            console.log(result);
+
+            return loginSuccess({session: undefined})
+            }),
+            catchError(error => of(loginFailed({error: error.message}))))
+      )
+    );
+  });
+
+  startLogin$ = createEffect(() => {
+    return this.actions$.pipe(
+      ofType(startLogin),
+      switchMap(action => from(this.profileService.auth(action.loginOptions))
+        .pipe(map(credentials => verifyLogin({name: action.name, credentials: credentials})),
+          catchError(error => of(loginFailed({error: error.message})))))
+    );
+  });
+
+  requestLoginOptions$ = createEffect(() => {
+    return this.actions$.pipe(
+      ofType(requestLoginOptions),
+      switchMap(action =>
+        this.profileService.requestOptions(action.name)
+          .pipe(map(options => startLogin({name: action.name, loginOptions: options})),
             catchError(error => of(loginFailed({error: error.message}))))
       )
     );

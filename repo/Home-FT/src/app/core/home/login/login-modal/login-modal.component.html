@@ -1,4 +1,6 @@
-<dialog (close)="obtainModal().showModal()" id="login-modal" class="modal modal-bottom sm:modal-middle">
+<div class="home">
+
+  <dialog (close)="obtainModal().showModal()" id="login-modal" class="modal modal-bottom sm:modal-middle">
   <div class="modal-box">
 
     @if (databaseService.databaseError()) {
@@ -21,3 +23,4 @@
     </fieldset>
   </div>
 </dialog>
+</div>

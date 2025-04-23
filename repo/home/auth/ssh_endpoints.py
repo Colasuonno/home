@@ -1,81 +1,79 @@
-import base64
 import json
-import time
-from datetime import datetime
-from flask import Blueprint, current_app, Response, request
-import logging
-from cryptography.hazmat.primitives import serialization, hashes
-from cryptography.hazmat.primitives.asymmetric import padding
 
+from flask import Blueprint, current_app, request, Response
+import logging
+import webauthn
+from webauthn import options_to_json
+from webauthn.helpers.structs import PublicKeyCredentialDescriptor, PublicKeyCredentialRequestOptions, \
+    AuthenticationCredential
 from database import LoginSSHTable
+
 
 _logger = logging.getLogger(__name__)
 
 ssh_blueprint = Blueprint('ssh_login', __name__)
 
-# Mak skew 10 seconds
-MAX_SKEW = 10
-
-def verify_request_signature(data: dict) -> Response:
-    """
-    Auth a specific client given data from HTTP request
-    The idea is to get the cleartext from "timestamp" and compare with
-     encrypted "signature" with the public key given
-    from "profile"
-    :param data: the json payload of the HTTP request
-    :return: True if auth
-    """
-    if "timestamp" not in data or type(data["timestamp"]) is not int:
-        _logger.warning(f"Timestamp wasn't found in request payload or is invalid {data["timestamp"] if "timestamp" in data else None}")
-        return Response("Timestamp wasn't found in request payload",mimetype='text/plain', status=404)
-
-    if "login" not in data:
-        _logger.warning("Login wasn't found in request payload")
-        return Response("Login wasn't found in request payload",mimetype='text/plain', status=404)
-
-    if "signature" not in data:
-        _logger.warning("Signature wasn't found in request payload")
-        return Response("Signature wasn't found in request payload",mimetype='text/plain', status=404)
+@ssh_blueprint.route('/auth_options/<login>', methods=['GET'])
+def ssh_login(login: str):
 
     login_ssh_table = current_app.config["database"].tables[LoginSSHTable.TABLE_NAME]
 
     # Decrypt
-    public_key = login_ssh_table.retrieve_login_public_key(data["login"])
+    public_key: str = login_ssh_table.retrieve_login_public_key(login)
 
     if not public_key:
-        _logger.warning(f"Public key wasn't found in database table for login {data["login"]}")
-        return Response("Public key wasn't found in database, for your login",mimetype='text/plain', status=401)
+        _logger.warning(f"Public key wasn't found in database table for login {login}")
+        return Response("Public key wasn't found in database, for your login", mimetype='text/plain', status=401)
 
-    # Check for timestamp validity
-    now = int(time.time())
-    timestamp = int(data["timestamp"])
+    login_ssh_table.users_options[login] = options_to_json(webauthn.generate_authentication_options(
+        rp_id="localhost",
+        allow_credentials=[
+          PublicKeyCredentialDescriptor(id=public_key.encode("utf-8"))
+        ]
+    ))
 
-    _logger.info(f"Timestamp was: {now}")
+    return Response(login_ssh_table.users_options[login], mimetype='application/json', status=200)
 
-    if now - timestamp >= MAX_SKEW:
-        _logger.warning(f"Timestamp was too old from {data["login"]} actually {(now-timestamp)} seconds")
-        return Response("Timestamp is too old, retry", mimetype='text/plain', status=401)
 
-    # Validate signature
-    public_key = serialization.load_pem_public_key(public_key.encode())
 
-    try:
-        public_key.verify(
-            base64.b64decode(data["signature"]),
-            str(data["timestamp"]).encode(),
-            padding.PSS(
-                mgf=padding.MGF1(hashes.SHA256()),
-                salt_length=padding.PSS.MAX_LENGTH
-            ),
-            hashes.SHA256()
-        )
-        return Response("Access Gained", mimetype='text/plain', status=200)
-    except Exception as e:
-        _logger.warning(f"Login failed from {data["login"]}")
-        _logger.error(e)
-        return Response("Access Denied", mimetype='text/plain', status=401)
+@ssh_blueprint.route('/auth_options/', methods=['POST'])
+def verify_login():
 
-@ssh_blueprint.route('/ssh_login/', methods=['POST'])
-def ssh_login():
-    return verify_request_signature(request.json)
+    data = request.json
+
+    _logger.debug("ao data")
+    _logger.debug(data)
+
+    if "login" not in data:
+        _logger.warning("Login  wasn't found in request payload")
+        return Response("Login wasn't found in request payload", mimetype='text/plain', status=404)
+
+    if "credentials" not in data:
+        _logger.warning("Credentials  wasn't found in request payload")
+        return Response("Credentials wasn't found in request payload", mimetype='text/plain', status=404)
+
+    login = data["login"]
+    login_ssh_table = current_app.config["database"].tables[LoginSSHTable.TABLE_NAME]
+
+    if login not in login_ssh_table.users_options:
+        return Response(f"Options wasn't found inside cache for {login}", mimetype='text/plain', status=401)
+
+    user_option = json.loads(login_ssh_table.users_options[login])
+
+    _logger.debug("USER OPTIONS " + str(user_option))
+
+    # Decrypt
+    public_key: str = login_ssh_table.retrieve_login_public_key(login)
+
+    if not public_key:
+        _logger.warning(f"Public key wasn't found in database table for login {login}")
+        return Response("Public key wasn't found in database, for your login", mimetype='text/plain', status=401)
+
+    return Response({"success": webauthn.verify_authentication_response(
+        credential=data["credentials"],
+        expected_challenge=user_option["challenge"],
+        expected_rp_id=user_option["rp_id"],
+        credential_public_key=public_key.encode("utf-8"),
+    ).user_verified}, mimetype='application/json', status=200)
+
 

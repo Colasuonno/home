@@ -1,0 +1,200 @@
+2025-04-23 15:02:20,078 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-23 15:02:20,079 - database.database - INFO - Trying to connect to database home
+2025-04-23 15:02:20,079 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-23 15:02:20,099 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-23 15:02:20,102 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-23 15:02:20,102 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-23 15:02:20,102 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-23 15:02:20,108 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-23 15:02:20,108 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-23 15:02:20,108 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-23 15:02:20,108 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-23 15:02:20,110 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-23 15:02:20,110 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-23 15:02:46,429 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 15:02:46] "[33mGET /ssh_login/ HTTP/1.1[0m" 404 -
+2025-04-23 15:02:56,577 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 15:02:56] "[32mGET /auth_options HTTP/1.1[0m" 308 -
+2025-04-23 15:03:10,613 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 15:03:10] "[32mGET /auth_options?login=ciao HTTP/1.1[0m" 308 -
+2025-04-23 15:03:47,613 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-23 15:03:47,614 - database.database - INFO - Trying to connect to database home
+2025-04-23 15:03:47,614 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-23 15:03:47,618 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-23 15:03:47,618 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-23 15:03:47,618 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-23 15:03:47,618 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-23 15:03:47,619 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-23 15:03:47,619 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-23 15:03:47,619 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-23 15:03:47,619 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-23 15:03:47,621 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-23 15:03:47,621 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-23 15:03:49,667 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 15:03:49] "[32mGET /auth_options?login=ciao HTTP/1.1[0m" 308 -
+2025-04-23 15:03:59,877 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 15:03:59] "[32mGET /auth_options HTTP/1.1[0m" 308 -
+2025-04-23 15:04:33,644 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-23 15:04:33,644 - database.database - INFO - Trying to connect to database home
+2025-04-23 15:04:33,644 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-23 15:04:33,648 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-23 15:04:33,649 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-23 15:04:33,649 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-23 15:04:33,649 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-23 15:04:33,649 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-23 15:04:33,649 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-23 15:04:33,650 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-23 15:04:33,650 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-23 15:04:33,651 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-23 15:04:33,652 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-23 15:04:37,416 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 15:04:37] "[32mGET /auth_options HTTP/1.1[0m" 308 -
+2025-04-23 15:05:47,343 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-23 15:05:47,343 - database.database - INFO - Trying to connect to database home
+2025-04-23 15:05:47,343 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-23 15:05:47,348 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-23 15:05:47,349 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-23 15:05:47,349 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-23 15:05:47,349 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-23 15:05:47,349 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-23 15:05:47,349 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-23 15:05:47,350 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-23 15:05:47,350 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-23 15:05:47,351 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-23 15:05:47,351 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-23 15:05:49,429 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 15:05:49] "[33mGET /auth_options HTTP/1.1[0m" 404 -
+2025-04-23 15:05:52,140 - auth.ssh_endpoints - WARNING - Public key wasn't found in database table for login ciao
+2025-04-23 15:05:52,141 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 15:05:52] "[31m[1mGET /auth_options/ciao HTTP/1.1[0m" 401 -
+2025-04-23 15:05:56,501 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 15:05:56] "GET /auth_options/gcolasuonno HTTP/1.1" 200 -
+2025-04-23 15:10:47,352 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-23 15:10:47,352 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-23 15:47:12,215 - auth.ssh_endpoints - WARNING - Public key wasn't found in database table for login sad
+2025-04-23 15:47:12,215 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 15:47:12] "[31m[1mGET /auth_options/sad HTTP/1.1[0m" 401 -
+2025-04-23 15:47:56,435 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-23 15:47:56,435 - database.database - INFO - Trying to connect to database home
+2025-04-23 15:47:56,435 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-23 15:47:56,439 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-23 15:47:56,440 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-23 15:47:56,440 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-23 15:47:56,440 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-23 15:47:56,440 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-23 15:47:56,440 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-23 15:47:56,441 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-23 15:47:56,441 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-23 15:47:56,442 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-23 15:47:56,442 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-23 15:48:03,420 - auth.ssh_endpoints - WARNING - Public key wasn't found in database table for login sad
+2025-04-23 15:48:03,421 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 15:48:03] "[31m[1mGET /auth_options/sad HTTP/1.1[0m" 401 -
+2025-04-23 15:48:32,638 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 15:48:32] "GET /auth_options/gcolasuonno HTTP/1.1" 200 -
+2025-04-23 15:50:18,268 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 15:50:18] "GET /auth_options/gcolasuonno HTTP/1.1" 200 -
+2025-04-23 15:50:38,350 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 15:50:38] "GET /auth_options/gcolasuonno HTTP/1.1" 200 -
+2025-04-23 15:51:10,032 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 15:51:10] "GET /auth_options/gcolasuonno HTTP/1.1" 200 -
+2025-04-23 15:51:31,558 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-23 15:51:31,558 - database.database - INFO - Trying to connect to database home
+2025-04-23 15:51:31,558 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-23 15:51:31,562 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-23 15:51:31,563 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-23 15:51:31,563 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-23 15:51:31,563 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-23 15:51:31,563 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-23 15:51:31,563 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-23 15:51:31,564 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-23 15:51:31,564 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-23 15:51:31,565 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-23 15:51:31,565 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-23 15:51:33,290 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 15:51:33] "GET /auth_options/gcolasuonno HTTP/1.1" 200 -
+2025-04-23 15:51:48,891 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-23 15:51:48,892 - database.database - INFO - Trying to connect to database home
+2025-04-23 15:51:48,892 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-23 15:51:48,896 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-23 15:51:48,896 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-23 15:51:48,896 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-23 15:51:48,896 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-23 15:51:48,897 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-23 15:51:48,897 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-23 15:51:48,897 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-23 15:51:48,897 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-23 15:51:48,899 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-23 15:51:48,899 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-23 15:51:50,590 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 15:51:50] "GET /auth_options/gcolasuonno HTTP/1.1" 200 -
+2025-04-23 15:53:02,450 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-04-23 15:53:02,450 - database.database - INFO - Trying to connect to database home
+2025-04-23 15:53:02,450 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-04-23 15:53:02,455 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-04-23 15:53:02,455 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-04-23 15:53:02,455 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-04-23 15:53:02,455 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-04-23 15:53:02,456 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-04-23 15:53:02,456 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-04-23 15:53:02,456 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-23 15:53:02,456 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-23 15:53:02,458 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-23 15:53:02,458 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-23 15:53:07,369 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 15:53:07] "GET /auth_options/gcolasuonno HTTP/1.1" 200 -
+2025-04-23 15:56:41,829 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 15:56:41] "GET /auth_options/gcolasuonno HTTP/1.1" 200 -
+2025-04-23 15:58:00,249 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 15:58:00] "GET /auth_options/gcolasuonno HTTP/1.1" 200 -
+2025-04-23 15:58:02,456 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-04-23 15:58:02,456 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-04-23 16:01:46,204 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 16:01:46] "GET /auth_options/gcolasuonno HTTP/1.1" 200 -
+2025-04-23 16:04:59,108 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 16:04:59] "GET /auth_options/gcolasuonno HTTP/1.1" 200 -
+2025-04-23 16:09:13,990 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 16:09:13] "GET /auth_options/gcolasuonno HTTP/1.1" 200 -
+2025-04-23 16:10:20,908 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 16:10:20] "[31m[1mGET /auth_options/ HTTP/1.1[0m" 405 -
+2025-04-23 16:10:24,822 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 16:10:24] "GET /auth_options/gcolasuonno HTTP/1.1" 200 -
