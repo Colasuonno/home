@@ -16,8 +16,8 @@ export class LoginService {
   private store: Store<AppState> = inject(Store);
 
 
-  public authenticate(name: string, loginType: LoginType) {
-    this.store.dispatch(requestLoginOptions({name: name, loginType: loginType}))
+  public authenticate(name: string, loginType: LoginType, password: string | undefined) {
+    this.store.dispatch(requestLoginOptions({name: name, password: password, loginType: loginType}))
   }
 
 }

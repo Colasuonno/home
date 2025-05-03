@@ -9,17 +9,17 @@ import LoginType from './model/login-type';
 
 export const requestLoginOptions = createAction(
   'EXTERNAL_REQUEST_LOGIN_OPTIONS',
-  props<{ name: string, loginType: LoginType }>()
+  props<{ name: string, password: string | undefined, loginType: LoginType }>()
 );
 
 export const startLogin = createAction(
   'EXTERNAL_REQUEST_START_LOGIN',
-  props<{ name: string, loginOptions: PublicKeyCredentialRequestOptionsJSON, loginType: LoginType }>()
+  props<{ name: string, password: string | undefined, loginOptions: PublicKeyCredentialRequestOptionsJSON, loginType: LoginType }>()
 );
 
 export const verifyLogin = createAction(
   'EXTERNAL_REQUEST_VERIFY_LOGIN',
-  props<{ name: string, credentials: AuthenticationResponseJSON }>()
+  props<{ name: string, password: string | undefined, credentials: AuthenticationResponseJSON | boolean }>()
 );
 
 export const loginSuccess = createAction(

@@ -1,5 +1,5 @@
 enum LoginType {
-  SSH_KEY, PASSKEY
+   PASSKEY, PASSWORD
 }
 
 export default LoginType

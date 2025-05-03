@@ -1,0 +1,39 @@
+2025-05-03 14:58:34,632 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-05-03 14:58:34,632 - database.database - INFO - Trying to connect to database home
+2025-05-03 14:58:34,632 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-05-03 14:58:34,638 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-05-03 14:58:34,642 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-05-03 14:58:34,642 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-05-03 14:58:34,642 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-05-03 14:58:34,646 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-05-03 14:58:34,646 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-05-03 14:58:34,647 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-05-03 14:58:34,647 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-05-03 14:58:34,648 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-03 14:58:34,648 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-03 14:58:49,035 - werkzeug - INFO - 127.0.0.1 - - [03/May/2025 14:58:49] "[31m[1mGET /auth_options/ HTTP/1.1[0m" 405 -
+2025-05-03 14:59:24,807 - auth.ssh_endpoints - WARNING - Public key wasn't found in database table for login g.colasuonno
+2025-05-03 14:59:24,809 - werkzeug - INFO - 127.0.0.1 - - [03/May/2025 14:59:24] "[31m[1mGET /auth_options/g.colasuonno HTTP/1.1[0m" 401 -
+2025-05-03 14:59:49,692 - werkzeug - INFO - 127.0.0.1 - - [03/May/2025 14:59:49] "GET /auth_options/gcolasuonno HTTP/1.1" 200 -
+2025-05-03 15:03:34,647 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-05-03 15:03:34,647 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-05-03 15:15:48,386 - werkzeug - INFO - 127.0.0.1 - - [03/May/2025 15:15:48] "[31m[1mGET /auth_options/ HTTP/1.1[0m" 405 -
+2025-05-03 15:16:21,703 - werkzeug - INFO - 127.0.0.1 - - [03/May/2025 15:16:21] "[31m[1mGET /auth_options/ HTTP/1.1[0m" 405 -
+2025-05-03 15:16:25,601 - werkzeug - INFO - 127.0.0.1 - - [03/May/2025 15:16:25] "GET /auth_options/gcolasuonno HTTP/1.1" 200 -
+2025-05-03 15:58:55,581 - werkzeug - INFO - 127.0.0.1 - - [03/May/2025 15:58:55] "[31m[1mGET /auth_options/ HTTP/1.1[0m" 405 -
+2025-05-03 15:59:00,263 - werkzeug - INFO - 127.0.0.1 - - [03/May/2025 15:59:00] "GET /auth_options/gcolasuonno HTTP/1.1" 200 -
+2025-05-03 15:59:00,275 - werkzeug - INFO - 127.0.0.1 - - [03/May/2025 15:59:00] "[32mOPTIONS /auth_options HTTP/1.1[0m" 308 -
+2025-05-03 15:59:03,729 - werkzeug - INFO - 127.0.0.1 - - [03/May/2025 15:59:03] "GET /auth_options/gcolasuonno HTTP/1.1" 200 -
+2025-05-03 15:59:03,773 - werkzeug - INFO - 127.0.0.1 - - [03/May/2025 15:59:03] "[32mOPTIONS /auth_options HTTP/1.1[0m" 308 -
+2025-05-03 16:02:08,965 - werkzeug - INFO - 127.0.0.1 - - [03/May/2025 16:02:08] "GET /auth_options/gcolasuonno HTTP/1.1" 200 -
+2025-05-03 16:03:48,793 - auth.ssh_endpoints - WARNING - Public key wasn't found in database table for login asdds
+2025-05-03 16:03:48,794 - werkzeug - INFO - 127.0.0.1 - - [03/May/2025 16:03:48] "[31m[1mGET /auth_options/asdds HTTP/1.1[0m" 401 -
+2025-05-03 16:03:54,072 - werkzeug - INFO - 127.0.0.1 - - [03/May/2025 16:03:54] "GET /auth_options/gcolasuonno HTTP/1.1" 200 -

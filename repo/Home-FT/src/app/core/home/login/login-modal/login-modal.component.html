@@ -14,12 +14,11 @@
       <input type="email" [(ngModel)]="name" class="input" placeholder="Name" />
 
 
-      <label class="fieldset-label">Timestamp</label>
-      <input type="email" [(ngModel)]="timestamp" class="input" placeholder="Timestamp" />
+      <label class="fieldset-label">Password</label>
+      <input type="password" [(ngModel)]="password" class="input" placeholder="Timestamp" />
       <label class="fieldset-label">Signature</label>
-      <input type="email" [(ngModel)]="signature" class="input" placeholder="Signature" />
 
-      <button (click)="login(LoginType.SSH_KEY)" class="btn btn-neutral mt-4">Login with SSH-Key</button>
+      <button (click)="login(LoginType.PASSWORD)" class="btn btn-neutral mt-4">Login with Password</button>
       <button (click)="login(LoginType.PASSKEY)" class="btn btn-neutral mt-4">Login with Passkey</button>
     </fieldset>
   </div>
