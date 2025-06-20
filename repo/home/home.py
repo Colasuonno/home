@@ -5,6 +5,7 @@ import os
 from listening.alive import ping
 from flask import Flask
 from auth.ssh_endpoints import ssh_blueprint
+from network.network_gateway import network_blueprint, NetworkGateway
 from flask_cors import CORS
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.DEBUG)
@@ -18,12 +19,12 @@ app = Flask(__name__)
 
 app.add_url_rule('/ping', view_func=ping)
 app.register_blueprint(ssh_blueprint)
+app.register_blueprint(network_blueprint)
 # END FLASK
 
 CORS(app, origins=["http://localhost:4200"])
 
 HOME_NAME = "home"
-
 
 if __name__ == '__main__':
 
@@ -45,8 +46,14 @@ if __name__ == '__main__':
         config.get("database", "port"),
     )
 
+
     app.config["database"] = database
     app.config["HOME_NAME"] = HOME_NAME
+
+    network = NetworkGateway(config, app)
+
+    app.config["network"] = network
+
 
     # Run flask
     app.run()

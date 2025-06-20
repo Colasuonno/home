@@ -11,10 +11,9 @@ class DatabaseHandler:
 
         with database.obtain_cursor() as cursor:
             for table_name, table in database.tables.items():
-                res = database.execute(
+                database.execute(
                     cursor, table.create_table()
                 )
-                _logger.info(f"Table {table.table_name} res: " + str(res))
 
                 # Check for startup-fetch
                 if table._fetch_on_startup:

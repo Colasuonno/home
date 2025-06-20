@@ -1,0 +1,29 @@
+2025-06-15 19:05:09,458 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-06-15 19:05:09,458 - database.database - INFO - Trying to connect to database home
+2025-06-15 19:05:09,458 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-06-15 19:05:09,459 - database.database - ERROR - Failed to connect to database home
+2025-06-15 19:05:09,459 - database.database - ERROR - No problem we work even without database...
+2025-06-15 19:05:09,459 - database.database - ERROR - connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-06-15 19:05:30,864 - __main__ - INFO - Starting home core: Casa Colasuonno
+2025-06-15 19:05:30,864 - database.database - INFO - Trying to connect to database home
+2025-06-15 19:05:30,864 - database.database - DEBUG - DB info: localhost:5432/home with user admin and password length 5
+2025-06-15 19:05:30,884 - database.database - DEBUG - Executing query: 
+            CREATE TABLE IF NOT EXISTS ssh_login (
+              login VARCHAR PRIMARY KEY,
+              name VARCHAR UNIQUE NOT NULL,
+              ssh_public VARCHAR NOT NULL
+            );
+2025-06-15 19:05:30,888 - database.handler.database_handler - INFO - Table ssh_login res: None
+2025-06-15 19:05:30,888 - database.handler.database_handler - INFO - Table ssh_login: has startup fetch....
+2025-06-15 19:05:30,888 - database.database - DEBUG - Executing query: 
+                SELECT login,ssh_public FROM ssh_login;
+                
+2025-06-15 19:05:30,891 - database.handler.database_handler - INFO - Table ssh_login: has fetched 1 records
+2025-06-15 19:05:30,892 - database.handler.database_handler - INFO - Database connection established!! (Pool)
+2025-06-15 19:05:30,892 - database.handler.database_handler - DEBUG - CRON Check for db alive...
+2025-06-15 19:05:30,892 - database.handler.database_handler - DEBUG - Database is still alive :)
+2025-06-15 19:05:30,894 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 192.168.12.1:80

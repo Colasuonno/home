@@ -5,6 +5,7 @@ import logging
 import psycopg2.pool
 
 from . import LoginSSHTable
+from .tables.system_parameter import SystemParameter
 
 _logger = logging.getLogger(__name__)
 
@@ -37,7 +38,8 @@ class Database:
         # Init tables
 
         tables = [
-            LoginSSHTable()
+            LoginSSHTable(),
+            SystemParameter()
         ]
 
         self.tables = {tbl.table_name: tbl for tbl in tables}
@@ -46,8 +48,11 @@ class Database:
         self.handler = DatabaseHandler(self)
 
 
-    def execute(self, cursor, query):
-        _logger.debug(f"Executing query: {query}")
+    def execute(self, cursor, query, silent=False):
+        if not silent:
+            _logger.debug(f"Executing query: {query}")
+        else:
+            _logger.debug(f"Executing query (silent)....")
         return cursor.execute(query)
 
     def fetchall_named(self, cursor, query):

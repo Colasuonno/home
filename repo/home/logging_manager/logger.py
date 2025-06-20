@@ -1,6 +1,7 @@
 import logging
 import os
 from datetime import datetime
+from logging import CRITICAL
 from logging.handlers import RotatingFileHandler
 
 _logger = logging.getLogger(__name__)
@@ -25,3 +26,6 @@ class LoggerManager:
 
         logger = logging.getLogger()
         logger.addHandler(handler)
+
+        logging.getLogger("selenium.webdriver.remote.remote_connection").setLevel(CRITICAL)
+        logging.getLogger("urllib3.connectionpool").setLevel(CRITICAL)

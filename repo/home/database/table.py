@@ -5,6 +5,12 @@ class DBTable:
         self.table_name = table_name
         self.records = []
 
+    def insert(self, **kwargs):
+        raise NotImplementedError()
+
+    def get_by_id(self, specified_id):
+        raise NotImplementedError()
+
     def fetch_records(self):
         raise NotImplementedError()
 
